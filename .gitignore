@@ -1,0 +1,11 @@
+.venv
+chroma_easy_german
+.env
+/hf_cache
+/app/chroma_easy_german/chroma.sqlite3
+/app/hf_cache/
+/data/__pycache__/
+/src/rag/__pycache__/
+/src/llm/__pycache__/
+/src/embeddings/__pycache__/
+/src/agent/__pycache__/
