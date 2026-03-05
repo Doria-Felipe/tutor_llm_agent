@@ -9,3 +9,4 @@ chroma_easy_german
 /src/llm/__pycache__/
 /src/embeddings/__pycache__/
 /src/agent/__pycache__/
+chroma_easy_german/
