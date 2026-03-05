@@ -16,32 +16,46 @@ def german_agent(llm, user_query: str, mode: str='tutor', level: str='a1', k: in
         Follow these steps:
         1. Answer clearly.
         2. Explain why the answer is correct.
-        3. Use examples from context.
+        3. Use examples from context {ctx}.
         4. Give 2–3 German examples with English translations.
         5. End with one follow-up question.
         Simple language for {level}.
         Respond in English + German. Do not mention sources.
         """,
+        
         "vocab": f"""
-        You are a German vocabulary trainer ({level} level).
-        Return EXACTLY:
-        - 5 key words (DE-EN)
-        - 1 example per word from context (DE-EN)
-        Max 80 words. No explanations.
-        """,
+        You are extracting German vocabulary for learners.
+        Topic: {user_query}
+        Level: {level}
+        From the context extract 10 important German words.
+        Rules:
+        - Only output vocabulary
+        - Do not apologize
+        - Do not explain the task
+        - Do not mention the context
+        Format:
+        Word: ...
+        Meaning: ...
+        Example: ...
+        Context:
+        {ctx}
+        """ ,
+        
         "grammar": f"""
         You are a German grammar trainer ({level} level).
         Return EXACTLY:
-        - 3 example sentences from context (DE-EN)
+        - 3 example sentences from context {ctx} (DE-EN)
         - Short grammar explanation (DE-EN)
         Max 80 words.
         """,
+        
         "quiz": f"""
         You are a German quiz generator ({level} level).
         Return EXACTLY:
-        - 3 short quiz questions (DE-EN)
+        - 3 short quiz questions based on the context {ctx} (DE-EN)
         Max 80 words. No explanations.
-        """
+        """    
+        
     }
 
     if mode not in templates:
