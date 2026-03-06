@@ -4,6 +4,7 @@ from pathlib import Path
 # Add parent folder of 'src/' to sys.path
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 
+import json
 import streamlit as st
 import time
 
@@ -29,6 +30,16 @@ st.caption("Chat with authentic German learning transcripts")
 
 
 # ------------------------
+# Cached vocab loader
+# ------------------------
+
+@st.cache_data
+def load_vocab():
+    with open("data/topics_vocab_clean.json", encoding="utf8") as f:
+        return json.load(f)
+
+
+# ------------------------
 # Session State
 # ------------------------
 
@@ -37,6 +48,9 @@ if "messages" not in st.session_state:
 
 if "model_name" not in st.session_state:
     st.session_state.model_name = "llama3.1"
+
+if "flashcard_state" not in st.session_state:
+    st.session_state.flashcard_state = {}
 
 
 # ------------------------
@@ -76,52 +90,48 @@ with st.sidebar:
 
 
 # =====================================================
-# VOCAB MODE (NO CHAT)
+# VOCAB MODE (STATIC DATASET)
 # =====================================================
 
 if mode == "vocab" and selected_topic:
 
     st.header(f"📚 Vocabulary: {selected_topic}")
 
-    with st.spinner("Generating vocabulary..."):
+    vocab_data = load_vocab()
 
-        start_time = time.time()
+    topic_words = vocab_data.get(selected_topic, [])
 
-        llm = get_llm(st.session_state.model_name)
+    # Difficulty filtering
+    topic_words = [
+        w for w in topic_words
+        if w["level"].lower() == level.lower()
+    ]
 
-        video_ids = get_video_ids_by_topic(selected_topic)
-
-        context = return_context_by_video_ids(
-            query=selected_topic,
-            video_ids=video_ids,
-            k=5
-        )
-
-        response = german_agent(
-            llm=llm,
-            user_query=f"Teach important German vocabulary about {selected_topic}",
-            ctx=context,
-            mode="vocab",
-            level=level
-        )
-
-        latency = round(time.time() - start_time, 2)
-
-    # ------------------------
-    # Display Vocabulary Cards
-    # ------------------------
-
-    vocab_items = response.split("\n\n")
+    if not topic_words:
+        st.info("No vocabulary found for this level.")
+        st.stop()
 
     col1, col2 = st.columns(2)
 
-    for i, item in enumerate(vocab_items):
+    for i, w in enumerate(topic_words):
+
+        key = f"{selected_topic}_{i}"
 
         with (col1 if i % 2 == 0 else col2):
-            with st.container(border=True):
-                st.markdown(item)
 
-    st.caption(f"⏱ Generated in {latency}s")
+            with st.container(border=True):
+
+                st.markdown(f"### 🇩🇪 {w['word']}")
+
+                if st.button("Flip card", key=key):
+
+                    current = st.session_state.flashcard_state.get(key, False)
+                    st.session_state.flashcard_state[key] = not current
+
+                if st.session_state.flashcard_state.get(key, False):
+
+                    st.markdown(f"**Meaning:** {w['meaning']}")
+                    st.markdown(f"*Example:* {w['example']}")
 
     st.stop()
 
@@ -135,6 +145,7 @@ if mode == "vocab" and selected_topic:
 # ------------------------
 
 for msg in st.session_state.messages:
+
     with st.chat_message(msg["role"]):
         st.markdown(msg["content"])
 
@@ -158,8 +169,6 @@ if prompt := st.chat_input("Ask something about German..."):
 
             llm = get_llm(st.session_state.model_name)
 
-            docs_for_sources = None
-
             context = return_context(prompt, k=2)
 
             response = german_agent(
@@ -174,24 +183,6 @@ if prompt := st.chat_input("Ask something about German..."):
 
         st.markdown(response)
         st.caption(f"⏱ {latency}s")
-
-        # ------------------------
-        # Optional Sources
-        # ------------------------
-
-        if show_sources and docs_for_sources:
-
-            with st.expander("📚 Sources"):
-
-                for doc in docs_for_sources:
-
-                    title = doc["metadata"].get("title", "Unknown")
-                    start = doc["metadata"].get("start", 0)
-                    end = doc["metadata"].get("end", 0)
-
-                    st.markdown(
-                        f"- **{title}** ({int(start)}s – {int(end)}s)"
-                    )
 
     st.session_state.messages.append(
         {"role": "assistant", "content": response}
