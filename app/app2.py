@@ -162,9 +162,19 @@ if mode == "grammar":
         st.info("No lessons found.")
         st.stop()
 
-    # lesson_titles = sorted(list(lessons.keys()))
+    lessons = load_lessons()
 
-    lesson_titles = sorted([clean_title(t) for t in lessons.keys()])
+    title_map = {clean_title(k): k for k in lessons.keys()}
+
+    lesson_titles = sorted(title_map.keys())
+
+    selected_lesson = st.selectbox(
+        "Choose lesson",
+        lesson_titles
+    )
+
+    lesson = lessons[title_map[selected_lesson]]
+
     
     selected_lesson = st.selectbox(
         "Choose lesson",
@@ -277,8 +287,8 @@ if mode in ["tutor", "quiz"]:
 
                 start_time = time.time()
 
-                llm = get_llm(st.session_state.model_name)
-                # llm = load_llm(st.session_state.model_name)
+                # llm = get_llm(st.session_state.model_name)
+                llm = load_llm(st.session_state.model_name)
 
                 context = return_context(prompt, k=2)
 
