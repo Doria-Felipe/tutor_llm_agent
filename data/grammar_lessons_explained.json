@@ -1,0 +1,2509 @@
+{
+  "Introduce Yourself in Slow German | Super Easy German 258": {
+    "title": "Conversation with a Stranger",
+    "grammar_explanation": "In German, we use the verb 'haben' to talk about things we have. We also use the verb 'sprechen' to talk about languages we speak.",
+    "vocabulary": [
+      {
+        "word": "Haustiere",
+        "translation": "Pets",
+        "explanation": "Haustiere sind Tiere, die wir zu Hause haben. Zum Beispiel Hunde, Katzen oder Vögel."
+      },
+      {
+        "word": "Musik",
+        "translation": "Music",
+        "explanation": "Musik ist die Kunst, Klänge zu machen. Wir hören gerne Musik, um uns zu entspannen."
+      },
+      {
+        "word": "Sprache",
+        "translation": "Language",
+        "explanation": "Sprache ist die Art, wie wir uns mit anderen Menschen verständigen. Jeder hat seine eigene Sprache."
+      },
+      {
+        "word": "Hund",
+        "translation": "Dog",
+        "explanation": "Ein Hund ist ein Tier, das wir als Haustier haben. Hunde sind treu und freundlich."
+      },
+      {
+        "word": "Papagei",
+        "translation": "Parrot",
+        "explanation": "Ein Papagei ist ein Vogel, der sprechen kann. Papageien sind bekannt für ihre bunten Farben und ihre lauten Rufe."
+      }
+    ],
+    "examples": [
+      {
+        "german": "Ich habe keine Haustiere.",
+        "english": "I don't have any pets.",
+        "explanation": "In diesem Satz verwenden wir 'haben' und 'keine' um zu sagen, dass wir keine Haustiere haben. 'Keine' ist ein Artikel, der bedeutet 'kein' oder 'keine'."
+      },
+      {
+        "german": "Ich höre gerne Indie Musik.",
+        "english": "I like listening to Indie music.",
+        "explanation": "In diesem Satz verwenden wir 'hören' und 'gerne' um zu sagen, dass wir gerne Musik hören. 'Gerne' ist ein Adverb, das bedeutet 'gern' oder 'mit Vergnügen'."
+      },
+      {
+        "german": "Ich spreche Deutsch, Englisch und ein bisschen Spanisch.",
+        "english": "I speak German, English, and a little Spanish.",
+        "explanation": "In diesem Satz verwenden wir 'sprechen' und 'ein bisschen' um zu sagen, dass wir mehrere Sprachen sprechen. 'Ein bisschen' ist ein Adverb, das bedeutet 'ein wenig' oder 'eine kleine Menge'."
+      },
+      {
+        "german": "Ich habe einen tollen Hund.",
+        "english": "I have a great dog.",
+        "explanation": "In diesem Satz verwenden wir 'haben' und 'tollen' um zu sagen, dass wir einen tollen Hund haben. 'Tollen' ist ein Adjektiv, das bedeutet 'großartig' oder 'wunderbar'."
+      },
+      {
+        "german": "Ich möchte einen Papagei haben.",
+        "english": "I want a parrot.",
+        "explanation": "In diesem Satz verwenden wir 'möchten' und 'haben' um zu sagen, dass wir einen Papagei haben möchten. 'Möchten' ist ein Verb, das bedeutet 'wollen' oder 'mögen'."
+      }
+    ]
+  },
+  "Introduce yourself in German (for absolute beginners) | Super Easy German (76)": {
+    "title": "Introducing Yourself in German",
+    "grammar_explanation": "In German, we use the verb 'heißen' to say 'my name is'. We also use the verb 'kommen' to say 'I am from'.",
+    "vocabulary": [
+      {
+        "word": "Wie heißt du?",
+        "translation": "What is your name?",
+        "explanation": "This is a question to ask someone's name. You can answer with 'Ich heiße...' (My name is...)"
+      },
+      {
+        "word": "Ich heiße",
+        "translation": "My name is",
+        "explanation": "This is the verb 'heißen' in the first person singular. You use it to say your name."
+      },
+      {
+        "word": "Woher kommst du?",
+        "translation": "Where are you from?",
+        "explanation": "This is a question to ask where someone is from. You can answer with 'Ich komme aus...' (I am from...)"
+      },
+      {
+        "word": "Ich komme aus",
+        "translation": "I am from",
+        "explanation": "This is the verb 'kommen' in the first person singular. You use it to say where you are from."
+      },
+      {
+        "word": "Wo lebst du?",
+        "translation": "Where do you live?",
+        "explanation": "This is a question to ask where someone lives. You can answer with a place, like 'Berlin' or 'München'."
+      }
+    ],
+    "examples": [
+      {
+        "german": "Wie heißt du?",
+        "english": "What is your name?",
+        "explanation": "To answer this question, you say 'Ich heiße...' and then your name. For example: 'Ich heiße Max.' (My name is Max.)"
+      },
+      {
+        "german": "Ich heiße Max.",
+        "english": "My name is Max.",
+        "explanation": "In this sentence, 'Ich heiße' is the verb 'heißen' in the first person singular. 'Max' is the name."
+      },
+      {
+        "german": "Woher kommst du?",
+        "english": "Where are you from?",
+        "explanation": "To answer this question, you say 'Ich komme aus...' and then the place you are from. For example: 'Ich komme aus Berlin.' (I am from Berlin.)"
+      },
+      {
+        "german": "Ich komme aus Berlin.",
+        "english": "I am from Berlin.",
+        "explanation": "In this sentence, 'Ich komme aus' is the verb 'kommen' in the first person singular. 'Berlin' is the place you are from."
+      },
+      {
+        "german": "Wo lebst du?",
+        "english": "Where do you live?",
+        "explanation": "To answer this question, you say a place, like 'Berlin' or 'München'. For example: 'Ich lebe in Berlin.' (I live in Berlin.)"
+      }
+    ]
+  },
+  "German Alphabet & Pronunciation - Full Guide | Super Easy German 253": {
+    "title": "Deutsche Aussprache",
+    "grammar_explanation": "Die Aussprache ist wichtig. Das bedeutet, dass wir wissen müssen, wie man die Wörter in Deutsch richtig ausspricht.",
+    "vocabulary": [
+      {
+        "word": "Aussprache",
+        "translation": "Pronunciation",
+        "explanation": "Die Aussprache ist die Art und Weise, wie man Wörter ausspricht."
+      },
+      {
+        "word": "Vokal",
+        "translation": "Vowel",
+        "explanation": "Ein Vokal ist ein Buchstabe, der nicht geschluckt wird, wie 'a', 'e', 'i', 'o', 'u'."
+      },
+      {
+        "word": "Konsonant",
+        "translation": "Consonant",
+        "explanation": "Ein Konsonant ist ein Buchstabe, der geschluckt wird, wie 'b', 'c', 'd', 'f', 'g'."
+      },
+      {
+        "word": "Diftong",
+        "translation": "Diphthong",
+        "explanation": "Ein Diftong ist eine Kombination von zwei Vokalen, wie 'ai', 'au', 'ei', 'ou'."
+      },
+      {
+        "word": "Umlaut",
+        "translation": "Umlaut",
+        "explanation": "Ein Umlaut ist ein spezieller Buchstabe, der über einem anderen Buchstaben steht, wie 'ä', 'ö', 'ü'."
+      }
+    ],
+    "examples": [
+      {
+        "german": "Die Aussprache ist wichtig.",
+        "english": "Pronunciation is important.",
+        "explanation": "In diesem Satz wird 'Aussprache' verwendet, um zu sagen, dass es wichtig ist, Wörter richtig auszusprechen."
+      },
+      {
+        "german": "Der Vokal 'e' wird wie ein 'eh' ausgesprochen.",
+        "english": "The vowel 'e' is pronounced like 'eh'.",
+        "explanation": "In diesem Satz wird 'Vokal' verwendet, um zu sagen, dass der Buchstabe 'e' wie 'eh' ausgesprochen wird."
+      },
+      {
+        "german": "Der Konsonant 'ch' wird wie ein 'k' ausgesprochen.",
+        "english": "The consonant 'ch' is pronounced like 'k'.",
+        "explanation": "In diesem Satz wird 'Konsonant' verwendet, um zu sagen, dass der Buchstabe 'ch' wie 'k' ausgesprochen wird."
+      },
+      {
+        "german": "Ein Diftong ist eine Kombination von zwei Vokalen.",
+        "english": "A diphthong is a combination of two vowels.",
+        "explanation": "In diesem Satz wird 'Diftong' verwendet, um zu sagen, dass es eine Kombination von zwei Vokalen ist."
+      },
+      {
+        "german": "Ein Umlaut ist ein spezieller Buchstabe.",
+        "english": "An umlaut is a special letter.",
+        "explanation": "In diesem Satz wird 'Umlaut' verwendet, um zu sagen, dass es ein spezieller Buchstabe ist."
+      }
+    ]
+  },
+  "Our Morning Routine in Slow German | Super Easy German 232": {
+    "title": "Morgenroutine",
+    "grammar_explanation": "Die Morgenroutine ist die Zeit, die man am Morgen macht, bevor man zur Arbeit geht. Sie beginnt normalerweise um 7 oder 8 Uhr.",
+    "vocabulary": [
+      {
+        "word": "Badezimmer",
+        "translation": "bathroom",
+        "explanation": "Ein Badezimmer ist ein Raum, in dem man sich wäscht und sich frisch macht."
+      },
+      {
+        "word": "Fahrrad",
+        "translation": "bicycle",
+        "explanation": "Ein Fahrrad ist ein Fahrzeug, das man mit den Beinen bewegt."
+      },
+      {
+        "word": "Büro",
+        "translation": "office",
+        "explanation": "Ein Büro ist ein Raum, in dem man arbeitet."
+      },
+      {
+        "word": "Morgen",
+        "translation": "morning",
+        "explanation": "Der Morgen ist die Zeit, die am Anfang des Tages ist."
+      },
+      {
+        "word": "Arbeitstag",
+        "translation": "workday",
+        "explanation": "Ein Arbeitstag ist der Tag, an dem man zur Arbeit geht."
+      }
+    ],
+    "examples": [
+      {
+        "german": "Ich gehe ins Badezimmer.",
+        "english": "I go to the bathroom.",
+        "explanation": "Die Verwendung von 'gehe' zeigt, dass man sich bewegt. 'Ins Badezimmer' zeigt, wohin man geht."
+      },
+      {
+        "german": "Ich fahre mit meinem Fahrrad ins Büro.",
+        "english": "I ride my bicycle to the office.",
+        "explanation": "Die Verwendung von 'fahre' zeigt, dass man sich mit einem Fahrzeug bewegt. 'Mit meinem Fahrrad' zeigt, welches Fahrzeug man verwendet."
+      },
+      {
+        "german": "Mein Morgen beginnt um 8 Uhr.",
+        "english": "My morning begins at 8 o'clock.",
+        "explanation": "Die Verwendung von 'beginnt' zeigt, dass etwas anfängt. 'Um 8 Uhr' zeigt, wann etwas anfängt."
+      },
+      {
+        "german": "Ich genieße meinen Kaffee.",
+        "english": "I enjoy my coffee.",
+        "explanation": "Die Verwendung von 'genieße' zeigt, dass man etwas angenehm findet. 'Meinen Kaffee' zeigt, was man angenehm findet."
+      },
+      {
+        "german": "Ich öffne 50 Youtube Tabs.",
+        "english": "I open 50 Youtube tabs.",
+        "explanation": "Die Verwendung von 'öffne' zeigt, dass man etwas macht. '50 Youtube Tabs' zeigt, was man macht."
+      }
+    ]
+  },
+  "Learn Basic German Greetings & Farewells in Slow German | Super Easy German 274": {
+    "title": "Begrüßungen und Verabschiedungen",
+    "grammar_explanation": "Begrüßungen sind Worte, die wir verwenden, um jemanden zu begrüßen. Verabschiedungen sind Worte, die wir verwenden, um jemanden zu verabschieden. Wir verwenden die richtige Begrüßung oder Verabschiedung, je nachdem, wann wir sie verwenden.",
+    "vocabulary": [
+      {
+        "word": "Hallo",
+        "translation": "Hello",
+        "explanation": "Wir verwenden 'Hallo' am Morgen oder am Nachmittag, wenn wir jemanden treffen."
+      },
+      {
+        "word": "Servus",
+        "translation": "Hi",
+        "explanation": "Wir verwenden 'Servus' mit Freunden oder Bekannten, wenn wir uns treffen."
+      },
+      {
+        "word": "Grüzi",
+        "translation": "Hi",
+        "explanation": "Wir verwenden 'Grüzi' mit Freunden oder Bekannten, wenn wir uns treffen, besonders in Bayern."
+      },
+      {
+        "word": "Tschüss",
+        "translation": "Goodbye",
+        "explanation": "Wir verwenden 'Tschüss' wenn wir jemanden verlassen oder uns trennen."
+      },
+      {
+        "word": "Papa",
+        "translation": "Dad",
+        "explanation": "Wir verwenden 'Papa' um unseren Vater anzusprechen."
+      }
+    ],
+    "examples": [
+      {
+        "german": "Servus, wie geht's?",
+        "english": "Hi, how are you?",
+        "explanation": "Wir verwenden 'Servus' und fragen nach dem Wohlbefinden des anderen."
+      },
+      {
+        "german": "Grüzi, bis später!",
+        "english": "Hi, see you later!",
+        "explanation": "Wir verwenden 'Grüzi' und sagen, dass wir uns später wiedersehen."
+      },
+      {
+        "german": "Tschüss, Papa!",
+        "english": "Goodbye, Dad!",
+        "explanation": "Wir verwenden 'Tschüss' und verabschieden uns von unserem Vater."
+      },
+      {
+        "german": "Hallo, wie geht's?",
+        "english": "Hello, how are you?",
+        "explanation": "Wir verwenden 'Hallo' und fragen nach dem Wohlbefinden des anderen."
+      },
+      {
+        "german": "Servus, ich bin gut!",
+        "english": "Hi, I'm fine!",
+        "explanation": "Wir verwenden 'Servus' und sagen, dass wir gut sind."
+      }
+    ]
+  },
+  "Conjugation of regular verbs: Sagen, Machen, Hören | Super Easy German (83)": {
+    "title": "Conjugation of Regular Verbs: Sagen, Machen, Hören",
+    "grammar_explanation": "In German, we change the verb to match the subject. This is called conjugation. We will learn how to conjugate the regular verbs sagen (to say), machen (to do), and hören (to hear).",
+    "vocabulary": [
+      {
+        "word": "sagen",
+        "translation": "to say",
+        "explanation": "Use sagen to say something. For example, 'Ich sage: Hallo.' means 'I say: Hello.'"
+      },
+      {
+        "word": "machen",
+        "translation": "to do",
+        "explanation": "Use machen to do something. For example, 'Ich mache: ein Sandwich.' means 'I do: a sandwich.'"
+      },
+      {
+        "word": "hören",
+        "translation": "to hear",
+        "explanation": "Use hören to hear something. For example, 'Ich höre: Musik.' means 'I hear: music.'"
+      },
+      {
+        "word": "Quatsch",
+        "translation": "nonsense",
+        "explanation": "Use Quatsch to say something is nonsense. For example, 'Du sagst: Quatsch!' means 'You say: Nonsense!'"
+      },
+      {
+        "word": "Aua",
+        "translation": "ouch",
+        "explanation": "Use Aua to say you are in pain. For example, 'Er sagt: Aua!' means 'He says: Ouch!'"
+      }
+    ],
+    "examples": [
+      {
+        "german": "Ich sage: Hallo.",
+        "english": "I say: Hello.",
+        "explanation": "The verb sagen is conjugated to match the subject 'Ich' (I). The sentence means 'I say: Hello.'"
+      },
+      {
+        "german": "Du sagst: Quatsch!",
+        "english": "You say: Nonsense!",
+        "explanation": "The verb sagen is conjugated to match the subject 'Du' (you). The sentence means 'You say: Nonsense!'"
+      },
+      {
+        "german": "Er sagt: Aua!",
+        "english": "He says: Ouch!",
+        "explanation": "The verb sagen is conjugated to match the subject 'Er' (he). The sentence means 'He says: Ouch!'"
+      },
+      {
+        "german": "Wir sagen: Willkommen.",
+        "english": "We say: Welcome.",
+        "explanation": "The verb sagen is conjugated to match the subject 'Wir' (we). The sentence means 'We say: Welcome.'"
+      },
+      {
+        "german": "Sie sagen: Auf Wiedersehen.",
+        "english": "They say: Goodbye.",
+        "explanation": "The verb sagen is conjugated to match the subject 'Sie' (they). The sentence means 'They say: Goodbye.'"
+      }
+    ]
+  },
+  "Easy German - Basic Conversation Phrases 1": {
+    "title": "Basic Conversation Phrases 1",
+    "grammar_explanation": "In German, we use formal and informal language. Formal language is used with people you don't know well, and informal language is used with friends and family. We will start with formal language.",
+    "vocabulary": [
+      {
+        "word": "Hallo",
+        "translation": "hello",
+        "explanation": "Use 'Hallo' to greet someone in the morning or afternoon. It's a formal way to say hello."
+      },
+      {
+        "word": "Guten Morgen",
+        "translation": "good morning",
+        "explanation": "Use 'Guten Morgen' to greet someone in the morning. It's a more formal way to say good morning."
+      },
+      {
+        "word": "Wie geht es dir",
+        "translation": "how are you",
+        "explanation": "Use 'Wie geht es dir' to ask someone how they are. The verb 'gehen' means 'to go', and 'dir' is a formal way to say 'you'."
+      },
+      {
+        "word": "Ich habe Hunger",
+        "translation": "I am hungry",
+        "explanation": "Use 'Ich habe Hunger' to say you are hungry. 'Ich' means 'I', 'habe' means 'have', and 'Hunger' means 'hunger'."
+      },
+      {
+        "word": "Ich brauche eine Pause",
+        "translation": "I need a break",
+        "explanation": "Use 'Ich brauche eine Pause' to say you need a break. 'Ich' means 'I', 'brauche' means 'need', and 'eine Pause' means 'a break'."
+      }
+    ],
+    "examples": [
+      {
+        "german": "Hallo, wie geht es dir?",
+        "english": "Hello, how are you?",
+        "explanation": "In this sentence, we use 'Hallo' to greet someone, and 'wie geht es dir' to ask how they are. The verb 'gehen' is in the infinitive form, and 'dir' is a formal way to say 'you'."
+      },
+      {
+        "german": "Ich habe Hunger, kannst du mir helfen?",
+        "english": "I am hungry, can you help me?",
+        "explanation": "In this sentence, we use 'Ich habe Hunger' to say we are hungry, and 'kannst du mir helfen' to ask for help. The verb 'helfen' means 'to help', and 'mir' is a formal way to say 'me'."
+      },
+      {
+        "german": "Ich brauche eine Pause, kann ich mich setzen?",
+        "english": "I need a break, can I sit down?",
+        "explanation": "In this sentence, we use 'Ich brauche eine Pause' to say we need a break, and 'kann ich mich setzen' to ask if we can sit down. The verb 'setzen' means 'to sit', and 'mich' is a formal way to say 'me'."
+      }
+    ]
+  },
+  "Easy German - Basic Conversation Phrases 2": {
+    "title": "Basic Conversation Phrases 2",
+    "grammar_explanation": "In German, we use the verb 'haben' (to have) to talk about time. We also use the word 'alt' to ask about someone's age.",
+    "vocabulary": [
+      {
+        "word": "Zeit",
+        "translation": "time",
+        "explanation": "Zeit is the time of day or the time we have for something."
+      },
+      {
+        "word": "alt",
+        "translation": "old",
+        "explanation": "Alt means old. We use it to ask about someone's age."
+      },
+      {
+        "word": "geboren",
+        "translation": "born",
+        "explanation": "Geboren means born. We use it to ask where someone was born."
+      },
+      {
+        "word": "Wochenende",
+        "translation": "weekend",
+        "explanation": "Wochenende is the weekend. It's the time we have off from work or school."
+      },
+      {
+        "word": "Rechnung",
+        "translation": "bill",
+        "explanation": "Rechnung is a bill. We use it to ask for the bill in a restaurant."
+      }
+    ],
+    "examples": [
+      {
+        "german": "Ich habe keine Zeit.",
+        "english": "I have no time.",
+        "explanation": "We use 'haben' to talk about time. 'Keine Zeit' means no time. This sentence means I don't have time for something."
+      },
+      {
+        "german": "Wie alt bist du?",
+        "english": "How old are you?",
+        "explanation": "We use 'alt' to ask about someone's age. 'Wie alt bist du?' means how old are you?"
+      },
+      {
+        "german": "Wo bist du geboren?",
+        "english": "Where were you born?",
+        "explanation": "We use 'geboren' to ask where someone was born. 'Wo bist du geboren?' means where were you born?"
+      },
+      {
+        "german": "Was machst du am Wochenende?",
+        "english": "What do you do on the weekend?",
+        "explanation": "We use 'Wochenende' to talk about the weekend. 'Was machst du am Wochenende?' means what do you do on the weekend?"
+      },
+      {
+        "german": "Die Rechnung bitte.",
+        "english": "The bill, please.",
+        "explanation": "We use 'Rechnung' to ask for the bill. 'Die Rechnung bitte' means the bill, please."
+      }
+    ]
+  },
+  "How to learn the German Plural endings | Super Easy German (127)": {
+    "title": "Plural Trainer Test",
+    "grammar_explanation": "In German, we use different words for singular and plural. We will learn the plural form of some common words today.",
+    "vocabulary": [
+      {
+        "word": "Hund",
+        "translation": "dog",
+        "explanation": "A Hund is a single dog. We use this word for one dog."
+      },
+      {
+        "word": "Katze",
+        "translation": "cat",
+        "explanation": "A Katze is a single cat. We use this word for one cat."
+      },
+      {
+        "word": "Haus",
+        "translation": "house",
+        "explanation": "A Haus is a single house. We use this word for one house."
+      },
+      {
+        "word": "Baum",
+        "translation": "tree",
+        "explanation": "A Baum is a single tree. We use this word for one tree."
+      },
+      {
+        "word": "Stuhl",
+        "translation": "chair",
+        "explanation": "A Stuhl is a single chair. We use this word for one chair."
+      }
+    ],
+    "examples": [
+      {
+        "german": "Ein Hund ist ein Tier.",
+        "english": "A dog is an animal.",
+        "explanation": "The word 'Hund' is singular. We use 'ein' to show it's a single dog."
+      },
+      {
+        "german": "Die Katze ist ein Haustier.",
+        "english": "The cat is a household animal.",
+        "explanation": "The word 'Katze' is singular. We use 'die' to show it's a single cat. 'Ein' is used with 'Haustier' because it's a noun."
+      },
+      {
+        "german": "Das Haus ist groß.",
+        "english": "The house is big.",
+        "explanation": "The word 'Haus' is singular. We use 'das' to show it's a single house."
+      },
+      {
+        "german": "Der Baum ist alt.",
+        "english": "The tree is old.",
+        "explanation": "The word 'Baum' is singular. We use 'der' to show it's a single tree."
+      },
+      {
+        "german": "Ein Stuhl ist ein Möbelstück.",
+        "english": "A chair is a piece of furniture.",
+        "explanation": "The word 'Stuhl' is singular. We use 'ein' to show it's a single chair."
+      }
+    ]
+  },
+  "Emotions in Slow German | Super Easy German 263": {
+    "title": "Emotions and Personality",
+    "grammar_explanation": "In German, we use adjectives to describe people's emotions and personality. Adjectives usually come before the noun they describe.",
+    "vocabulary": [
+      {
+        "word": "Mut",
+        "translation": "Courage",
+        "explanation": "Mut is a quality that helps you do things even if they are scary. You can say 'Er ist sehr mutig' (He is very courageous)."
+      },
+      {
+        "word": "Angst",
+        "translation": "Fear",
+        "explanation": "Angst is a feeling of being afraid. You can say 'Ich habe Angst vor dem Flugzeug' (I am afraid of flying)."
+      },
+      {
+        "word": "Langeweile",
+        "translation": "Boredom",
+        "explanation": "Langeweile is a feeling of being bored. You can say 'Das ist langweilig' (That is boring)."
+      },
+      {
+        "word": "Glaube",
+        "translation": "Belief",
+        "explanation": "Glaube is a feeling of trusting something. You can say 'Ich habe noch Glauben an die Menschheit' (I still believe in humanity)."
+      },
+      {
+        "word": "Hoffnung",
+        "translation": "Hope",
+        "explanation": "Hoffnung is a feeling of expecting something good to happen. You can say 'Ich hoffe, dass es besser wird' (I hope it gets better)."
+      }
+    ],
+    "examples": [
+      {
+        "german": "Er ist sehr mutig.",
+        "english": "He is very courageous.",
+        "explanation": "The adjective 'mutig' describes the noun 'Er' (he). It means he is very courageous."
+      },
+      {
+        "german": "Ich habe Angst vor dem Flugzeug.",
+        "english": "I am afraid of flying.",
+        "explanation": "The verb 'habe' is in the present tense, and 'Angst' is an adjective describing the noun 'Flugzeug' (plane)."
+      },
+      {
+        "german": "Das ist langweilig.",
+        "english": "That is boring.",
+        "explanation": "The adjective 'langweilig' describes the noun 'Das' (that). It means that is boring."
+      },
+      {
+        "german": "Ich habe noch Glauben an die Menschheit.",
+        "english": "I still believe in humanity.",
+        "explanation": "The verb 'habe' is in the present tense, and 'Glauben' is an adjective describing the noun 'Menschheit' (humanity)."
+      },
+      {
+        "german": "Ich hoffe, dass es besser wird.",
+        "english": "I hope it gets better.",
+        "explanation": "The verb 'hoffe' is in the present tense, and 'dass' is a conjunction introducing a subordinate clause."
+      }
+    ]
+  },
+  "Winter in Berlin in Slow German | Super Easy German 273": {
+    "title": "Winter in Deutschland",
+    "grammar_explanation": "In German, we use the verb 'ist' to say 'is'. We also use the word 'lecker' to say 'delicious'.",
+    "vocabulary": [
+      {
+        "word": "Kaffee",
+        "translation": "coffee",
+        "explanation": "Kaffee is a hot drink that we drink in the morning. We can drink it black or with sugar and milk."
+      },
+      {
+        "word": "Kuchen",
+        "translation": "cake",
+        "explanation": "Kuchen is a sweet food that we eat with coffee or tea. It's like a dessert."
+      },
+      {
+        "word": "Cappuccino",
+        "translation": "cappuccino",
+        "explanation": "Ein Cappuccino ist ein Getränk mit Kaffee, Milch und Schokolade. (A cappuccino is a drink with coffee, milk, and chocolate.)"
+      },
+      {
+        "word": "Mandelkuchen",
+        "translation": "almond cake",
+        "explanation": "Mandelkuchen ist ein Kuchen mit Mandeln. (Almond cake is a cake with almonds.)"
+      },
+      {
+        "word": "Rubostee",
+        "translation": "hot chocolate",
+        "explanation": "Rubostee ist ein warmes Getränk mit Schokolade. (Hot chocolate is a warm drink with chocolate.)"
+      }
+    ],
+    "examples": [
+      {
+        "german": "Ein Cappuccino ist ein leckerer Kaffee.",
+        "english": "A cappuccino is a delicious coffee.",
+        "explanation": "In this sentence, we use the verb 'ist' to say 'is'. We also use the word 'lecker' to say 'delicious'."
+      },
+      {
+        "german": "Der Mandelkuchen ist sehr lecker.",
+        "english": "The almond cake is very delicious.",
+        "explanation": "In this sentence, we use the article 'der' to say 'the'. We also use the word 'sehr' to say 'very'."
+      },
+      {
+        "german": "Ein Rubostee ist ein warmer Getränk.",
+        "english": "A hot chocolate is a warm drink.",
+        "explanation": "In this sentence, we use the verb 'ist' to say 'is'. We also use the word 'warmer' to say 'warm'."
+      },
+      {
+        "german": "Wir trinken Kaffee und Kuchen.",
+        "english": "We drink coffee and cake.",
+        "explanation": "In this sentence, we use the verb 'trinken' to say 'drink'. We also use the conjunction 'und' to say 'and'."
+      },
+      {
+        "german": "Ich esse einen Mandelkuchen.",
+        "english": "I eat an almond cake.",
+        "explanation": "In this sentence, we use the verb 'esse' to say 'eat'. We also use the article 'einen' to say 'an'."
+      }
+    ]
+  },
+  "Introduce yourself in Slow German | Super Easy German (1)": {
+    "title": "Introducing Yourself in German",
+    "grammar_explanation": "In German, we use the verb 'sein' (to be) to introduce ourselves. We say 'Ich bin' (I am) followed by our name.",
+    "vocabulary": [
+      {
+        "word": "Hallo",
+        "translation": "hello",
+        "explanation": "Use 'Hallo' to greet someone. It's like saying 'hello' in English."
+      },
+      {
+        "word": "Wie",
+        "translation": "how",
+        "explanation": "Use 'Wie' to ask a question. It's like saying 'what' or 'how' in English."
+      },
+      {
+        "word": "heisst",
+        "translation": "is called",
+        "explanation": "Use 'heisst' to ask someone's name. It's like saying 'what's your name' in English."
+      },
+      {
+        "word": "Ich",
+        "translation": "I",
+        "explanation": "Use 'Ich' to say 'I'. It's like saying 'me' or 'myself' in English."
+      },
+      {
+        "word": "bin",
+        "translation": "am",
+        "explanation": "Use 'bin' to say 'I am'. It's like saying 'I am' in English."
+      }
+    ],
+    "examples": [
+      {
+        "german": "Hallo, ich bin Walter.",
+        "english": "Hello, I am Walter.",
+        "explanation": "In this sentence, we use 'Hallo' to greet someone, and 'Ich bin' to introduce ourselves. 'Walter' is our name."
+      },
+      {
+        "german": "Wie heisst du?",
+        "english": "What is your name?",
+        "explanation": "In this sentence, we use 'Wie' to ask a question, and 'heisst' to ask someone's name. The answer would be 'Ich heisse...' (My name is...)"
+      },
+      {
+        "german": "Ich heisse Walter.",
+        "english": "My name is Walter.",
+        "explanation": "In this sentence, we use 'Ich' to say 'I', and 'heisse' to say 'is called'. 'Walter' is our name."
+      },
+      {
+        "german": "Ich bin 26 Jahre alt.",
+        "english": "I am 26 years old.",
+        "explanation": "In this sentence, we use 'Ich bin' to say 'I am', and '26 Jahre alt' to say '26 years old'."
+      },
+      {
+        "german": "Ich komme aus den USA.",
+        "english": "I am from the USA.",
+        "explanation": "In this sentence, we use 'Ich komme' to say 'I come from', and 'aus den USA' to say 'from the USA'."
+      }
+    ]
+  },
+  "Counting in German from 1 - 100 | Super Easy German 178": {
+    "title": "Counting in German from 1 to 100",
+    "grammar_explanation": "In German, numbers are used like this: 1, 2, 3, etc. We also use special words for 10, 20, 30, etc. For example, 10 is 'zehn', 20 is 'zwanzig', and 30 is 'dreißig'.",
+    "vocabulary": [
+      {
+        "word": "eins",
+        "translation": "one",
+        "explanation": "Use 'eins' to say 'one'. For example, 'Ich habe eins Auto.' (I have one car.)"
+      },
+      {
+        "word": "zehn",
+        "translation": "ten",
+        "explanation": "Use 'zehn' to say 'ten'. For example, 'Ich bin zehn Jahre alt.' (I am ten years old.)"
+      },
+      {
+        "word": "zwanzig",
+        "translation": "twenty",
+        "explanation": "Use 'zwanzig' to say 'twenty'. For example, 'Ich habe zwanzig Euro.' (I have twenty euros.)"
+      },
+      {
+        "word": "dreißig",
+        "translation": "thirty",
+        "explanation": "Use 'dreißig' to say 'thirty'. For example, 'Ich bin dreißig Jahre alt.' (I am thirty years old.)"
+      },
+      {
+        "word": "hundert",
+        "translation": "hundred",
+        "explanation": "Use 'hundert' to say 'hundred'. For example, 'Ich habe hundert Euro.' (I have one hundred euros.)"
+      }
+    ],
+    "examples": [
+      {
+        "german": "Ich bin 37 Jahre alt.",
+        "english": "I am 37 years old.",
+        "explanation": "In this sentence, '37' is a number. 'Jahre' means 'years'. The sentence is saying that the speaker is 37 years old."
+      },
+      {
+        "german": "Das ist 54 Euro.",
+        "english": "That is 54 euros.",
+        "explanation": "In this sentence, '54' is a number. 'Euro' means 'euro'. The sentence is saying that something costs 54 euros."
+      },
+      {
+        "german": "Ich habe 99 Moskitos.",
+        "english": "I have 99 mosquitoes.",
+        "explanation": "In this sentence, '99' is a number. 'Moskitos' means 'mosquitoes'. The sentence is saying that the speaker has 99 mosquitoes."
+      },
+      {
+        "german": "Das ist 2 Euro 49.",
+        "english": "That is 2 euros 49.",
+        "explanation": "In this sentence, '2' and '49' are numbers. 'Euro' means 'euro'. The sentence is saying that something costs 2 euros and 49 cents."
+      },
+      {
+        "german": "Ich bin hundert Jahre alt.",
+        "english": "I am one hundred years old.",
+        "explanation": "In this sentence, 'hundert' is a number. 'Jahre' means 'years'. The sentence is saying that the speaker is one hundred years old."
+      }
+    ]
+  },
+  "How to Tell the Time in German | Super Easy German 183": {
+    "title": "Uhrzeiten in Deutschland",
+    "grammar_explanation": "In Deutschland sagen wir die Uhrzeit auf verschiedene Weise. Wir sagen, wie viele Stunden und Minuten es ist. Wir verwenden auch Wörter wie 'Viertelstunde' und 'Halbstunde'.",
+    "vocabulary": [
+      {
+        "word": "Viertelstunde",
+        "translation": "quarter of an hour",
+        "explanation": "Eine Viertelstunde ist 15 Minuten. Wir sagen 'Viertel nach' für 15 Minuten nach der Stunde."
+      },
+      {
+        "word": "Halbstunde",
+        "translation": "half an hour",
+        "explanation": "Eine Halbstunde ist 30 Minuten. Wir sagen 'Halb' für 30 Minuten nach der Stunde."
+      },
+      {
+        "word": "Stunde",
+        "translation": "hour",
+        "explanation": "Eine Stunde ist 60 Minuten. Wir sagen die Stunde, wenn es 60 Minuten ist."
+      },
+      {
+        "word": "Viertel nach",
+        "translation": "quarter past",
+        "explanation": "Wir sagen 'Viertel nach' für 15 Minuten nach der Stunde."
+      },
+      {
+        "word": "Halb",
+        "translation": "half",
+        "explanation": "Wir sagen 'Halb' für 30 Minuten nach der Stunde."
+      }
+    ],
+    "examples": [
+      {
+        "german": "Es ist Viertel nach fünf.",
+        "english": "It is quarter past five.",
+        "explanation": "Es ist 15 Minuten nach 5 Uhr. Wir sagen 'Viertel nach fünf'."
+      },
+      {
+        "german": "Es ist halb sechs.",
+        "english": "It is half past six.",
+        "explanation": "Es ist 30 Minuten nach 6 Uhr. Wir sagen 'Halb sechs'."
+      },
+      {
+        "german": "Es ist eine Stunde.",
+        "english": "It is one o'clock.",
+        "explanation": "Es ist 60 Minuten. Wir sagen 'eine Stunde'."
+      },
+      {
+        "german": "Es ist Viertel vor sechs.",
+        "english": "It is quarter to six.",
+        "explanation": "Es ist 15 Minuten vor 6 Uhr. Wir sagen 'Viertel vor sechs'."
+      },
+      {
+        "german": "Es ist halb neun.",
+        "english": "It is half past nine.",
+        "explanation": "Es ist 30 Minuten nach 9 Uhr. Wir sagen 'Halb neun'."
+      }
+    ]
+  },
+  "Possessive Pronouns in German | Super Easy German 223": {
+    "title": "Possessivpronomen",
+    "grammar_explanation": "Possessivpronomen sind Wörter, die zeigen, dass etwas uns gehört. Sie werden vor dem Nomen verwendet.",
+    "vocabulary": [
+      {
+        "word": "mein",
+        "translation": "my",
+        "explanation": "Ich verwende 'mein' für männliche Nomen, z.B. mein Haus."
+      },
+      {
+        "word": "meine",
+        "translation": "my (feminine)",
+        "explanation": "Ich verwende 'meine' für weibliche Nomen, z.B. meine Uhr."
+      },
+      {
+        "word": "meines",
+        "translation": "my (genitive)",
+        "explanation": "Ich verwende 'meines' für Nomen im Genitiv, z.B. mein Vater ist ein guter Mann, meines Vaters Auto."
+      },
+      {
+        "word": "meinem",
+        "translation": "my (dative)",
+        "explanation": "Ich verwende 'meinem' für Nomen im Dativ, z.B. Ich gebe meinem Bruder ein Geschenk."
+      },
+      {
+        "word": "meinen",
+        "translation": "my (accusative)",
+        "explanation": "Ich verwende 'meinen' für Nomen im Akkusativ, z.B. Ich esse meinen Apfel."
+      }
+    ],
+    "examples": [
+      {
+        "german": "Das ist mein Haus.",
+        "english": "That is my house.",
+        "explanation": "Ich verwende 'mein' vor dem Nomen 'Haus', um zu zeigen, dass es mir gehört."
+      },
+      {
+        "german": "Die Uhr ist meine Uhr.",
+        "english": "The clock is my clock.",
+        "explanation": "Ich verwende 'meine' vor dem weiblichen Nomen 'Uhr', um zu zeigen, dass es mir gehört."
+      },
+      {
+        "german": "Das ist mein Apfel.",
+        "english": "That is my apple.",
+        "explanation": "Ich verwende 'mein' vor dem Nomen 'Apfel', um zu zeigen, dass es mir gehört."
+      },
+      {
+        "german": "Ich gehe mit meiner Frau ins Kino.",
+        "english": "I go to the cinema with my wife.",
+        "explanation": "Ich verwende 'meine' vor dem weiblichen Nomen 'Frau', um zu zeigen, dass sie mir gehört."
+      },
+      {
+        "german": "Das ist mein Auto.",
+        "english": "That is my car.",
+        "explanation": "Ich verwende 'mein' vor dem Nomen 'Auto', um zu zeigen, dass es mir gehört."
+      }
+    ]
+  },
+  "Hoch, höher am höchsten! | Super Easy German (63)": {
+    "title": "A1 German Lesson: Steigerung von Adjektiven",
+    "grammar_explanation": "Adjektive (Beschreibungen) können gesteigert werden. Das bedeutet, dass wir ein Adjektiv in eine höhere Form bringen, um zu beschreiben, dass etwas mehr ist als etwas anderes.",
+    "vocabulary": [
+      {
+        "word": "hoch",
+        "translation": "high",
+        "explanation": "Ein Gebäude ist hoch, wenn es sehr hoch ist."
+      },
+      {
+        "word": "höher",
+        "translation": "higher",
+        "explanation": "Ein Gebäude ist höher als ein anderes Gebäude."
+      },
+      {
+        "word": "am höchsten",
+        "translation": "the highest",
+        "explanation": "Das ist das höchste Gebäude in der Stadt."
+      },
+      {
+        "word": "groß",
+        "translation": "big",
+        "explanation": "Ein Haus ist groß, wenn es sehr groß ist."
+      },
+      {
+        "word": "größer",
+        "translation": "bigger",
+        "explanation": "Ein Haus ist größer als ein anderes Haus."
+      }
+    ],
+    "examples": [
+      {
+        "german": "Das Gebäude ist hoch.",
+        "english": "The building is high.",
+        "explanation": "Das Adjektiv 'hoch' beschreibt das Gebäude. Es ist ein einfaches Adjektiv."
+      },
+      {
+        "german": "Das Haus ist groß.",
+        "english": "The house is big.",
+        "explanation": "Das Adjektiv 'groß' beschreibt das Haus. Es ist ein einfaches Adjektiv."
+      },
+      {
+        "german": "Der Baum ist alt.",
+        "english": "The tree is old.",
+        "explanation": "Das Adjektiv 'alt' beschreibt den Baum. Es ist ein einfaches Adjektiv."
+      },
+      {
+        "german": "Janosch ist dick.",
+        "english": "Janosch is fat.",
+        "explanation": "Das Adjektiv 'dick' beschreibt Janosch. Es ist ein einfaches Adjektiv."
+      },
+      {
+        "german": "Ich bin am ältesten.",
+        "english": "I am the oldest.",
+        "explanation": "Das Adjektiv 'ältester' ist die höchste Form von 'alt'. Es beschreibt den Sprecher."
+      },
+      {
+        "german": "Mein Bruder ist größer als ich.",
+        "english": "My brother is bigger than me.",
+        "explanation": "Das Adjektiv 'größer' ist die höchste Form von 'groß'. Es beschreibt den Bruder im Vergleich zum Sprecher."
+      },
+      {
+        "german": "Das Gebäude ist höher als das Haus.",
+        "english": "The building is higher than the house.",
+        "explanation": "Das Adjektiv 'höher' ist die höchste Form von 'hoch'. Es beschreibt das Gebäude im Vergleich zum Haus."
+      }
+    ]
+  },
+  "The Weather | Super Easy German (14)": {
+    "title": "Lesson 1: The Weather in Berlin",
+    "grammar_explanation": "In German, the verb 'ist' means 'is'. We use it to describe the weather. For example, 'Das Wetter ist schlecht' means 'The weather is bad'.",
+    "vocabulary": [
+      {
+        "word": "Schnee",
+        "translation": "snow",
+        "explanation": "Schnee is the German word for snow. It falls from the sky when it's cold."
+      },
+      {
+        "word": "Wetter",
+        "translation": "weather",
+        "explanation": "Das Wetter is the German word for the weather. It can be good or bad."
+      },
+      {
+        "word": "Sonnen",
+        "translation": "sun",
+        "explanation": "Die Sonne is the German word for the sun. It shines when it's not cloudy."
+      },
+      {
+        "word": "Regen",
+        "translation": "rain",
+        "explanation": "Der Regen is the German word for rain. It falls from the sky when it's cloudy."
+      },
+      {
+        "word": "Kälte",
+        "translation": "cold",
+        "explanation": "Die Kälte is the German word for cold. It feels when it's snowing or raining."
+      }
+    ],
+    "examples": [
+      {
+        "german": "Es schneit in Berlin.",
+        "english": "It snows in Berlin.",
+        "explanation": "The verb 'schneit' means 'snows'. We use it with the city name 'Berlin' to say where it's snowing."
+      },
+      {
+        "german": "Das Wetter ist schlecht.",
+        "english": "The weather is bad.",
+        "explanation": "The verb 'ist' means 'is'. We use it with the adjective 'schlecht' to describe the weather."
+      },
+      {
+        "german": "Die Sonne scheint.",
+        "english": "The sun shines.",
+        "explanation": "The verb 'scheint' means 'shines'. We use it with the noun 'Die Sonne' to say what's happening."
+      },
+      {
+        "german": "Es regnet sehr oft.",
+        "english": "It rains very often.",
+        "explanation": "The verb 'regnet' means 'rains'. We use it with the adverb 'sehr oft' to describe how often it rains."
+      },
+      {
+        "german": "Die Kälte ist sehr stark.",
+        "english": "The cold is very strong.",
+        "explanation": "The verb 'ist' means 'is'. We use it with the adjective 'stark' to describe the cold."
+      }
+    ]
+  },
+  "unknown": {
+    "title": "Vietnamese Food",
+    "grammar_explanation": "In Vietnamese, we use the verb 'esse' to say 'I eat'. We also use the word 'zum' to say 'for' in German.",
+    "vocabulary": [
+      {
+        "word": "Bôn",
+        "translation": "Rice",
+        "explanation": "Bôn is a type of food made from grains. We eat Bôn for lunch or dinner."
+      },
+      {
+        "word": "Phô",
+        "translation": "Noodle",
+        "explanation": "Phô is a type of food made from flour. It is long and thin like a string."
+      },
+      {
+        "word": "Gôi",
+        "translation": "Meat",
+        "explanation": "Gôi is a type of food that comes from animals. We eat Gôi for dinner."
+      },
+      {
+        "word": "Rau",
+        "translation": "Vegetable",
+        "explanation": "Rau is a type of food that grows in the ground. It is good for our health."
+      },
+      {
+        "word": "Nùng",
+        "translation": "Soup",
+        "explanation": "Nùng is a type of food that is made from liquid and ingredients. We drink Nùng for lunch or dinner."
+      }
+    ],
+    "examples": [
+      {
+        "german": "Ich esse Bôn zum Mittagessen.",
+        "english": "I eat rice for lunch.",
+        "explanation": "In this sentence, we use the verb 'esse' to say 'I eat'. We also use the word 'zum' to say 'for'. The word 'Mittagessen' means 'lunch'."
+      },
+      {
+        "german": "Der Phô ist sehr lecker.",
+        "english": "The noodle is very delicious.",
+        "explanation": "In this sentence, we use the word 'der' to say 'the'. The word 'Phô' is a noun, and it means 'noodle'. The word 'ist' is a verb, and it means 'is'. The word 'sehr' is an adjective, and it means 'very'."
+      },
+      {
+        "german": "Ich esse Gôi zum Abendessen.",
+        "english": "I eat meat for dinner.",
+        "explanation": "In this sentence, we use the verb 'esse' to say 'I eat'. We also use the word 'zum' to say 'for'. The word 'Abendessen' means 'dinner'."
+      },
+      {
+        "german": "Der Rau ist sehr gesund.",
+        "english": "The vegetable is very healthy.",
+        "explanation": "In this sentence, we use the word 'der' to say 'the'. The word 'Rau' is a noun, and it means 'vegetable'. The word 'ist' is a verb, and it means 'is'. The word 'sehr' is an adjective, and it means 'very'. The word 'gesund' is an adjective, and it means 'healthy'."
+      },
+      {
+        "german": "Ich trinke Nùng zum Mittagessen.",
+        "english": "I drink soup for lunch.",
+        "explanation": "In this sentence, we use the verb 'trinke' to say 'I drink'. We also use the word 'zum' to say 'for'. The word 'Mittagessen' means 'lunch'."
+      }
+    ]
+  },
+  "German Verbs: Geben | Super Easy German (148)": {
+    "title": "German Verbs: Geben (A1)",
+    "grammar_explanation": "In German, the verb 'geben' means 'to give'. It is an irregular verb, which means its conjugation is different from regular verbs. The verb 'geben' is used to express giving something to someone or something.",
+    "vocabulary": [
+      {
+        "word": "geben",
+        "translation": "to give",
+        "explanation": "The verb 'geben' is used to express giving something to someone or something. For example, 'Ich gebe dir ein Buch' means 'I give you a book'."
+      },
+      {
+        "word": "ich",
+        "translation": "I",
+        "explanation": "The pronoun 'ich' is used to indicate the speaker. For example, 'Ich gebe dir ein Buch' means 'I give you a book'."
+      },
+      {
+        "word": "du",
+        "translation": "you",
+        "explanation": "The pronoun 'du' is used to indicate the person being spoken to. For example, 'Du gibst mir ein Buch' means 'You give me a book'."
+      },
+      {
+        "word": "er",
+        "translation": "he",
+        "explanation": "The pronoun 'er' is used to indicate a male person. For example, 'Er gibt seiner Schwester ein Geschenk' means 'He gives his sister a gift'."
+      },
+      {
+        "word": "sie",
+        "translation": "she",
+        "explanation": "The pronoun 'sie' is used to indicate a female person. For example, 'Sie gibt mir ein Sandwich' means 'She gives me a sandwich'."
+      }
+    ],
+    "examples": [
+      {
+        "german": "Ich gebe dir eine Flasche Wasser.",
+        "english": "I give you a bottle of water.",
+        "explanation": "In this sentence, the verb 'geben' is used in the present tense. The pronoun 'ich' indicates the speaker, and the pronoun 'du' indicates the person being spoken to. The sentence means 'I give you a bottle of water'."
+      },
+      {
+        "german": "Du gibst mir ein Buch.",
+        "english": "You give me a book.",
+        "explanation": "In this sentence, the verb 'geben' is used in the present tense. The pronoun 'du' indicates the person being spoken to, and the pronoun 'mir' indicates the person receiving the book. The sentence means 'You give me a book'."
+      },
+      {
+        "german": "Er gibt seiner Schwester ein Geschenk.",
+        "english": "He gives his sister a gift.",
+        "explanation": "In this sentence, the verb 'geben' is used in the present tense. The pronoun 'er' indicates a male person, and the pronoun 'seiner Schwester' indicates the person receiving the gift. The sentence means 'He gives his sister a gift'."
+      },
+      {
+        "german": "Sie gibt mir ein Sandwich.",
+        "english": "She gives me a sandwich.",
+        "explanation": "In this sentence, the verb 'geben' is used in the present tense. The pronoun 'sie' indicates a female person, and the pronoun 'mir' indicates the person receiving the sandwich. The sentence means 'She gives me a sandwich'."
+      }
+    ]
+  },
+  "German Verbs: Wissen | Super Easy German (153)": {
+    "title": "German Lesson: Wissen (To Know)",
+    "grammar_explanation": "In German, 'wissen' means 'to know'. We use different verb forms to talk about what we know in different times.",
+    "vocabulary": [
+      {
+        "word": "wissen",
+        "translation": "to know",
+        "explanation": "We use 'wissen' to say what we know now. For example, 'Ich weiß' means 'I know'."
+      },
+      {
+        "word": "präsenz",
+        "translation": "present tense",
+        "explanation": "The present tense is used to talk about what we know now. For example, 'Ich weiß' is in the present tense."
+      },
+      {
+        "word": "konjunktiv",
+        "translation": "conditional tense",
+        "explanation": "The conditional tense is used to talk about what we would know if something were true. For example, 'Ich würde wissen' means 'I would know'."
+      },
+      {
+        "word": "wusste",
+        "translation": "past conditional tense",
+        "explanation": "The past conditional tense is used to talk about what we would have known if something were true in the past. For example, 'Ich hätte gewusst' means 'I would have known'."
+      },
+      {
+        "word": "würde",
+        "translation": "future conditional tense",
+        "explanation": "The future conditional tense is used to talk about what we will know if something is true in the future. For example, 'Ich würde wissen' means 'I will know'."
+      }
+    ],
+    "examples": [
+      {
+        "german": "Ich weiß.",
+        "english": "I know.",
+        "explanation": "This sentence is in the present tense. We use 'wissen' to say what we know now."
+      },
+      {
+        "german": "Du weißt.",
+        "english": "You know.",
+        "explanation": "This sentence is also in the present tense. We use 'wissen' to say what you know now."
+      },
+      {
+        "german": "Er weiß.",
+        "english": "He knows.",
+        "explanation": "This sentence is in the present tense. We use 'wissen' to say what he knows now."
+      },
+      {
+        "german": "Wir wissen.",
+        "english": "We know.",
+        "explanation": "This sentence is in the present tense. We use 'wissen' to say what we know now."
+      },
+      {
+        "german": "Ich wusste nicht.",
+        "english": "I didn't know.",
+        "explanation": "This sentence is in the past tense. We use 'wusste' to say what we didn't know in the past."
+      }
+    ]
+  },
+  "Irregular Verbs: Mögen | Super Easy German (103)": {
+    "title": "Irregular Verb Mögen (A1)",
+    "grammar_explanation": "Mögen is an irregular verb that means 'to like'. It is used to express a preference or a liking for something.",
+    "vocabulary": [
+      {
+        "word": "mögen",
+        "translation": "to like",
+        "explanation": "Mögen is an irregular verb that means 'to like'. It is used to express a preference or a liking for something."
+      },
+      {
+        "word": "Ich",
+        "translation": "I",
+        "explanation": "Ich is the first person singular pronoun, meaning 'I'."
+      },
+      {
+        "word": "Du",
+        "translation": "you",
+        "explanation": "Du is the second person singular pronoun, meaning 'you'."
+      },
+      {
+        "word": "Sie",
+        "translation": "she/he/it",
+        "explanation": "Sie is the third person singular pronoun, meaning 'she', 'he', or 'it'."
+      },
+      {
+        "word": "Es",
+        "translation": "it",
+        "explanation": "Es is the neuter pronoun, meaning 'it'."
+      }
+    ],
+    "examples": [
+      {
+        "german": "Ich mag Pizza.",
+        "english": "I like pizza.",
+        "explanation": "Ich mag Pizza means 'I like pizza'. Mögen is used in the first person singular, and the sentence is in the present tense."
+      },
+      {
+        "german": "Du magst Fußball.",
+        "english": "You like football.",
+        "explanation": "Du magst Fußball means 'You like football'. Mögen is used in the second person singular, and the sentence is in the present tense."
+      },
+      {
+        "german": "Sie mag Reisen.",
+        "english": "She likes traveling.",
+        "explanation": "Sie mag Reisen means 'She likes traveling'. Mögen is used in the third person singular, and the sentence is in the present tense."
+      },
+      {
+        "german": "Es mag nicht kalt sein.",
+        "english": "It likes not to be cold.",
+        "explanation": "Es mag nicht kalt sein means 'It likes not to be cold'. Mögen is used in the neuter pronoun, and the sentence is in the present tense with the negation 'nicht'."
+      },
+      {
+        "german": "Wir mögen Musik.",
+        "english": "We like music.",
+        "explanation": "Wir mögen Musik means 'We like music'. Mögen is used in the first person plural, and the sentence is in the present tense."
+      }
+    ]
+  },
+  "German Verbs: Machen | Super Easy German (142)": {
+    "title": "German Verbs: Machen (A1)",
+    "grammar_explanation": "Machen is a verb that means 'to make'. It is an irregular verb, which means its conjugation is different from regular verbs.",
+    "vocabulary": [
+      {
+        "word": "machen",
+        "translation": "to make",
+        "explanation": "Machen is used to describe the action of creating or producing something."
+      },
+      {
+        "word": "ich",
+        "translation": "I",
+        "explanation": "Ich is the first person singular pronoun, used to refer to the speaker."
+      },
+      {
+        "word": "du",
+        "translation": "you",
+        "explanation": "Du is the second person singular pronoun, used to refer to the person being addressed."
+      },
+      {
+        "word": "er",
+        "translation": "he",
+        "explanation": "Er is the third person singular pronoun, used to refer to a male person."
+      },
+      {
+        "word": "wir",
+        "translation": "we",
+        "explanation": "Wir is the first person plural pronoun, used to refer to the speaker and one or more other people."
+      },
+      {
+        "word": "ihr",
+        "translation": "you (plural)",
+        "explanation": "Ihr is the second person plural pronoun, used to refer to two or more people being addressed."
+      }
+    ],
+    "examples": [
+      {
+        "german": "Ich mache ein Foto.",
+        "english": "I make a photo.",
+        "explanation": "In this sentence, 'mache' is the first person singular form of the verb 'machen', meaning 'I make'. The object of the sentence is 'ein Foto', which means 'a photo'."
+      },
+      {
+        "german": "Du machst ein Kurs.",
+        "english": "You make a course.",
+        "explanation": "In this sentence, 'machst' is the second person singular form of the verb 'machen', meaning 'you make'. The object of the sentence is 'ein Kurs', which means 'a course'."
+      },
+      {
+        "german": "Er macht ein Haus.",
+        "english": "He makes a house.",
+        "explanation": "In this sentence, 'macht' is the third person singular form of the verb 'machen', meaning 'he makes'. The object of the sentence is 'ein Haus', which means 'a house'."
+      },
+      {
+        "german": "Wir machen ein Video.",
+        "english": "We make a video.",
+        "explanation": "In this sentence, 'machen' is the first person plural form of the verb 'machen', meaning 'we make'. The object of the sentence is 'ein Video', which means 'a video'."
+      },
+      {
+        "german": "Ihr macht ein Projekt.",
+        "english": "You (plural) make a project.",
+        "explanation": "In this sentence, 'macht' is the second person plural form of the verb 'machen', meaning 'you (plural) make'. The object of the sentence is 'ein Projekt', which means 'a project'."
+      }
+    ]
+  },
+  "\"Wollen\" vs. \"Mögen\" vs. \"Möchten\" | Super Easy German 192": {
+    "title": "Modal Verbs: Will, Mag, Möchte",
+    "grammar_explanation": "Modal verbs are used to express wishes, desires, and opinions. They are used in the present tense to talk about what we want or like now.",
+    "vocabulary": [
+      {
+        "word": "wollen",
+        "translation": "to want",
+        "explanation": "Used to express a strong desire or need. Example: Ich will ein Eis. (I want an ice cream.)"
+      },
+      {
+        "word": "mögen",
+        "translation": "to like",
+        "explanation": "Used to express a preference or enjoyment. Example: Ich mag Fußball. (I like football.)"
+      },
+      {
+        "word": "möchten",
+        "translation": "to want (polite)",
+        "explanation": "Used to express a polite desire or request. Example: Ich möchte ein Buch. (I would like a book.)"
+      }
+    ],
+    "examples": [
+      {
+        "german": "Ich will ein Eis.",
+        "english": "I want an ice cream.",
+        "explanation": "The verb 'will' is used to express a strong desire. The sentence is in the present tense, so it talks about what I want now."
+      },
+      {
+        "german": "Ich mag Fußball.",
+        "english": "I like football.",
+        "explanation": "The verb 'mag' is used to express a preference or enjoyment. The sentence is in the present tense, so it talks about what I like now."
+      },
+      {
+        "german": "Ich möchte ein Buch.",
+        "english": "I would like a book.",
+        "explanation": "The verb 'möchte' is used to express a polite desire or request. The sentence is in the present tense, so it talks about what I would like now."
+      },
+      {
+        "german": "Ich will ein Auto.",
+        "english": "I want a car.",
+        "explanation": "The verb 'will' is used to express a strong desire. The sentence is in the present tense, so it talks about what I want now."
+      },
+      {
+        "german": "Ich mag Musik.",
+        "english": "I like music.",
+        "explanation": "The verb 'mag' is used to express a preference or enjoyment. The sentence is in the present tense, so it talks about what I like now."
+      }
+    ]
+  },
+  "German Verbs: Können | Super Easy German (138)": {
+    "title": "German Verbs: Können (A1)",
+    "grammar_explanation": "Können is a German verb that means 'can'. It is used to talk about what we can do. We use it in the present tense to talk about things we can do now.",
+    "vocabulary": [
+      {
+        "word": "können",
+        "translation": "can",
+        "explanation": "Können is a special verb that means we have the ability to do something."
+      },
+      {
+        "word": "präsens",
+        "translation": "present tense",
+        "explanation": "Präsens is the present tense in German. We use it to talk about things that are happening now."
+      },
+      {
+        "word": "hilfswerk",
+        "translation": "auxiliary verb",
+        "explanation": "Hilfswerk is a special verb that helps us form the present tense. It is always 'kann' or 'können'."
+      },
+      {
+        "word": "infinitiv",
+        "translation": "infinitive",
+        "explanation": "Infinitiv is the base form of a verb. We use it to talk about actions in general."
+      },
+      {
+        "word": "kann",
+        "translation": "can (singular, present tense)",
+        "explanation": "Kann is the singular form of 'können' in the present tense. We use it to talk about what one person can do."
+      }
+    ],
+    "examples": [
+      {
+        "german": "Ich kann tanzen.",
+        "english": "I can dance.",
+        "explanation": "In this sentence, 'kann' is the auxiliary verb. It helps us form the present tense. 'Tanzen' is the infinitive form of the verb 'to dance'."
+      },
+      {
+        "german": "Wir können singen.",
+        "english": "We can sing.",
+        "explanation": "In this sentence, 'können' is the auxiliary verb. It helps us form the present tense. 'Singen' is the infinitive form of the verb 'to sing'."
+      },
+      {
+        "german": "Du kannst gymnastik machen.",
+        "english": "You can do gymnastics.",
+        "explanation": "In this sentence, 'kann' is the auxiliary verb. It helps us form the present tense. 'Gymnastik machen' is the infinitive form of the verb 'to do gymnastics'."
+      },
+      {
+        "german": "Ich konnte heute morgen nicht aufstehen.",
+        "english": "I couldn't get up this morning.",
+        "explanation": "In this sentence, 'konnte' is the past tense of 'können'. It means we didn't have the ability to do something."
+      },
+      {
+        "german": "Wir können morgen zum Kino gehen.",
+        "english": "We can go to the cinema tomorrow.",
+        "explanation": "In this sentence, 'können' is the auxiliary verb. It helps us form the present tense. 'Gehen' is the infinitive form of the verb 'to go'."
+      }
+    ]
+  },
+  "16 Verbs + Prepositions You Should Know (A1 Level) | Super Easy German 229": {
+    "title": "Verben mit Präpositionen",
+    "grammar_explanation": "Ein Verb ist ein Wort, das eine Handlung beschreibt. Eine Präposition ist ein Wort, das die Beziehung zwischen einem Verb und einem anderen Wort beschreibt.",
+    "vocabulary": [
+      {
+        "word": "sprechen",
+        "translation": "to speak",
+        "explanation": "Ein Verb, das eine Handlung beschreibt. Wir sprechen, wenn wir mit jemandem reden."
+      },
+      {
+        "word": "mit",
+        "translation": "with",
+        "explanation": "Eine Präposition, die sagt, mit wem wir sprechen."
+      },
+      {
+        "word": "von",
+        "translation": "from",
+        "explanation": "Eine Präposition, die sagt, von wem wir sprechen."
+      },
+      {
+        "word": "über",
+        "translation": "about",
+        "explanation": "Eine Präposition, die sagt, worüber wir sprechen."
+      },
+      {
+        "word": "an",
+        "translation": "to",
+        "explanation": "Eine Präposition, die sagt, wem wir sprechen."
+      }
+    ],
+    "examples": [
+      {
+        "german": "Ich spreche mit dir.",
+        "english": "I speak with you.",
+        "explanation": "Hier verwenden wir das Verb 'sprechen' und die Präposition 'mit', um zu sagen, dass wir mit dir sprechen."
+      },
+      {
+        "german": "Ich spreche von der Wettervorhersage.",
+        "english": "I speak about the weather forecast.",
+        "explanation": "Hier verwenden wir das Verb 'sprechen' und die Präposition 'von', um zu sagen, dass wir über die Wettervorhersage sprechen."
+      },
+      {
+        "german": "Ich spreche über das neue Video.",
+        "english": "I speak about the new video.",
+        "explanation": "Hier verwenden wir das Verb 'sprechen' und die Präposition 'über', um zu sagen, dass wir über das neue Video sprechen."
+      },
+      {
+        "german": "Ich spreche an dich.",
+        "english": "I speak to you.",
+        "explanation": "Hier verwenden wir das Verb 'sprechen' und die Präposition 'an', um zu sagen, dass wir zu dir sprechen."
+      },
+      {
+        "german": "Ich spreche mit Janus über das neue Video.",
+        "english": "I speak with Janus about the new video.",
+        "explanation": "Hier verwenden wir das Verb 'sprechen', die Präposition 'mit' und die Präposition 'über', um zu sagen, dass wir mit Janus über das neue Video sprechen."
+      }
+    ]
+  },
+  "Separable verbs in German | Super Easy German (31)": {
+    "title": "A1 German Lesson: Separable Verbs",
+    "grammar_explanation": "Separable verbs are verbs that can be split into two parts. The first part is the verb itself, and the second part is a prefix that shows the direction or manner of the action. For example, 'kommen' means 'to come', but when we add the prefix 'mit', it becomes 'mitkommen', which means 'to come with'.",
+    "vocabulary": [
+      {
+        "word": "kommen",
+        "translation": "to come",
+        "explanation": "Used to describe movement towards a place. Example: 'Ich komme nach Hause.' (I am coming home.)"
+      },
+      {
+        "word": "mit",
+        "translation": "with",
+        "explanation": "Used as a prefix with separable verbs to show accompaniment. Example: 'Ich komme mit.' (I am coming with.)"
+      },
+      {
+        "word": "anrufen",
+        "translation": "to call",
+        "explanation": "Used to describe the act of making a phone call. Example: 'Ich rufe an.' (I am calling.)"
+      },
+      {
+        "word": "aufgeräumt",
+        "translation": "cleaned up",
+        "explanation": "Used to describe the state of being tidy. Example: 'Das Zimmer ist aufgeräumt.' (The room is cleaned up.)"
+      },
+      {
+        "word": "wegbringen",
+        "translation": "to take away",
+        "explanation": "Used to describe the act of removing something. Example: 'Ich bringe den Müll weg.' (I am taking the trash away.)"
+      }
+    ],
+    "examples": [
+      {
+        "german": "Naomi kommt mit.",
+        "english": "Naomi is coming with.",
+        "explanation": "In this sentence, 'kommen' is a separable verb. The prefix 'mit' shows that Naomi is coming with someone."
+      },
+      {
+        "german": "Michael ruft Luke an.",
+        "english": "Michael is calling Luke.",
+        "explanation": "In this sentence, 'anrufen' is a separable verb. The prefix 'an' shows that Michael is calling someone."
+      },
+      {
+        "german": "Luke räumt auf.",
+        "english": "Luke is cleaning up.",
+        "explanation": "In this sentence, 'aufgeräumt' is a past participle of the separable verb 'räumen'. It shows that Luke has cleaned up the room."
+      },
+      {
+        "german": "Jemand muss den Müll wegbringen.",
+        "english": "Someone has to take the trash away.",
+        "explanation": "In this sentence, 'wegbringen' is a separable verb. The prefix 'weg' shows that someone has to take the trash away."
+      },
+      {
+        "german": "Ich bringe den Müll weg.",
+        "english": "I am taking the trash away.",
+        "explanation": "In this sentence, 'wegbringen' is a separable verb. The prefix 'weg' shows that I am taking the trash away."
+      }
+    ]
+  },
+  "These Verbs Always Use The Simple Past | Super Easy German 191": {
+    "title": "Vergangenheitsformen im Gesprochenen Deutsch",
+    "grammar_explanation": "Die Vergangenheitsformen helfen uns, über vergangene Ereignisse zu sprechen. Es gibt verschiedene Formen, um die Vergangenheit zu beschreiben.",
+    "vocabulary": [
+      {
+        "word": "Präteritum",
+        "translation": "Past tense",
+        "explanation": "Verwendet, um eine Handlung in der Vergangenheit zu beschreiben, die abgeschlossen ist."
+      },
+      {
+        "word": "Perfekt",
+        "translation": "Perfect tense",
+        "explanation": "Verwendet, um eine Handlung in der Vergangenheit zu beschreiben, die abgeschlossen ist und eine Beziehung zu der Gegenwart hat."
+      },
+      {
+        "word": "Imperfekt",
+        "translation": "Imperfect tense",
+        "explanation": "Verwendet, um eine Handlung in der Vergangenheit zu beschreiben, die nicht abgeschlossen ist oder eine Dauer hat."
+      },
+      {
+        "word": "Plusquamperfekt",
+        "translation": "Pluperfect tense",
+        "explanation": "Verwendet, um eine Handlung in der Vergangenheit zu beschreiben, die vor einer anderen Handlung in der Vergangenheit stattfand."
+      },
+      {
+        "word": "Futur I",
+        "translation": "Future tense I",
+        "explanation": "Verwendet, um eine Handlung in der Zukunft zu beschreiben, die sicher ist."
+      }
+    ],
+    "examples": [
+      {
+        "german": "Ich ging zum Konzert.",
+        "english": "I went to the concert.",
+        "explanation": "Das Präteritum wird verwendet, um eine Handlung in der Vergangenheit zu beschreiben. Die Handlung ist abgeschlossen."
+      },
+      {
+        "german": "Ich habe das Buch gelesen.",
+        "english": "I have read the book.",
+        "explanation": "Das Perfekt wird verwendet, um eine Handlung in der Vergangenheit zu beschreiben, die abgeschlossen ist und eine Beziehung zu der Gegenwart hat."
+      },
+      {
+        "german": "Ich war gestern in Berlin.",
+        "english": "I was in Berlin yesterday.",
+        "explanation": "Das Imperfekt wird verwendet, um eine Handlung in der Vergangenheit zu beschreiben, die nicht abgeschlossen ist oder eine Dauer hat."
+      },
+      {
+        "german": "Ich hatte gestern Abend ein Meeting.",
+        "english": "I had a meeting last night.",
+        "explanation": "Das Plusquamperfekt wird verwendet, um eine Handlung in der Vergangenheit zu beschreiben, die vor einer anderen Handlung in der Vergangenheit stattfand."
+      },
+      {
+        "german": "Ich werde morgen zum Konzert gehen.",
+        "english": "I will go to the concert tomorrow.",
+        "explanation": "Das Futur I wird verwendet, um eine Handlung in der Zukunft zu beschreiben, die sicher ist."
+      }
+    ]
+  },
+  "Perfect Tense in German | Super Easy German (26)": {
+    "title": "Perfect Tense in German",
+    "grammar_explanation": "The perfect tense in German is used to talk about actions that happened in the past and are connected to the present. It's formed with the auxiliary verb 'haben' or 'sein' and the participle 2 of the main verb.",
+    "vocabulary": [
+      {
+        "word": "perfekt",
+        "translation": "perfect",
+        "explanation": "The perfect tense is called 'perfekt' in German."
+      },
+      {
+        "word": "Hilfsverb",
+        "translation": "auxiliary verb",
+        "explanation": "A helper verb that is used to form the perfect tense."
+      },
+      {
+        "word": "Partizip 2",
+        "translation": "Participle 2",
+        "explanation": "The ending of the main verb that is used with the auxiliary verb to form the perfect tense."
+      },
+      {
+        "word": "gestanden",
+        "translation": "stood",
+        "explanation": "The participle 2 of the verb 'stehen' (to stand)."
+      },
+      {
+        "word": "gekommen",
+        "translation": "come",
+        "explanation": "The participle 2 of the verb 'kommen' (to come)."
+      }
+    ],
+    "examples": [
+      {
+        "german": "Ich bin gelaufen.",
+        "english": "I have walked.",
+        "explanation": "The auxiliary verb 'bin' (I am) is used with the participle 2 'gelaufen' (walked) to form the perfect tense. This sentence means that I walked in the past and it's connected to the present."
+      },
+      {
+        "german": "Sie hat getrunken.",
+        "english": "She has drunk.",
+        "explanation": "The auxiliary verb 'hat' (she has) is used with the participle 2 'getrunken' (drunk) to form the perfect tense. This sentence means that she drank in the past and it's connected to the present."
+      },
+      {
+        "german": "Er ist gekommen.",
+        "english": "He has come.",
+        "explanation": "The auxiliary verb 'ist' (he is) is used with the participle 2 'gekommen' (come) to form the perfect tense. This sentence means that he came in the past and it's connected to the present."
+      },
+      {
+        "german": "Wir haben gelernt.",
+        "english": "We have learned.",
+        "explanation": "The auxiliary verb 'haben' (we have) is used with the participle 2 'gelernt' (learned) to form the perfect tense. This sentence means that we learned in the past and it's connected to the present."
+      },
+      {
+        "german": "Sie haben geschlafen.",
+        "english": "They have slept.",
+        "explanation": "The auxiliary verb 'haben' (they have) is used with the participle 2 'geschlafen' (slept) to form the perfect tense. This sentence means that they slept in the past and it's connected to the present."
+      }
+    ]
+  },
+  "10 German Verbs that Change Vowels (Strong Verbs for Beginners) | Super Easy German 220": {
+    "title": "Strong Verbs with E",
+    "grammar_explanation": "Strong verbs are verbs that change their ending when used in the present tense. Verbs with E change their E to Ä, Ö, Ü, or sometimes to an E with an umlaut.",
+    "vocabulary": [
+      {
+        "word": "essen",
+        "translation": "to eat",
+        "explanation": "You use this verb to say what you eat. For example, 'Ich esse ein Sandwich.' (I eat a sandwich.)"
+      },
+      {
+        "word": "geben",
+        "translation": "to give",
+        "explanation": "You use this verb to say what you give to someone. For example, 'Ich gebe dir ein Buch.' (I give you a book.)"
+      },
+      {
+        "word": "gehen",
+        "translation": "to go",
+        "explanation": "You use this verb to say where you go. For example, 'Ich gehe ins Kino.' (I go to the cinema.)"
+      },
+      {
+        "word": "sprechen",
+        "translation": "to speak",
+        "explanation": "You use this verb to say what language you speak. For example, 'Ich spreche mit meinem Freund.' (I speak with my friend.)"
+      },
+      {
+        "word": "vergessen",
+        "translation": "to forget",
+        "explanation": "You use this verb to say what you forgot. For example, 'Ich habe mein Fahrrad vergessen.' (I forgot my bike.)"
+      }
+    ],
+    "examples": [
+      {
+        "german": "Ich esse ein Sandwich.",
+        "english": "I eat a sandwich.",
+        "explanation": "The verb 'essen' changes to 'esse' in the present tense. The sentence means that you are eating a sandwich now."
+      },
+      {
+        "german": "Ich gebe dir ein Buch.",
+        "english": "I give you a book.",
+        "explanation": "The verb 'geben' changes to 'gebe' in the present tense. The sentence means that you are giving a book to someone now."
+      },
+      {
+        "german": "Ich gehe ins Kino.",
+        "english": "I go to the cinema.",
+        "explanation": "The verb 'gehen' changes to 'gehe' in the present tense. The sentence means that you are going to the cinema now."
+      },
+      {
+        "german": "Ich spreche mit meinem Freund.",
+        "english": "I speak with my friend.",
+        "explanation": "The verb 'sprechen' changes to 'spreche' in the present tense. The sentence means that you are speaking with your friend now."
+      },
+      {
+        "german": "Ich habe mein Fahrrad vergessen.",
+        "english": "I forgot my bike.",
+        "explanation": "The verb 'vergessen' changes to 'vergisse' in the present tense, but in this sentence it is in the perfect tense. The sentence means that you forgot your bike at some point in the past."
+      }
+    ]
+  },
+  "Wie vs. Als | Super Easy German (88)": {
+    "title": "Comparing Sizes and Quantities",
+    "grammar_explanation": "In German, we use 'als' to compare sizes and quantities. 'Höher' means 'taller', 'größer' means 'bigger', 'älter' means 'older', 'voll' means 'full', and 'leer' means 'empty'.",
+    "vocabulary": [
+      {
+        "word": "höher",
+        "translation": "taller",
+        "explanation": "Use 'höher' to compare the height of two things. Example: 'Das Haus ist höher als das Haus nebenan.' (The house is taller than the house next door.)"
+      },
+      {
+        "word": "größer",
+        "translation": "bigger",
+        "explanation": "Use 'größer' to compare the size of two things. Example: 'Der Baum ist größer als der Baum im Garten.' (The tree is bigger than the tree in the garden.)"
+      },
+      {
+        "word": "älter",
+        "translation": "older",
+        "explanation": "Use 'älter' to compare the age of two things. Example: 'Das Auto ist älter als das Auto meines Vaters.' (The car is older than my father's car.)"
+      },
+      {
+        "word": "voll",
+        "translation": "full",
+        "explanation": "Use 'voll' to describe something that is completely filled. Example: 'Die Tonne ist voll, aber die andere Tonne ist leer.' (The bin is full, but the other bin is empty.)"
+      },
+      {
+        "word": "leer",
+        "translation": "empty",
+        "explanation": "Use 'leer' to describe something that is completely empty. Example: 'Die Tonne ist voll, aber die andere Tonne ist leer.' (The bin is full, but the other bin is empty.)"
+      }
+    ],
+    "examples": [
+      {
+        "german": "Das Haus ist höher als das Haus nebenan.",
+        "english": "The house is taller than the house next door.",
+        "explanation": "In this sentence, 'höher' is used to compare the height of two houses. 'Als' is used to show the comparison."
+      },
+      {
+        "german": "Der Baum ist größer als der Baum im Garten.",
+        "english": "The tree is bigger than the tree in the garden.",
+        "explanation": "In this sentence, 'größer' is used to compare the size of two trees. 'Als' is used to show the comparison."
+      },
+      {
+        "german": "Das Auto ist älter als das Auto meines Vaters.",
+        "english": "The car is older than my father's car.",
+        "explanation": "In this sentence, 'älter' is used to compare the age of two cars. 'Als' is used to show the comparison."
+      },
+      {
+        "german": "Die Tonne ist voll, aber die andere Tonne ist leer.",
+        "english": "The bin is full, but the other bin is empty.",
+        "explanation": "In this sentence, 'voll' is used to describe the first bin, and 'leer' is used to describe the second bin."
+      }
+    ]
+  },
+  "MIT vs. OHNE | Super Easy German 201": {
+    "title": "Mit und Ohne",
+    "grammar_explanation": "In German, we use 'mit' and 'ohne' to show with or without something. They are called prepositions.",
+    "vocabulary": [
+      {
+        "word": "Mit",
+        "translation": "with",
+        "explanation": "Use 'mit' when you are with someone or something. Example: Ich gehe mit dir. (I'm going with you.)"
+      },
+      {
+        "word": "Ohne",
+        "translation": "without",
+        "explanation": "Use 'ohne' when you are not with someone or something. Example: Ich gehe ohne dich. (I'm going without you.)"
+      },
+      {
+        "word": "Präposition",
+        "translation": "preposition",
+        "explanation": "A preposition is a word that shows with or without something."
+      },
+      {
+        "word": "Dativ",
+        "translation": "dative",
+        "explanation": "The dative is a case in German that shows the indirect object. In this lesson, we use the dative with 'mit' and 'ohne'."
+      },
+      {
+        "word": "Akkusativ",
+        "translation": "accusative",
+        "explanation": "The accusative is a case in German that shows the direct object. We will learn more about it later."
+      }
+    ],
+    "examples": [
+      {
+        "german": "Ich gehe mit dir.",
+        "english": "I'm going with you.",
+        "explanation": "In this sentence, 'dir' is in the dative case because it's the indirect object. We use 'mit' to show that we're going with you."
+      },
+      {
+        "german": "Ich gehe ohne dich.",
+        "english": "I'm going without you.",
+        "explanation": "In this sentence, 'dich' is in the dative case because it's the indirect object. We use 'ohne' to show that we're going without you."
+      },
+      {
+        "german": "Mit und ohne sind zwei Präpositionen.",
+        "english": "With and without are two prepositions.",
+        "explanation": "In this sentence, 'mit' and 'ohne' are both prepositions. They show with or without something."
+      },
+      {
+        "german": "Ich habe mit dem Fahren begonnen.",
+        "english": "I started driving with it.",
+        "explanation": "In this sentence, 'dem Fahren' is in the dative case because it's the indirect object. We use 'mit' to show that we started driving with something."
+      },
+      {
+        "german": "Ich habe ohne Hilfe gefahren.",
+        "english": "I drove without help.",
+        "explanation": "In this sentence, 'Hilfe' is in the accusative case because it's the direct object. We use 'ohne' to show that we drove without help."
+      }
+    ]
+  },
+  "German Prepositions: BEI | Super Easy German (39)": {
+    "title": "German Prepositions: BEI",
+    "grammar_explanation": "BEI is a preposition in German. It means 'at', 'by', or 'with'. It is used to show where someone or something is.",
+    "vocabulary": [
+      {
+        "word": "bei",
+        "translation": "at, by, with",
+        "explanation": "BEI is used to show where someone or something is. For example, 'bei meiner Mutter' means 'at my mother's'."
+      },
+      {
+        "word": "Mutter",
+        "translation": "mother",
+        "explanation": "Mutter is a noun. It means 'mother'."
+      },
+      {
+        "word": "Arzt",
+        "translation": "doctor",
+        "explanation": "Arzt is a noun. It means 'doctor'."
+      },
+      {
+        "word": "Supermarkt",
+        "translation": "supermarket",
+        "explanation": "Supermarkt is a noun. It means 'supermarket'."
+      },
+      {
+        "word": "Bank",
+        "translation": "bank",
+        "explanation": "Bank is a noun. It means 'bank'."
+      }
+    ],
+    "examples": [
+      {
+        "german": "Ich bin bei meiner Mutter.",
+        "english": "I am at my mother's.",
+        "explanation": "In this sentence, 'bei' means 'at'. The sentence means that the speaker is at their mother's house."
+      },
+      {
+        "german": "Ich war gerade beim Arzt.",
+        "english": "I was just at the doctor's.",
+        "explanation": "In this sentence, 'bei' means 'at'. The sentence means that the speaker was just at the doctor's office."
+      },
+      {
+        "german": "Ich bin beim Supermarkt.",
+        "english": "I am at the supermarket.",
+        "explanation": "In this sentence, 'bei' means 'at'. The sentence means that the speaker is at the supermarket."
+      },
+      {
+        "german": "Ich bin bei der Bank.",
+        "english": "I am at the bank.",
+        "explanation": "In this sentence, 'bei' means 'at'. The sentence means that the speaker is at the bank."
+      },
+      {
+        "german": "Ich bin bei dir.",
+        "english": "I am with you.",
+        "explanation": "In this sentence, 'bei' means 'with'. The sentence means that the speaker is with the person they are talking to."
+      }
+    ]
+  },
+  "Kein vs. Nicht | Easy German 341": {
+    "title": "Deutsche Satzstellung mit 'kein' und 'nicht'",
+    "grammar_explanation": "In German, 'kein' and 'nicht' are used to say 'no' or 'not'. They are used in different sentence structures.",
+    "vocabulary": [
+      {
+        "word": "kein",
+        "translation": "no",
+        "explanation": "Used to say 'no' or 'none'. Example: Ich habe kein Geld. (I have no money.)"
+      },
+      {
+        "word": "nicht",
+        "translation": "not",
+        "explanation": "Used to say 'not' or 'no'. Example: Das ist nicht einfach. (That is not easy.)"
+      }
+    ],
+    "examples": [
+      {
+        "german": "Ich habe kein Geld.",
+        "english": "I have no money.",
+        "explanation": "In this sentence, 'kein' is used to say 'no money'. The sentence structure is: Ich + habe + kein + Geld."
+      },
+      {
+        "german": "Das ist nicht einfach.",
+        "english": "That is not easy.",
+        "explanation": "In this sentence, 'nicht' is used to say 'not easy'. The sentence structure is: Das + ist + nicht + einfach."
+      },
+      {
+        "german": "Ich habe nicht viel Zeit.",
+        "english": "I have not much time.",
+        "explanation": "In this sentence, 'nicht' is used to say 'not' and 'kein' is used to say 'no'. The sentence structure is: Ich + habe + nicht + viel + Zeit."
+      },
+      {
+        "german": "Er ist nicht hier.",
+        "english": "He is not here.",
+        "explanation": "In this sentence, 'nicht' is used to say 'not'. The sentence structure is: Er + ist + nicht + hier."
+      },
+      {
+        "german": "Das ist kein Problem.",
+        "english": "That is no problem.",
+        "explanation": "In this sentence, 'kein' is used to say 'no'. The sentence structure is: Das + ist + kein + Problem."
+      }
+    ]
+  },
+  "Our Vacation in Slow German | Super Easy German 234": {
+    "title": "Slow German: Urlaub",
+    "grammar_explanation": "In German, we use the verb 'gehen' to say 'I'm going'. We also use the word 'in den Urlaub' to say 'on vacation'.",
+    "vocabulary": [
+      {
+        "word": "Urlaub",
+        "translation": "vacation",
+        "explanation": "A time when you rest and have fun. You can go on vacation to the beach, mountains, or city."
+      },
+      {
+        "word": "Strand",
+        "translation": "beach",
+        "explanation": "A place where the sea meets the land. You can swim, sunbathe, or build sandcastles on the beach."
+      },
+      {
+        "word": "Fahrrad",
+        "translation": "bicycle",
+        "explanation": "A vehicle with two wheels that you pedal to move. You can ride a bicycle to school, work, or for fun."
+      },
+      {
+        "word": "Bier",
+        "translation": "beer",
+        "explanation": "A type of drink made from fermented barley. You can drink beer in a restaurant or at a party."
+      },
+      {
+        "word": "Polnisch",
+        "translation": "Polish",
+        "explanation": "A language spoken in Poland. You can say 'Das ist polnisch' to say something is in the Polish language."
+      }
+    ],
+    "examples": [
+      {
+        "german": "Ich gehe in den Urlaub.",
+        "english": "I'm going on vacation.",
+        "explanation": "The verb 'gehe' means 'I'm going'. The phrase 'in den Urlaub' means 'on vacation'."
+      },
+      {
+        "german": "Der Strand ist schön.",
+        "english": "The beach is nice.",
+        "explanation": "The word 'ist' is a verb that means 'is'. The word 'schön' means 'nice' or 'beautiful'."
+      },
+      {
+        "german": "Ich fahre mit dem Fahrrad.",
+        "english": "I'm riding a bicycle.",
+        "explanation": "The verb 'fahre' means 'I'm riding'. The word 'mit dem Fahrrad' means 'with a bicycle'."
+      },
+      {
+        "german": "Ich trinke ein Bier.",
+        "english": "I'm drinking a beer.",
+        "explanation": "The verb 'trinke' means 'I'm drinking'. The word 'ein Bier' means 'a beer'."
+      },
+      {
+        "german": "Das ist polnisch.",
+        "english": "That's Polish.",
+        "explanation": "The word 'ist' is a verb that means 'is'. The word 'polnisch' means 'Polish'."
+      }
+    ]
+  },
+  "\"Ach\" Explained | Super Easy German (126)": {
+    "title": "Acht and its meanings",
+    "grammar_explanation": "In German, 'Acht' means 'eight'. It's a number. We also use 'Acht' in expressions to mean 'attention' or 'caution'.",
+    "vocabulary": [
+      {
+        "word": "Acht",
+        "translation": "eight",
+        "explanation": "A number. We use it to count: 'Ich habe acht Tiere' (I have eight animals)."
+      },
+      {
+        "word": "Ärger",
+        "translation": "trouble",
+        "explanation": "A feeling of annoyance or frustration. We use it to describe a situation: 'Das ist ärgerlich!' (That's annoying!)."
+      },
+      {
+        "word": "Begriff",
+        "translation": "concept",
+        "explanation": "An idea or a thought. We use it to describe a abstract thing: 'Ich verstehe den Begriff nicht' (I don't understand the concept)."
+      },
+      {
+        "word": "Resignieren",
+        "translation": "to resign",
+        "explanation": "To give up or quit something. We use it to describe a decision: 'Ich resigniere, ich kann nicht mehr weitermachen' (I resign, I can't go on anymore)."
+      },
+      {
+        "word": "Fassungslos",
+        "translation": "amazed",
+        "explanation": "A feeling of shock or surprise. We use it to describe a reaction: 'Ich bin fassungslos über das, was passiert ist' (I'm amazed by what happened)."
+      }
+    ],
+    "examples": [
+      {
+        "german": "Ich habe meine Handschuhe vergessen und jetzt bin ich in die Hinterste getreten.",
+        "english": "I forgot my gloves and now I'm in the back.",
+        "explanation": "This sentence uses the verb 'vergessen' (to forget) and the preposition 'in die Hinterste' (in the back). It's a simple sentence to practice the verb 'vergessen'."
+      },
+      {
+        "german": "Das ist aber ärgerlich!",
+        "english": "That's really annoying!",
+        "explanation": "This sentence uses the expression 'Das ist aber' (But that's) and the word 'ärgerlich' (annoying). It's a common way to express frustration."
+      },
+      {
+        "german": "Ich bin fassungslos über das, was passiert ist.",
+        "english": "I'm amazed by what happened.",
+        "explanation": "This sentence uses the verb 'sein' (to be) and the adjective 'fassungslos' (amazed). It's a simple sentence to practice the verb 'sein'."
+      },
+      {
+        "german": "Ich resigniere, ich kann nicht mehr weitermachen.",
+        "english": "I resign, I can't go on anymore.",
+        "explanation": "This sentence uses the verb 'resignieren' (to resign) and the phrase 'kann nicht mehr weitermachen' (can't go on anymore). It's a common way to express a decision to give up."
+      }
+    ]
+  },
+  "Pia and Lisa go shopping | Easy German 85": {
+    "title": "A1 German Lesson: Shopping in Münster",
+    "grammar_explanation": "In German, the verb 'gehen' means 'to go'. It is used to describe movement from one place to another. For example: 'Ich gehe in das Geschäft.' (I'm going to the shop.)",
+    "vocabulary": [
+      {
+        "word": "Geschäft",
+        "translation": "shop",
+        "explanation": "A place where you can buy things. You can go to a Geschäft to buy food, clothes, or other things."
+      },
+      {
+        "word": "Anziehsachen",
+        "translation": "clothes",
+        "explanation": "Things you wear on your body, like shirts, pants, or dresses."
+      },
+      {
+        "word": "Schuhe",
+        "translation": "shoes",
+        "explanation": "Things you wear on your feet."
+      },
+      {
+        "word": "Schmuck",
+        "translation": "jewelry",
+        "explanation": "Things you wear on your body to look nice, like a necklace or a ring."
+      },
+      {
+        "word": "Kapuze",
+        "translation": "hood",
+        "explanation": "A part of a jacket or a hat that covers your head."
+      }
+    ],
+    "examples": [
+      {
+        "german": "Ich gehe in das Geschäft.",
+        "english": "I'm going to the shop.",
+        "explanation": "The verb 'gehen' is used to describe movement. The sentence means that you are going to the shop."
+      },
+      {
+        "german": "Ich kaufe Anziehsachen.",
+        "english": "I'm buying clothes.",
+        "explanation": "The verb 'kaufen' means 'to buy'. The sentence means that you are buying clothes."
+      },
+      {
+        "german": "Ich trage Schuhe.",
+        "english": "I'm wearing shoes.",
+        "explanation": "The verb 'tragen' means 'to wear'. The sentence means that you are wearing shoes."
+      },
+      {
+        "german": "Ich habe Schmuck.",
+        "english": "I have jewelry.",
+        "explanation": "The verb 'haben' means 'to have'. The sentence means that you have jewelry."
+      },
+      {
+        "german": "Das Kleid hat eine Kapuze.",
+        "english": "The dress has a hood.",
+        "explanation": "The verb 'haben' is used to describe possession. The sentence means that the dress has a hood."
+      }
+    ]
+  },
+  "NA JA - Explained | Super Easy German (125)": {
+    "title": "NA JA - Explained",
+    "grammar_explanation": "In German, 'NA JA' is a special expression that means 'yes and no' at the same time. It's like saying 'maybe' or 'I'm not sure'.",
+    "vocabulary": [
+      {
+        "word": "NA JA",
+        "translation": "a mixture of yes and no",
+        "explanation": "Use 'NA JA' when you're not sure or when you want to say 'maybe'."
+      },
+      {
+        "word": "Zweifel",
+        "translation": "doubt",
+        "explanation": "Use 'Zweifel' when you're not sure about something."
+      },
+      {
+        "word": "Perspektive",
+        "translation": "perspective",
+        "explanation": "Use 'Perspektive' when you're talking about different ways to look at something."
+      },
+      {
+        "word": "Gegenargument",
+        "translation": "counterargument",
+        "explanation": "Use 'Gegenargument' when you're talking about a different opinion or a reason against something."
+      },
+      {
+        "word": "Ausruf",
+        "translation": "exclamation",
+        "explanation": "Use 'Ausruf' when you're making a strong statement or expressing strong emotions."
+      }
+    ],
+    "examples": [
+      {
+        "german": "Ich habe NA JA gesagt.",
+        "english": "I said yes and no.",
+        "explanation": "In this sentence, 'NA JA' is used to say that you're not sure about something."
+      },
+      {
+        "german": "Ich habe Zweifel.",
+        "english": "I have doubts.",
+        "explanation": "In this sentence, 'Zweifel' is used to say that you're not sure about something."
+      },
+      {
+        "german": "Ich sehe es aus verschiedenen Perspektiven.",
+        "english": "I see it from different perspectives.",
+        "explanation": "In this sentence, 'Perspektive' is used to talk about different ways to look at something."
+      },
+      {
+        "german": "Ein Gegenargument ist wichtig.",
+        "english": "A counterargument is important.",
+        "explanation": "In this sentence, 'Gegenargument' is used to talk about a different opinion or a reason against something."
+      },
+      {
+        "german": "Das ist ein Ausruf der Freude.",
+        "english": "That's an exclamation of joy.",
+        "explanation": "In this sentence, 'Ausruf' is used to make a strong statement or express strong emotions."
+      }
+    ]
+  },
+  "Berlin in December in Slow German | Super Easy German 268": {
+    "title": "Weihnachtsmarkt",
+    "grammar_explanation": "In German, the verb 'gehen' means 'to go'. It is used with the pronoun 'wir' (we) to indicate that the speaker and others are going somewhere.",
+    "vocabulary": [
+      {
+        "word": "Weihnachtsmarkt",
+        "translation": "Christmas market",
+        "explanation": "A Weihnachtsmarkt is a festive market that takes place during the Christmas season. It is a place where people go to buy gifts, eat food, and drink mulled wine."
+      },
+      {
+        "word": "Glühwein",
+        "translation": "mulled wine",
+        "explanation": "Glühwein is a warm, spiced wine that is traditionally served at Christmas markets. It is made with red wine, sugar, and spices."
+      },
+      {
+        "word": "Bratwurst",
+        "translation": "sausage",
+        "explanation": "Bratwurst is a type of sausage that is commonly served at Christmas markets. It is made with pork and spices, and is usually grilled or fried."
+      },
+      {
+        "word": "Schmand",
+        "translation": "sour cream",
+        "explanation": "Schmand is a type of sour cream that is often served with Bratwurst or other German dishes. It is made with milk and bacteria that give it a tangy flavor."
+      },
+      {
+        "word": "Kräuter",
+        "translation": "herbs",
+        "explanation": "Kräuter are plants that are used to add flavor to food. In German cuisine, herbs like parsley and thyme are often used to add flavor to dishes like Bratwurst and Schnitzel."
+      }
+    ],
+    "examples": [
+      {
+        "german": "Wir gehen zum Weihnachtsmarkt.",
+        "english": "We are going to the Christmas market.",
+        "explanation": "In this sentence, the verb 'gehen' is used with the pronoun 'wir' to indicate that the speaker and others are going to the Christmas market. The word 'zum' is a preposition that means 'to' or 'at'."
+      },
+      {
+        "german": "Ich trinke einen Glühwein.",
+        "english": "I am drinking a mulled wine.",
+        "explanation": "In this sentence, the verb 'trinken' means 'to drink'. The word 'einen' is a definite article that means 'a' or 'an'. The word 'Glühwein' is the object of the sentence, and it is a mulled wine."
+      },
+      {
+        "german": "Wir essen eine Bratwurst.",
+        "english": "We are eating a sausage.",
+        "explanation": "In this sentence, the verb 'essen' means 'to eat'. The word 'eine' is a definite article that means 'a' or 'an'. The word 'Bratwurst' is the object of the sentence, and it is a type of sausage."
+      },
+      {
+        "german": "Ich kaufe ein Geschenk.",
+        "english": "I am buying a gift.",
+        "explanation": "In this sentence, the verb 'kaufen' means 'to buy'. The word 'ein' is a definite article that means 'a' or 'an'. The word 'Geschenk' is the object of the sentence, and it is a gift."
+      }
+    ]
+  },
+  "Clothing Vocabulary in Slow German | Super Easy German 270": {
+    "title": "Fashion Styles",
+    "grammar_explanation": "In German, we use the verb 'tragen' to say 'to wear'. We also use the word 'zu' to mean 'to' or 'with'.",
+    "vocabulary": [
+      {
+        "word": "Comfortwear",
+        "translation": "Comfortable clothing",
+        "explanation": "Comfortwear ist bequeme Kleidung. Wir tragen sie, um sich wohl zu fühlen."
+      },
+      {
+        "word": "Kuschelpullover",
+        "translation": "Soft sweater",
+        "explanation": "Ein Kuschelpullover ist ein weicher Pullover. Wir tragen ihn, um warm zu bleiben."
+      },
+      {
+        "word": "Leggings",
+        "translation": "Tight-fitting pants",
+        "explanation": "Leggings sind enge Hosen. Wir tragen sie, um sich bequem zu fühlen."
+      },
+      {
+        "word": "Hausschuhe",
+        "translation": "House shoes",
+        "explanation": "Hausschuhe sind Schuhe, die wir zu Hause tragen. Sie sind oft weich und bequem."
+      },
+      {
+        "word": "Samuraitil",
+        "translation": "Japanese style",
+        "explanation": "Der Samuraitil ist ein japanischer Stil. Er ist bekannt für seine traditionellen Kleidung und Accessoires."
+      }
+    ],
+    "examples": [
+      {
+        "german": "Ich trage oft Leggings zu Hause.",
+        "english": "I often wear leggings at home.",
+        "explanation": "Wir verwenden das Verb 'tragen' und den Ausdruck 'zu Hause' um zu sagen, dass wir Leggings zu Hause tragen."
+      },
+      {
+        "german": "Mein Kuschelpullover ist sehr bequem.",
+        "english": "My soft sweater is very comfortable.",
+        "explanation": "Wir verwenden das Verb 'sein' und den Ausdruck 'sehr bequem' um zu sagen, dass der Pullover sehr angenehm ist."
+      },
+      {
+        "german": "Ich habe Hausschuhe an.",
+        "english": "I have house shoes on.",
+        "explanation": "Wir verwenden das Verb 'haben' und den Ausdruck 'an' um zu sagen, dass wir Hausschuhe tragen."
+      },
+      {
+        "german": "Der Samuraitil ist ein japanischer Stil.",
+        "english": "The samuraitil is a Japanese style.",
+        "explanation": "Wir verwenden das Artikelwort 'der' und den Ausdruck 'japanischer Stil' um zu sagen, dass der Samuraitil ein japanischer Stil ist."
+      }
+    ]
+  },
+  "At the Mall in Slow German | Super Easy German 276": {
+    "title": "Shopping in the Mall",
+    "grammar_explanation": "In German, the verb 'sein' (to be) is used to describe a location. For example: 'Ich bin in der Mall' means 'I am in the shopping center'.",
+    "vocabulary": [
+      {
+        "word": "Mall",
+        "translation": "shopping center",
+        "explanation": "A place where many shops are together."
+      },
+      {
+        "word": "Aldi",
+        "translation": "discount supermarket",
+        "explanation": "A store that sells food and other things at a low price."
+      },
+      {
+        "word": "Sortiment",
+        "translation": "assortment",
+        "explanation": "A selection of different things that a store sells."
+      },
+      {
+        "word": "Billoladen",
+        "translation": "discount store",
+        "explanation": "A store that sells things at a low price."
+      },
+      {
+        "word": "Pfefferstreuer",
+        "translation": "pepper shaker",
+        "explanation": "A small container for holding pepper."
+      }
+    ],
+    "examples": [
+      {
+        "german": "Ich bin in der Mall",
+        "english": "I am in the shopping center",
+        "explanation": "The verb 'bin' is used to describe a location. 'In der Mall' means 'in the shopping center'."
+      },
+      {
+        "german": "Aldi ist ein Billoladen",
+        "english": "Aldi is a discount store",
+        "explanation": "The verb 'ist' is used to describe a characteristic. 'Ein Billoladen' means 'a discount store'."
+      },
+      {
+        "german": "Das Sortiment ist riesig",
+        "english": "The assortment is huge",
+        "explanation": "The verb 'ist' is used to describe a characteristic. 'Riesig' means 'huge'."
+      },
+      {
+        "german": "Ich habe einen Pfefferstreuer gekauft",
+        "english": "I bought a pepper shaker",
+        "explanation": "The verb 'habe' is used to describe an action that happened in the past. 'Einen Pfefferstreuer gekauft' means 'bought a pepper shaker'."
+      },
+      {
+        "german": "Das war ein toller Ausflug",
+        "english": "That was a great outing",
+        "explanation": "The verb 'war' is used to describe an action that happened in the past. 'Ein toller Ausflug' means 'a great outing'."
+      }
+    ]
+  },
+  "At The Train Station in Slow German | Super Easy German 279": {
+    "title": "Easy German: Hauptbahnhof in Berlin",
+    "grammar_explanation": "In German, the verb 'warten' means 'to wait'. It is often used with the preposition 'auf' which means 'for'.",
+    "vocabulary": [
+      {
+        "word": "Aufzug",
+        "translation": "elevator",
+        "explanation": "An Aufzug is a machine that takes people up and down in a building. You use it to go to different floors."
+      },
+      {
+        "word": "Kinderwagen",
+        "translation": "stroller",
+        "explanation": "A Kinderwagen is a cart for babies or small children. You use it to carry them around."
+      },
+      {
+        "word": "Rollstuhl",
+        "translation": "wheelchair",
+        "explanation": "A Rollstuhl is a chair with wheels that people use if they have trouble walking."
+      },
+      {
+        "word": "Fahrrad",
+        "translation": "bicycle",
+        "explanation": "A Fahrrad is a vehicle with two wheels that you pedal to move."
+      },
+      {
+        "word": "Bahnhof",
+        "translation": "train station",
+        "explanation": "A Bahnhof is a place where trains arrive and depart. You can buy tickets and wait for your train there."
+      }
+    ],
+    "examples": [
+      {
+        "german": "Wir warten auf den Aufzug.",
+        "english": "We are waiting for the elevator.",
+        "explanation": "We are waiting for the elevator because we want to go to a higher floor."
+      },
+      {
+        "german": "Ich habe meinen Kinderwagen im Aufzug.",
+        "english": "I have my stroller in the elevator.",
+        "explanation": "I have my stroller in the elevator because I need to take it to a higher floor."
+      },
+      {
+        "german": "Der Rollstuhl ist im Aufzug.",
+        "english": "The wheelchair is in the elevator.",
+        "explanation": "The wheelchair is in the elevator because the person who uses it wants to go to a higher floor."
+      },
+      {
+        "german": "Ich fahre mein Fahrrad zum Bahnhof.",
+        "english": "I am riding my bicycle to the train station.",
+        "explanation": "I am riding my bicycle to the train station because I want to take the train."
+      },
+      {
+        "german": "Der Bahnhof ist sehr groß.",
+        "english": "The train station is very big.",
+        "explanation": "The train station is very big because it has many platforms and trains."
+      }
+    ]
+  },
+  "German Dative Case: 15 Simple Verbs That Always Take the Dative | Super Easy German 215": {
+    "title": "Verben mit dem Dativ",
+    "grammar_explanation": "Im Deutschen gibt es viele Verben, die mit dem Dativ verwendet werden. Der Dativ ist ein Fall, der zeigt, wem etwas passiert. Wenn ein Verb mit dem Dativ verwendet wird, bedeutet es, dass etwas jemandem passiert.",
+    "vocabulary": [
+      {
+        "word": "brennen",
+        "translation": "to burn",
+        "explanation": "Das Verb 'brennen' bedeutet, dass etwas Feuer fängt oder brennt. Es wird mit dem Dativ verwendet, wenn etwas jemandem wehtut."
+      },
+      {
+        "word": "fehlen",
+        "translation": "to miss",
+        "explanation": "Das Verb 'fehlen' bedeutet, dass etwas fehlt oder nicht da ist. Es wird mit dem Dativ verwendet, wenn etwas jemandem fehlt."
+      },
+      {
+        "word": "passen",
+        "translation": "to fit",
+        "explanation": "Das Verb 'passen' bedeutet, dass etwas passt oder gut sitzt. Es wird mit dem Dativ verwendet, wenn etwas jemandem passt."
+      },
+      {
+        "word": "vertrauen",
+        "translation": "to trust",
+        "explanation": "Das Verb 'vertrauen' bedeutet, dass jemandem vertraut wird. Es wird mit dem Dativ verwendet, wenn jemandem vertraut wird oder nicht."
+      },
+      {
+        "word": "wehtun",
+        "translation": "to hurt",
+        "explanation": "Das Verb 'wehtun' bedeutet, dass etwas jemandem wehtut. Es wird mit dem Dativ verwendet, wenn etwas jemandem wehtut."
+      }
+    ],
+    "examples": [
+      {
+        "german": "Das Feuer brennt mir an der Hand.",
+        "english": "The fire is burning my hand.",
+        "explanation": "Das Verb 'brennen' wird mit dem Dativ verwendet, weil das Feuer der Hand wehtut."
+      },
+      {
+        "german": "Mir fehlt heute Zeit.",
+        "english": "I am missing time today.",
+        "explanation": "Das Verb 'fehlen' wird mit dem Dativ verwendet, weil Zeit mir fehlt."
+      },
+      {
+        "german": "Die Bluse passt mir gut.",
+        "english": "The blouse fits me well.",
+        "explanation": "Das Verb 'passen' wird mit dem Dativ verwendet, weil die Bluse mir gut passt."
+      },
+      {
+        "german": "Ich vertraue dir nicht.",
+        "english": "I do not trust you.",
+        "explanation": "Das Verb 'vertrauen' wird ohne Dativ verwendet, weil ich dir nicht vertraue."
+      },
+      {
+        "german": "Das Handy wehtut mir im Rucksack.",
+        "english": "The phone hurts me in the backpack.",
+        "explanation": "Das Verb 'wehtun' wird mit dem Dativ verwendet, weil das Handy mir im Rucksack wehtut."
+      }
+    ]
+  },
+  "10 Min Conversation in Slow German | Super Easy German 287": {
+    "title": "Kaffee und Büro",
+    "grammar_explanation": "In German, the verb 'trinke' means 'to drink'. The verb 'gehe' means 'to go'.",
+    "vocabulary": [
+      {
+        "word": "Kaffee",
+        "translation": "coffee",
+        "explanation": "Kaffee is a popular drink in Germany. You can buy it at a café or in a shop."
+      },
+      {
+        "word": "Büro",
+        "translation": "office",
+        "explanation": "Ein Büro is a place where people work. It's like a room with a desk and chairs."
+      },
+      {
+        "word": "Apfelschorle",
+        "translation": "apple spritzer",
+        "explanation": "Apfelschorle is a refreshing drink made with apple juice and water. It's popular in Germany during the summer."
+      },
+      {
+        "word": "LKW",
+        "translation": "truck",
+        "explanation": "Ein LKW is a big vehicle used to transport goods. It's like a big lorry."
+      },
+      {
+        "word": "Paket",
+        "translation": "package",
+        "explanation": "Ein Paket is a box or bag that contains something. It's often sent by post or delivered by a truck."
+      }
+    ],
+    "examples": [
+      {
+        "german": "Ich trinke einen Kaffee.",
+        "english": "I drink a coffee.",
+        "explanation": "The verb 'trinke' is in the present tense. It means 'I drink'. The word 'einen' is a definite article that means 'a'."
+      },
+      {
+        "german": "Das Büro ist leer.",
+        "english": "The office is empty.",
+        "explanation": "The verb 'ist' is in the present tense. It means 'is'. The word 'leer' means 'empty'."
+      },
+      {
+        "german": "Ich trinke eine Apfelschorle.",
+        "english": "I drink an apple spritzer.",
+        "explanation": "The verb 'trinke' is in the present tense. The word 'eine' is a definite article that means 'an'."
+      },
+      {
+        "german": "Der LKW bringt ein Paket.",
+        "english": "The truck brings a package.",
+        "explanation": "The verb 'bringt' is in the present tense. It means 'brings'. The word 'der' is a definite article that means 'the'."
+      },
+      {
+        "german": "Ich gehe zurück ins Büro.",
+        "english": "I go back to the office.",
+        "explanation": "The verb 'gehe' is in the present tense. The word 'zurück' means 'back'. The word 'ins' is a preposition that means 'into'."
+      }
+    ]
+  },
+  "German Verbs: Haben | Super Easy German (131)": {
+    "title": "German Lesson: Haben (A1)",
+    "grammar_explanation": "Haben is a verb that means 'to have'. It is used to describe possession or ownership. For example, 'Ich habe ein Buch' means 'I have a book'.",
+    "vocabulary": [
+      {
+        "word": "Haben",
+        "translation": "to have",
+        "explanation": "Haben is used to describe possession or ownership. For example, 'Ich habe ein Haus' means 'I have a house'."
+      },
+      {
+        "word": "Geld",
+        "translation": "money",
+        "explanation": "Geld is used to describe money. For example, 'Ich habe 100 Euro' means 'I have 100 euros'."
+      },
+      {
+        "word": "Problem",
+        "translation": "problem",
+        "explanation": "Problem is used to describe a difficult situation. For example, 'Ich habe ein Problem' means 'I have a problem'."
+      },
+      {
+        "word": "Hunger",
+        "translation": "hunger",
+        "explanation": "Hunger is used to describe a feeling of needing food. For example, 'Ich habe Hunger' means 'I am hungry'."
+      },
+      {
+        "word": "Durst",
+        "translation": "thirst",
+        "explanation": "Durst is used to describe a feeling of needing water. For example, 'Ich habe Durst' means 'I am thirsty'."
+      }
+    ],
+    "examples": [
+      {
+        "german": "Ich habe Geld.",
+        "english": "I have money.",
+        "explanation": "In this sentence, 'Ich' means 'I' and 'habe' is the verb 'haben' in the present tense. The sentence means that the speaker has money."
+      },
+      {
+        "german": "Ich habe ein Problem.",
+        "english": "I have a problem.",
+        "explanation": "In this sentence, 'ein' is an article that means 'a' or 'an'. The sentence means that the speaker has a problem."
+      },
+      {
+        "german": "Ich habe Hunger.",
+        "english": "I am hungry.",
+        "explanation": "In this sentence, 'Hunger' is a noun that means 'hunger'. The sentence means that the speaker is feeling hungry."
+      },
+      {
+        "german": "Ich habe Durst.",
+        "english": "I am thirsty.",
+        "explanation": "In this sentence, 'Durst' is a noun that means 'thirst'. The sentence means that the speaker is feeling thirsty."
+      },
+      {
+        "german": "Ich habe keine Geld.",
+        "english": "I don't have money.",
+        "explanation": "In this sentence, 'keine' is an adjective that means 'no' or 'not any'. The sentence means that the speaker does not have money."
+      }
+    ]
+  }
+}

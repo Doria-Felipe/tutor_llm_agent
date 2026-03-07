@@ -17,13 +17,13 @@ TOP_N = 25
 EXAMPLE_MAX_CHARS = 200
 
 # Difficulty levels (example: a1=easy, a2=medium, b1+=hard)
-def word_level(word: str):
-    if len(word) <= 4:
-        return "a1"
-    elif len(word) <= 7:
-        return "a2"
-    else:
-        return "b1"
+# def word_level(word: str):
+#     if len(word) <= 4:
+#         return "a1"
+#     elif len(word) <= 7:
+#         return "a2"
+#     else:
+#         return "b1"
 
 dataset = {}
 topics = get_topics()
@@ -74,7 +74,7 @@ for topic in topics:
             "word": w,
             "meaning": "",  # can fill later manually or via dictionary
             "example": example,
-            "level": word_level(w)
+            "level": "a1"
         })
 
     dataset[topic] = vocab_list
