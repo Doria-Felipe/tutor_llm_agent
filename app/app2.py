@@ -277,8 +277,8 @@ if mode in ["tutor", "quiz"]:
 
                 start_time = time.time()
 
-                # llm = get_llm(st.session_state.model_name)
-                llm = load_llm(st.session_state.model_name)
+                llm = get_llm(st.session_state.model_name)
+                # llm = load_llm(st.session_state.model_name)
 
                 context = return_context(prompt, k=2)
 
