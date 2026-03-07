@@ -105,7 +105,11 @@ with st.sidebar:
 if mode == "vocab":
 
     topics = get_topics()
-    selected_topic = st.selectbox("Choose topic", topics)
+    selected_topic = st.selectbox(
+                                    "Choose topic",
+                                    topics,
+                                    key="vocab_topic_selector"
+                                )
 
     if selected_topic:
 
@@ -168,20 +172,40 @@ if mode == "grammar":
 
     lesson_titles = sorted(title_map.keys())
 
-    selected_lesson = st.selectbox(
-        "Choose lesson",
-        lesson_titles
-    )
+    # selected_lesson = st.selectbox(
+    #     "Choose lesson",
+    #     lesson_titles
+    # )
+    
+    # selected_lesson = st.selectbox(
+    #         "Choose lesson",
+    #         lesson_titles,
+    #         key="grammar_lesson_selector"
+    #     )
 
-    lesson = lessons[title_map[selected_lesson]]
+    # selected_lesson = st.selectbox(
+    #     "Choose lesson",
+    #     lesson_titles,
+    #     key="grammar_lesson_selector"
+    # )
+    
+    # lesson = lessons[title_map[selected_lesson]]
+    # lesson = lessons.get(title_map[selected_lesson], {})
 
     
+    # selected_lesson = st.selectbox(
+    #     "Choose lesson",
+    #     lesson_titles
+    # )
+
     selected_lesson = st.selectbox(
         "Choose lesson",
-        lesson_titles
+        lesson_titles,
+        key="lesson_selector"
     )
 
-    lesson = lessons[selected_lesson]
+    # lesson = lessons[selected_lesson]
+    lesson = lessons.get(title_map[selected_lesson], {})
 
     st.subheader(lesson["title"])
 
