@@ -4,20 +4,15 @@ import matplotlib.pyplot as plt
 
 df = pd.read_csv("eval/eval_results.csv")
 
-# metrics = [
-#     "faithfulness",
-#     "answer_relevancy",
-#     "context_precision",
-#     "context_recall"
-# ]
-results = evaluate(
-    dataset,
-    metrics=[
+metrics=[
         faithfulness(),
         answer_relevancy(),
         context_precision(),
         context_recall()
-    ],
+    ]
+results = evaluate(
+    dataset,
+    metrics=metrics,
     llm=judge_llm
 )
 
