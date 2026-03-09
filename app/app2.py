@@ -16,6 +16,8 @@ from src.agent.lesson_agent import lesson_agent
 from data.topic_lookup import get_topics, get_video_ids_by_topic
 from data.grammar_lookup import get_grammar_topics, get_examples_by_topic
 
+from src.quiz.quiz_engine import QuizEngine
+
 # ------------------------
 # Page Config
 # ------------------------
@@ -172,39 +174,12 @@ if mode == "grammar":
 
     lesson_titles = sorted(title_map.keys())
 
-    # selected_lesson = st.selectbox(
-    #     "Choose lesson",
-    #     lesson_titles
-    # )
-    
-    # selected_lesson = st.selectbox(
-    #         "Choose lesson",
-    #         lesson_titles,
-    #         key="grammar_lesson_selector"
-    #     )
-
-    # selected_lesson = st.selectbox(
-    #     "Choose lesson",
-    #     lesson_titles,
-    #     key="grammar_lesson_selector"
-    # )
-    
-    # lesson = lessons[title_map[selected_lesson]]
-    # lesson = lessons.get(title_map[selected_lesson], {})
-
-    
-    # selected_lesson = st.selectbox(
-    #     "Choose lesson",
-    #     lesson_titles
-    # )
-
     selected_lesson = st.selectbox(
         "Choose lesson",
         lesson_titles,
         key="lesson_selector"
     )
-
-    # lesson = lessons[selected_lesson]
+    
     lesson = lessons.get(title_map[selected_lesson], {})
 
     st.subheader(lesson["title"])
@@ -269,20 +244,10 @@ if mode == "grammar":
     st.stop()
 
 # =====================================================
-# CHAT MODES
+# CHAT MODE
 # =====================================================
 
-for msg in st.session_state.messages:
-
-    with st.chat_message(msg["role"]):
-        st.markdown(msg["content"])
-
-
-# =====================================================
-# CHAT MODES ONLY
-# =====================================================
-
-if mode in ["tutor", "quiz"]:
+if mode == "tutor":
 
     # ------------------------
     # Display Chat History
@@ -332,3 +297,36 @@ if mode in ["tutor", "quiz"]:
         st.session_state.messages.append(
             {"role": "assistant", "content": response}
         )
+        
+# =====================================================
+# QUIZ MODE
+# =====================================================
+
+if mode == "quiz":
+
+    st.title("German Learning Quiz 🇩🇪")
+
+    if "quiz" not in st.session_state:
+        st.session_state.quiz = QuizEngine()
+
+    if st.button("New Question"):
+
+        q = st.session_state.quiz.next_question()
+        st.session_state.question = q
+
+    if "question" in st.session_state:
+
+        st.write(st.session_state.question)
+
+        user_answer = st.text_input("Your answer")
+
+        if st.button("Submit Answer"):
+
+            result = st.session_state.quiz.check(user_answer)
+
+            if result["correct"]:
+                st.success("Correct! 🎉")
+            else:
+                st.error("Not quite.")
+
+            st.write("Correct answer:", result["correct_answer"])
