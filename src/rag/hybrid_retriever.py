@@ -1,4 +1,5 @@
-from src.rag.merge import col, _model
+# from src.rag.merge import col, _model
+from src.rag.vector_store import col, _model
 from src.rag.bm25_index import bm25_search
 
 
