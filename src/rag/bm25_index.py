@@ -1,11 +1,8 @@
-from rank_bm25 import BM25Okapi
+from rank_bm25 import BM25Okapi # type: ignore
 import chromadb
-from src.rag.vector_store import col
-# client = chromadb.PersistentClient(path="./chroma_easy_german")
-# col = client.get_collection("easy_german_a1_multi")
+import src.rag.vector_store
 
-# docs = col.get()
-docs = col.get(include=["documents", "metadatas"])
+docs = src.rag.vector_store.col.get(include=["documents", "metadatas"])
 
 documents = docs["documents"]
 metadatas = docs["metadatas"]

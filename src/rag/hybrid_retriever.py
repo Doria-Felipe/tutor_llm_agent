@@ -1,6 +1,7 @@
 # from src.rag.merge import col, _model
 from src.rag.vector_store import col, _model
 from src.rag.bm25_index import bm25_search
+# from src.rag.reranker import rerank
 
 
 def hybrid_search(query, k=3):
@@ -63,3 +64,12 @@ def return_context(query, k=3):
     results = hybrid_search(query, k=k)
 
     return format_context(results)
+
+# def return_context(query, k=3):
+
+#     # retrieve more candidates
+#     results = hybrid_search(query, k=10)
+#     # rerank them
+#     best = rerank(query, results, top_k=k)
+
+#     return format_context(best)
