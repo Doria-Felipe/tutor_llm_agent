@@ -1,15 +1,10 @@
 import json
-import random
 
+def load_json(path):
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)
 
-def load_quiz(path="data/eval_questions.json"):
-
-    with open(path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-
-    return data
-
-
-def sample_question(data):
-
-    return random.choice(data)
+def load_quiz():
+    manual = load_json("data/eval_questions.json")
+    generated = load_json("data/generated_quizzes.json")
+    return manual + generated
