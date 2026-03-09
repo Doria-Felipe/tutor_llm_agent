@@ -1,1239 +1,157 @@
 {
-  "Alphabet": [
+  "Grammar → Cases": [
     {
-      "word": "Wort",
-      "meaning": "Single letter",
-      "example": "Das Wort 'Wort' hat nur 4 Buchstaben.",
-      "level": "a1"
-    },
-    {
-      "word": "Buchstabe",
-      "meaning": "Letter of the alphabet",
-      "example": "Das ist ein besonderer Buchstabe.",
-      "level": "a1"
-    },
-    {
-      "word": "deutschen",
-      "meaning": "relating to Germany",
-      "example": "In Deutschland wird das scharfe S als SZ bezeichnet.",
-      "level": "a1"
-    },
-    {
-      "word": "Buchstaben",
-      "meaning": "Letters of the alphabet",
-      "example": "Das Alphabet besteht aus 26 Buchstaben.",
-      "level": "a1"
-    },
-    {
-      "word": "wissen",
-      "meaning": "to know something",
-      "example": "Ich weiß nicht, wo das Hotel ist.",
-      "level": "a1"
-    },
-    {
-      "word": "spricht",
-      "meaning": "speaks in a different way",
-      "example": "Man spricht das anders aus.",
-      "level": "a1"
-    },
-    {
-      "word": "merken",
-      "meaning": "to remember something",
-      "example": "Kannst du dir das besser merken?",
-      "level": "a1"
-    },
-    {
-      "word": "zeigen",
-      "meaning": "show you something",
-      "example": "in diesem Video zeigen wir euch das deutsche Alphabet",
-      "level": "a1"
-    },
-    {
-      "word": "deutsche",
-      "meaning": "German language",
-      "example": "Das deutsche Alphabet ist sehr ähnlich zum englischen.",
-      "level": "a1"
-    },
-    {
-      "word": "Alphabet",
-      "meaning": "German letter set",
-      "example": "Das deutsche Alphabet ist ähnlich zum englischen.",
-      "level": "a1"
-    },
-    {
-      "word": "Aussprache",
-      "meaning": "Pronunciation of words",
-      "example": "Die Aussprache ist wichtig für die Kommunikation.",
-      "level": "a1"
-    },
-    {
-      "word": "Deutschen",
-      "meaning": "Of the Germans",
-      "example": "Mann im Deutschen gibt es von jedem Vokal zwei Versionen",
-      "level": "a1"
-    },
-    {
-      "word": "Vokal",
-      "meaning": "Vowel sound",
-      "example": "In German, each Vokal has two versions.",
-      "level": "a1"
-    },
-    {
-      "word": "Versionen",
-      "meaning": "Two forms of a vowel",
-      "example": "In German, each vowel has two versions.",
-      "level": "a1"
-    },
-    {
-      "word": "Kaffee",
-      "meaning": "Coffee, hot drink",
-      "example": "Wir trinken Kaffee am Morgen.",
+      "word": "sehe",
+      "meaning": "I see it",
+      "example": "Ich sehe das Auto.",
       "level": "a1"
     },
     {
       "word": "steht",
-      "meaning": "stands at the end",
-      "example": "Das Buch steht auf dem Tisch.",
+      "meaning": "stands up",
+      "example": "Der Baum steht im Garten.",
       "level": "a1"
     },
     {
-      "word": "besondere",
-      "meaning": "special letters",
-      "example": "Das Alphabet hat einige besondere Buchstaben.",
-      "level": "a1"
-    },
-    {
-      "word": "Beispiele",
-      "meaning": "Examples of something",
-      "example": "Wir zeigen Beispiele für das deutsche Alphabet.",
-      "level": "a1"
-    },
-    {
-      "word": "Vater",
-      "meaning": "Father",
-      "example": "Mein Vater ist sehr freundlich.",
-      "level": "a1"
-    },
-    {
-      "word": "Bahn",
-      "meaning": "Train or railway",
-      "example": "Wir fahren mit der Bahn nach Berlin.",
-      "level": "a1"
-    },
-    {
-      "word": "Apfel",
-      "meaning": "Apple fruit",
-      "example": "Wir essen einen Apfel zum Frühstück.",
-      "level": "a1"
-    },
-    {
-      "word": "Mann",
-      "meaning": "Adult male person",
-      "example": "Ein Mann geht in die Stadt.",
-      "level": "a1"
-    },
-    {
-      "word": "kurze",
-      "meaning": "Short vowel sound",
-      "example": "Das kurze 'a' ist leicht auszusprechen.",
-      "level": "a1"
-    },
-    {
-      "word": "seht",
-      "meaning": "Look at this",
-      "example": "Hier seht ihr das lange a.",
-      "level": "a1"
-    },
-    {
-      "word": "nennt",
-      "meaning": "calls it",
-      "example": "Man nennt das auch a Umlaut.",
-      "level": "a1"
-    }
-  ],
-  "Cases": [
-    {
-      "word": "sehe",
-      "meaning": "I see",
-      "example": "Ich sehe den Hund.",
-      "level": "a1"
-    },
-    {
-      "word": "Fälle",
-      "meaning": "German court cases",
-      "example": "Wir machen ein Video über die Fälle.",
-      "level": "a1"
-    },
-    {
-      "word": "Akkusativ",
-      "meaning": "Accusative case",
-      "example": "Der Dativ und der Akkusativ sind die wichtigsten Fälle.",
+      "word": "Bank",
+      "meaning": "Financial institution place",
+      "example": "Die Bank ist hier.",
       "level": "a1"
     },
     {
       "word": "Baum",
       "meaning": "The tree",
-      "example": "Der Baum ist groß.",
+      "example": "Ich sehe einen Baum.",
       "level": "a1"
     },
     {
-      "word": "Buch",
-      "meaning": "The book",
-      "example": "Ich lese das Buch.",
+      "word": "scooter",
+      "meaning": "Small motorized vehicle",
+      "example": "Ich fahre mit einem Scooter.",
       "level": "a1"
     },
     {
-      "word": "Nominativ",
-      "meaning": "Nominative case",
-      "example": "Der erste Fall ist der Nominativ.",
+      "word": "glaube",
+      "meaning": "Believe in something",
+      "example": "Ich glaube an die Liebe.",
       "level": "a1"
     },
     {
-      "word": "Genitiv",
-      "meaning": "Possessive case",
-      "example": "Der Genitiv zeigt Besitz.",
+      "word": "blatt",
+      "meaning": "A single leaf",
+      "example": "Ich sehe ein Blatt.",
       "level": "a1"
     },
     {
-      "word": "deutschen",
-      "meaning": "German cases",
-      "example": "Wir lernen die deutschen Fälle.",
+      "word": "passiert",
+      "meaning": "something happened to you",
+      "example": "Was ist dir denn passiert?",
       "level": "a1"
     },
     {
-      "word": "Fall",
-      "meaning": "The first grammatical case",
-      "example": "Der erste Fall ist der Nominativ.",
+      "word": "schwamm",
+      "meaning": "sponge",
+      "example": "Ich habe einen Schwamm zum Putzen.",
       "level": "a1"
     },
     {
-      "word": "Artikel",
-      "meaning": "The definite article",
-      "example": "Der Artikel ist wichtig.",
+      "word": "mache",
+      "meaning": "do something",
+      "example": "Wir machen ein Spiel.",
       "level": "a1"
     },
     {
-      "word": "Verben",
-      "meaning": "Verbs in grammar",
-      "example": "Die Verben werden im Nominativ verwendet.",
+      "word": "pinsel",
+      "meaning": "Paintbrush",
+      "example": "Das ist ein Pinsel.",
       "level": "a1"
     },
     {
-      "word": "Wagen",
-      "meaning": "Car or vehicle",
-      "example": "Das ist ein Wagen.",
+      "word": "blätter",
+      "meaning": "leaves of a plant",
+      "example": "Ich sehe viele Blätter im Garten.",
       "level": "a1"
     },
     {
-      "word": "Schuh",
-      "meaning": "A type of shoe",
-      "example": "Der Schuh ist blaugrau.",
+      "word": "Kind",
+      "meaning": "The child",
+      "example": "Das Brot schmeckt dem Kind.",
       "level": "a1"
     },
     {
-      "word": "Schrank",
-      "meaning": "Clothing cabinet",
-      "example": "Mein Schrank ist voll.",
+      "word": "Frau",
+      "meaning": "Adult female person",
+      "example": "Die Frau ist sehr freundlich.",
       "level": "a1"
     },
     {
-      "word": "Geländer",
-      "meaning": "Handrail for stairs",
-      "example": "Das Geländer ist sehr stabil.",
+      "word": "Janus",
+      "meaning": "Two-faced god in mythology",
+      "example": "Janus steht am Baum.",
       "level": "a1"
     },
     {
-      "word": "Tor",
-      "meaning": "Goal or entrance gate",
-      "example": "Das Tor ist offen.",
+      "word": "leute",
+      "meaning": "people, folks",
+      "example": "Hallo Leute, wie geht es euch?",
       "level": "a1"
     },
     {
-      "word": "Sache",
-      "meaning": "Important thing or matter",
-      "example": "Wir müssen uns um die Sache kümmern.",
+      "word": "Verb",
+      "meaning": "Action or activity",
+      "example": "Die Objekte eines Verbs stehen immer in einem bestimmten Fall.",
       "level": "a1"
     },
     {
-      "word": "lernt",
-      "meaning": "has learned something",
-      "example": "Ich habe Deutsch lernt.",
+      "word": "lernen",
+      "meaning": "to learn something",
+      "example": "You must learn the vocabulary directly.",
       "level": "a1"
     },
     {
-      "word": "Fahrrad",
-      "meaning": "Bicycle",
-      "example": "Das ist mein Fahrrad.",
+      "word": "schmeckt",
+      "meaning": "tastes good to me",
+      "example": "Die Suppe schmeckt mir nicht.",
       "level": "a1"
     },
     {
-      "word": "Blume",
-      "meaning": "flower",
-      "example": "Das ist die Blume.",
+      "word": "Musik",
+      "meaning": "Music, singing",
+      "example": "Ich liebe die Musik.",
       "level": "a1"
     },
     {
-      "word": "Tabelle",
-      "meaning": "Table or chart",
-      "example": "Hier seht ihr eine Tabelle.",
-      "level": "a1"
-    },
-    {
-      "word": "kaufe",
-      "meaning": "I will buy",
-      "example": "Ich kaufe das Buch noch.",
-      "level": "a1"
-    },
-    {
-      "word": "Video",
-      "meaning": "Video recording",
-      "example": "Wir machen heute ein Video.",
+      "word": "helfe",
+      "meaning": "I will help you",
+      "example": "Ich helfe dir.",
       "level": "a1"
     },
     {
       "word": "Dativ",
       "meaning": "Dative case",
-      "example": "Der Dativ ist ein wichtiger Fall.",
+      "example": "Die Objekte stehen im Dativ.",
       "level": "a1"
     },
     {
-      "word": "lernen",
-      "meaning": "to learn something",
-      "example": "Wir müssen Deutsch lernen.",
-      "level": "a1"
-    }
-  ],
-  "Conversation": [
-    {
-      "word": "Kaffee",
-      "meaning": "Coffee shop",
-      "example": "Wir treffen uns in einem Kaffee.",
-      "level": "a1"
-    },
-    {
-      "word": "Musik",
-      "meaning": "Music",
-      "example": "Ich liebe Musik.",
-      "level": "a1"
-    },
-    {
-      "word": "Pause",
-      "meaning": "A short break time",
-      "example": "Eine Pause würde mir auch mal gut tun.",
-      "level": "a1"
-    },
-    {
-      "word": "heiße",
-      "meaning": "My name is",
-      "example": "Ich heiße Lisa.",
-      "level": "a1"
-    },
-    {
-      "word": "Rechnung",
-      "meaning": "Bill or invoice",
-      "example": "Die Rechnung bitte!",
-      "level": "a1"
-    },
-    {
-      "word": "festen",
-      "meaning": "close friend",
-      "example": "Ich habe einen festen Freund.",
-      "level": "a1"
-    },
-    {
-      "word": "Freund",
-      "meaning": "Close male friend",
-      "example": "Hast du einen festen Freund?",
-      "level": "a1"
-    },
-    {
-      "word": "treffen",
-      "meaning": "to meet each other",
-      "example": "Wir treffen uns in einem Kaffee.",
-      "level": "a1"
-    },
-    {
-      "word": "sagen",
-      "meaning": "to say, to tell",
-      "example": "Sagen wir mal, ich bin müde.",
-      "level": "a1"
-    },
-    {
-      "word": "Guten",
-      "meaning": "Good morning",
-      "example": "Guten Morgen.",
-      "level": "a1"
-    },
-    {
-      "word": "machst",
-      "meaning": "What do you do",
-      "example": "Was machst du beruflich?",
-      "level": "a1"
-    },
-    {
-      "word": "wohne",
-      "meaning": "Where do you live",
-      "example": "Ich wohne in Berlin.",
-      "level": "a1"
-    },
-    {
-      "word": "gehe",
-      "meaning": "Go back to the office",
-      "example": "Ich gehe zurück ins Büro.",
-      "level": "a1"
-    },
-    {
-      "word": "arbeite",
-      "meaning": "Work with someone",
-      "example": "Sorusch oder mit Rav arbeite.",
-      "level": "a1"
-    },
-    {
-      "word": "Leute",
-      "meaning": "People on the camera",
-      "example": "Das sind unsere Kamera Leute.",
-      "level": "a1"
-    },
-    {
-      "word": "Aufgabe",
-      "meaning": "Task or assignment",
-      "example": "Ich habe eine schwierige Aufgabe.",
-      "level": "a1"
-    },
-    {
-      "word": "trinke",
-      "meaning": "Drink something",
-      "example": "Ich trinke ein Glas Wasser.",
-      "level": "a1"
-    },
-    {
-      "word": "glaube",
-      "meaning": "I think, I believe",
-      "example": "Ich glaube, dass es regnen wird.",
-      "level": "a1"
-    },
-    {
-      "word": "sehen",
-      "meaning": "to see",
-      "example": "Wenn Leute mich sehen, erkennen sie mich.",
-      "level": "a1"
-    },
-    {
-      "word": "Büro",
-      "meaning": "Office or workplace",
-      "example": "Wollen wir zurückgehen ins Büro?",
-      "level": "a1"
-    },
-    {
-      "word": "geht's",
-      "meaning": "Let's go",
-      "example": "Los geht's.",
-      "level": "a1"
-    },
-    {
-      "word": "beschäftigt",
-      "meaning": "What's on your mind?",
-      "example": "Was beschäftigt dich gerade?",
-      "level": "a1"
-    },
-    {
-      "word": "Welt",
-      "meaning": "The whole world",
-      "example": "Die Welt ist groß.",
-      "level": "a1"
-    },
-    {
-      "word": "kaufen",
-      "meaning": "to buy something",
-      "example": "Ich möchte ein Buch kaufen.",
-      "level": "a1"
-    },
-    {
-      "word": "bestellen",
-      "meaning": "To place an order",
-      "example": "Ich möchte ein Buch bestellen.",
-      "level": "a1"
-    }
-  ],
-  "Daily Life": [
-    {
-      "word": "Musik",
-      "meaning": "Music, sound",
-      "example": "Er hört Musik im Park.",
-      "level": "a1"
-    },
-    {
-      "word": "Kaffee",
-      "meaning": "Strong black coffee drink",
-      "example": "I enjoy my Kaffee.",
-      "level": "a1"
-    },
-    {
-      "word": "Janosch",
-      "meaning": "Boy's name",
-      "example": "Janosch goes to his room.",
-      "level": "a1"
-    },
-    {
-      "word": "Fahrrad",
-      "meaning": "Bicycle",
-      "example": "Janosch fährt sein Fahrrad.",
-      "level": "a1"
-    },
-    {
-      "word": "fährt",
-      "meaning": "drives a round",
-      "example": "Isi Janosch fährt nun eine Runde.",
-      "level": "a1"
-    },
-    {
-      "word": "nächstes",
-      "meaning": "next time",
-      "example": "als nächstes geht Janosch in sein Zimmer",
-      "level": "a1"
-    },
-    {
-      "word": "machst",
-      "meaning": "You are doing something",
-      "example": "Janosch, was machst du als nächstes?",
-      "level": "a1"
-    },
-    {
-      "word": "fahre",
-      "meaning": "Drive, ride a vehicle",
-      "example": "Ich fahre zum Bahnhof.",
-      "level": "a1"
-    },
-    {
-      "word": "Leute",
-      "meaning": "People, crowd",
-      "example": "Ich sehe viele Leute auf der Straße.",
-      "level": "a1"
-    },
-    {
-      "word": "Spülmaschine",
-      "meaning": "Washing machine",
-      "example": "Die Spülmaschine ist im Keller.",
-      "level": "a1"
-    },
-    {
-      "word": "Natur",
-      "meaning": "Nature is always in charge",
-      "example": "Die Natur ist sehr schön hier.",
-      "level": "a1"
-    },
-    {
-      "word": "Meer",
-      "meaning": "The sea or ocean",
-      "example": "Er fährt am Meer entlang.",
-      "level": "a1"
-    },
-    {
-      "word": "Urlaub",
-      "meaning": "Vacation time",
-      "example": "Janosch takes his bike to the vacation.",
-      "level": "a1"
-    },
-    {
-      "word": "lasse",
-      "meaning": "let me have some time",
-      "example": "Ich lasse mir Zeit, um zu lesen.",
-      "level": "a1"
-    },
-    {
-      "word": "Kari",
-      "meaning": "Friend's name",
-      "example": "Mein Name ist Kari.",
-      "level": "a1"
-    },
-    {
-      "word": "stehe",
-      "meaning": "I will stand up",
-      "example": "Ich stehe auf.",
-      "level": "a1"
-    },
-    {
-      "word": "gehe",
-      "meaning": "I will go",
-      "example": "Als nächstes geht Janosch in sein Zimmer.",
-      "level": "a1"
-    },
-    {
-      "word": "Büro",
-      "meaning": "Office or workplace",
-      "example": "Janosch geht in sein Büro.",
-      "level": "a1"
-    },
-    {
-      "word": "Spaß",
-      "meaning": "fun or enjoyment",
-      "example": "Ich habe viel Spaß beim Schwimmen.",
-      "level": "a1"
-    },
-    {
-      "word": "tschüss",
-      "meaning": "Goodbye, see you later",
-      "example": "Bis bald, tschüss!",
-      "level": "a1"
-    },
-    {
-      "word": "begrüßen",
-      "meaning": "To greet someone",
-      "example": "Ich begrüße dich herzlich.",
-      "level": "a1"
-    },
-    {
-      "word": "Deutsch",
-      "meaning": "German language",
-      "example": "Ich spreche Deutsch.",
-      "level": "a1"
-    },
-    {
-      "word": "Problem",
-      "meaning": "Something difficult to solve",
-      "example": "Ich habe ein Problem mit dem Haus.",
-      "level": "a1"
-    },
-    {
-      "word": "geht's",
-      "meaning": "Let's go",
-      "example": "Los geht's, wir fangen an!",
-      "level": "a1"
-    },
-    {
-      "word": "räumt",
-      "meaning": "cleans up",
-      "example": "Wir räumt jetzt auf.",
-      "level": "a1"
-    }
-  ],
-  "Grammar": [
-    {
-      "word": "wörter",
-      "meaning": "new words received",
-      "example": "Some new words get an umlaut in the plural form.",
-      "level": "a1"
-    },
-    {
-      "word": "plural",
-      "meaning": "More than one thing",
-      "example": "Some words get a plural ending.",
-      "level": "a1"
-    },
-    {
-      "word": "bekommen",
-      "meaning": "get some new words",
-      "example": "Ich bekomme einige neue Wörter.",
-      "level": "a1"
-    },
-    {
-      "word": "enden",
-      "meaning": "to come to an end",
-      "example": "Der Film endet morgen Abend.",
-      "level": "a1"
-    },
-    {
-      "word": "brötchen",
-      "meaning": "Small bread roll",
-      "example": "You can make a perfect brötchen.",
-      "level": "a1"
-    },
-    {
-      "word": "fehler",
-      "meaning": "mistake or error",
-      "example": "Du hast einen Fehler gemacht.",
-      "level": "a1"
-    },
-    {
-      "word": "kindheit",
-      "meaning": "Childhood period",
-      "example": "Meine Kindheit war sehr glücklich.",
-      "level": "a1"
-    },
-    {
-      "word": "wort",
-      "meaning": "a word",
-      "example": "Das ist ein wort.",
-      "level": "a1"
-    },
-    {
-      "word": "emotionen",
-      "meaning": "Strong feelings inside",
-      "example": "Die Menschen haben viele Emotionen.",
-      "level": "a1"
-    },
-    {
-      "word": "endung",
-      "meaning": "word ending",
-      "example": "Some words get the endung in plural.",
-      "level": "a1"
-    },
-    {
-      "word": "umlaut",
-      "meaning": "Special vowel change",
-      "example": "Some words get an umlaut in plural form.",
-      "level": "a1"
-    },
-    {
-      "word": "ausstellung",
-      "meaning": "Art exhibition display",
-      "example": "Die Ausstellung ist sehr interessant.",
-      "level": "a1"
-    },
-    {
-      "word": "maskulinen",
-      "meaning": "masculine form",
-      "example": "Das maskuline Genus wird verwendet.",
-      "level": "a1"
-    },
-    {
-      "word": "auto",
-      "meaning": "Car, automobile",
-      "example": "Ich fahre mit dem Auto.",
-      "level": "a1"
-    },
-    {
-      "word": "getrunken",
-      "meaning": "drunk or drunk something",
-      "example": "Er hat viel getrunken.",
-      "level": "a1"
-    },
-    {
-      "word": "bücher",
-      "meaning": "Books",
-      "example": "Ich habe viele Bücher.",
-      "level": "a1"
-    },
-    {
-      "word": "prozent",
-      "meaning": "percentage value",
-      "example": "Der Preis ist 10% höher.",
-      "level": "a1"
-    },
-    {
-      "word": "femininen",
-      "meaning": "feminine form",
-      "example": "Die feminine Form ist \"die\".",
-      "level": "a1"
-    },
-    {
-      "word": "kopf",
-      "meaning": "head or top part",
-      "example": "Ich habe Kopfweh.",
-      "level": "a1"
-    },
-    {
-      "word": "hunde",
-      "meaning": "some dogs",
-      "example": "Ich habe viele Hunde.",
-      "level": "a1"
-    },
-    {
-      "word": "hund",
-      "meaning": "a domesticated animal",
-      "example": "Ich habe einen hund.",
-      "level": "a1"
-    },
-    {
-      "word": "ausnahme",
-      "meaning": "exception to the rule",
-      "example": "Die Ausnahme ist, dass es heute nicht schneit.",
-      "level": "a1"
-    },
-    {
-      "word": "machst",
-      "meaning": "You do something",
-      "example": "Du machst das perfekt.",
-      "level": "a1"
-    },
-    {
-      "word": "veränderung",
-      "meaning": "Change or alteration",
-      "example": "Die Veränderung ist nicht so groß.",
-      "level": "a1"
-    },
-    {
-      "word": "vögel",
-      "meaning": "Birds, plural",
-      "example": "Die Vögel singen.",
-      "level": "a1"
-    }
-  ],
-  "Introductions": [
-    {
-      "word": "Walt",
-      "meaning": "This is Walt",
-      "example": "Das ist Walt.",
-      "level": "a1"
-    },
-    {
-      "word": "zeigen",
-      "meaning": "Show or point out",
-      "example": "Wir zeigen euch die wichtigsten Begrüßungen.",
-      "level": "a1"
-    },
-    {
-      "word": "wichtigsten",
-      "meaning": "most important things",
-      "example": "Die wichtigsten Dinge sind...",
-      "level": "a1"
-    },
-    {
-      "word": "geht's",
-      "meaning": "Let's go",
-      "example": "Los geht's, wir fahren jetzt.",
-      "level": "a1"
-    },
-    {
-      "word": "Deutsch",
-      "meaning": "German language",
-      "example": "Wir sprechen Deutsch.",
-      "level": "a1"
-    },
-    {
-      "word": "Hobby",
-      "meaning": "Hobby or interest",
-      "example": "Walt's hobby is running.",
-      "level": "a1"
-    },
-    {
-      "word": "Kleiderschrank",
-      "meaning": "Clothing storage cabinet",
-      "example": "Wir öffnen den Kleiderschrank.",
-      "level": "a1"
-    },
-    {
-      "word": "Begrüßungen",
-      "meaning": "Greetings and farewells",
-      "example": "Wir zeigen euch die wichtigsten Begrüßungen.",
-      "level": "a1"
-    },
-    {
-      "word": "verschiedene",
-      "meaning": "Different kinds of things",
-      "example": "Wir haben heute viele verschiedene Begrüßungen gezeigt.",
-      "level": "a1"
-    },
-    {
-      "word": "fangen",
-      "meaning": "to catch something",
-      "example": "Wir fangen einen Fisch im See.",
-      "level": "a1"
-    },
-    {
-      "word": "Freunden",
-      "meaning": "To friends",
-      "example": "Wir sehen uns bei Freunden.",
-      "level": "a1"
-    },
-    {
-      "word": "okay",
-      "meaning": "Agree or confirm",
-      "example": "Ja, okay, ich verstehe.",
-      "level": "a1"
-    },
-    {
-      "word": "tschüss",
-      "meaning": "Goodbye, see you later",
-      "example": "Auf Wiedersehen, tschüss!",
-      "level": "a1"
-    },
-    {
-      "word": "Verabschiedungen",
-      "meaning": "Goodbyes and farewells",
-      "example": "Wir haben heute Verabschiedungen in der deutschen Sprache.",
-      "level": "a1"
-    },
-    {
-      "word": "vorbereitet",
-      "meaning": "Prepared beforehand",
-      "example": "Wir haben alles vorbereitet für den Urlaub.",
-      "level": "a1"
-    },
-    {
-      "word": "Tschüss",
-      "meaning": "Goodbye, see you later",
-      "example": "Auf Wiedersehen, Tschüss!",
-      "level": "a1"
-    },
-    {
-      "word": "Musik",
-      "meaning": "Music and singing",
-      "example": "Wir lieben die Musik.",
-      "level": "a1"
-    },
-    {
-      "word": "Kleidung",
-      "meaning": "Clothing, garments",
-      "example": "Heute werden wir euch einige Vokabeln rund um das Thema Kleidung vorstellen.",
-      "level": "a1"
-    },
-    {
-      "word": "Klamotten",
-      "meaning": "Clothes, garments",
-      "example": "Die Klamotten sind sauber.",
-      "level": "a1"
-    },
-    {
-      "word": "Jacke",
-      "meaning": "Long coat or jacket",
-      "example": "Meine Jacke ist rot.",
-      "level": "a1"
-    },
-    {
-      "word": "Jacken",
-      "meaning": "Coats or jackets",
-      "example": "Ich habe viele Jacken.",
-      "level": "a1"
-    },
-    {
-      "word": "Mantel",
-      "meaning": "Coat or overcoat",
-      "example": "Mein Mantel ist rot.",
-      "level": "a1"
-    },
-    {
-      "word": "Mäntel",
-      "meaning": "Coats or overcoats",
-      "example": "Ich habe viele Mäntel im Schrank.",
-      "level": "a1"
-    },
-    {
-      "word": "Stiefel",
-      "meaning": "Boots",
-      "example": "Ich trage Stiefel zum Wandern.",
-      "level": "a1"
-    },
-    {
-      "word": "Schuhe",
-      "meaning": "Shoes, footwear",
-      "example": "Ich habe neue Schuhe gekauft.",
-      "level": "a1"
-    }
-  ],
-  "Numbers": [
-    {
-      "word": "zahlen",
-      "meaning": "Counting numbers",
-      "example": "Wir lernen die Zahlen von eins bis zehn.",
-      "level": "a1"
-    },
-    {
-      "word": "zahl",
-      "meaning": "Number, count",
-      "example": "Die Zahl ist 5.",
-      "level": "a1"
-    },
-    {
-      "word": "zeigen",
-      "meaning": "Show or point out",
-      "example": "Wir zeigen euch die Zahlen von eins bis zehn.",
-      "level": "a1"
-    },
-    {
-      "word": "kombiniert",
-      "meaning": "combined into one",
-      "example": "Die Zahlen werden kombiniert.",
-      "level": "a1"
-    },
-    {
-      "word": "deutschen",
-      "meaning": "of the Germans",
-      "example": "Wir sprechen im Deutschen...",
-      "level": "a1"
-    },
-    {
-      "word": "mitglied",
-      "meaning": "Member of a group",
-      "example": "Wir sind ein Mitglied von Easy G.",
-      "level": "a1"
-    },
-    {
-      "word": "woche",
-      "meaning": "one week period",
-      "example": "Wir haben eine Woche Urlaub.",
-      "level": "a1"
-    },
-    {
-      "word": "videos",
-      "meaning": "Video recordings",
-      "example": "Wir haben viele Videos auf YouTube.",
-      "level": "a1"
-    },
-    {
-      "word": "moskito",
-      "meaning": "Small flying insect",
-      "example": "Ein Moskito sticht mich.",
-      "level": "a1"
-    },
-    {
-      "word": "muster",
-      "meaning": "Certain pattern or model",
-      "example": "Es gibt kein bestimmtes Muster.",
-      "level": "a1"
-    },
-    {
-      "word": "seht",
-      "meaning": "Look at this",
-      "example": "Seht, wie schön das ist!",
-      "level": "a1"
-    },
-    {
-      "word": "vollen",
-      "meaning": "to fill up completely",
-      "example": "Die Flasche wird vollen.",
-      "level": "a1"
-    },
-    {
-      "word": "üben",
-      "meaning": "Practice something",
-      "example": "Wenn du noch mehr üben möchtest, laden wir dich ein.",
-      "level": "a1"
-    },
-    {
-      "word": "möchtet",
-      "meaning": "want to practice more",
-      "example": "Wenn ihr noch mehr üben möchtet, laden wir euch ein.",
-      "level": "a1"
-    },
-    {
-      "word": "laden",
-      "meaning": "to invite to a place",
-      "example": "Wir laden euch ein, uns zu besuchen.",
-      "level": "a1"
-    },
-    {
-      "word": "bekommt",
-      "meaning": "gets or receives",
-      "example": "Er bekommt ein Geschenk.",
-      "level": "a1"
-    },
-    {
-      "word": "interaktive",
-      "meaning": "Interactive content",
-      "example": "Wir bieten interaktive Lernvideos an.",
-      "level": "a1"
-    },
-    {
-      "word": "übungen",
-      "meaning": "Exercises or practice",
-      "example": "Wenn ihr noch mehr zu diesem Thema üben möchtet...",
-      "level": "a1"
-    },
-    {
-      "word": "lernen",
-      "meaning": "to learn something",
-      "example": "Wenn du etwas lernen möchtest, wende dich an uns.",
-      "level": "a1"
-    },
-    {
-      "word": "sehen",
-      "meaning": "to see",
-      "example": "Wir sehen uns morgen.",
-      "level": "a1"
-    },
-    {
-      "word": "unterstützt",
-      "meaning": "supported",
-      "example": "Wir unterstützt unsere Freunde.",
-      "level": "a1"
-    },
-    {
-      "word": "versteck",
-      "meaning": "Good hiding place",
-      "example": "Das ist ein gutes Versteck.",
-      "level": "a1"
-    },
-    {
-      "word": "Gelächter",
-      "meaning": "Laughter of people",
-      "example": "Das Gelächter im Kino war sehr laut.",
-      "level": "a1"
-    },
-    {
-      "word": "bestimmtes",
-      "meaning": "Certain pattern",
-      "example": "Es gibt kein bestimmtes Muster.",
-      "level": "a1"
-    },
-    {
-      "word": "gleiche",
-      "meaning": "same number",
-      "example": "Die Zahl 13 ist nicht gleich 14.",
-      "level": "a1"
-    }
-  ],
-  "Other": [
-    {
-      "word": "benutzt",
-      "meaning": "used by someone",
-      "example": "Ich habe mein Handy benutzt.",
-      "level": "a1"
-    },
-    {
-      "word": "Wörter",
-      "meaning": "German words",
-      "example": "Diese Wörter sind nicht so einfach.",
-      "level": "a1"
-    },
-    {
-      "word": "rücken",
-      "meaning": "back part of body",
-      "example": "Ein rücken ist ein Teil des Körpers.",
-      "level": "a1"
-    },
-    {
-      "word": "gleichheit",
-      "meaning": "Equality and fairness",
-      "example": "Gleichheit ist wichtig für alle Menschen.",
-      "level": "a1"
-    },
-    {
-      "word": "gebäude",
-      "meaning": "Building or structure",
-      "example": "Dieses Gebäude ist hoch.",
-      "level": "a1"
-    },
-    {
-      "word": "finger",
-      "meaning": "a body part",
-      "example": "Das ist ein Finger.",
-      "level": "a1"
-    },
-    {
-      "word": "daumen",
-      "meaning": "thumb",
-      "example": "Lisa drückt mir die Daumen.",
-      "level": "a1"
-    },
-    {
-      "word": "Musik",
-      "meaning": "Music",
-      "example": "Ich liebe Musik.",
-      "level": "a1"
-    },
-    {
-      "word": "Possessivpronomen",
-      "meaning": "Possessive pronoun",
-      "example": "Lisa hat einen vollen Bauch.",
-      "level": "a1"
-    },
-    {
-      "word": "zeigen",
-      "meaning": "to show something",
-      "example": "Kannst du mir zeigen, wo das Badezimmer ist?",
-      "level": "a1"
-    },
-    {
-      "word": "beschreibt",
-      "meaning": "describes something",
-      "example": "Der Text beschreibt die Stadt.",
-      "level": "a1"
-    },
-    {
-      "word": "wetter",
-      "meaning": "Weather conditions",
-      "example": "Das Wetter in Deutschland ist schlecht.",
-      "level": "a1"
-    },
-    {
-      "word": "trinkt",
-      "meaning": "drinks",
-      "example": "Der Mann trinkt Wasser.",
-      "level": "a1"
-    },
-    {
-      "word": "kaffee",
-      "meaning": "Coffee, hot drink",
-      "example": "Wir trinken jeden Morgen einen Kaffee.",
-      "level": "a1"
-    },
-    {
-      "word": "geht's",
-      "meaning": "Let's go",
-      "example": "Los geht's, wir beginnen!",
-      "level": "a1"
-    },
-    {
-      "word": "drückt",
-      "meaning": "presses my thumbs",
-      "example": "Lisa drückt mir die Daumen.",
-      "level": "a1"
-    },
-    {
-      "word": "bein",
-      "meaning": "lower leg part",
-      "example": "Maria steht auf einem Bein.",
-      "level": "a1"
-    },
-    {
-      "word": "hand",
-      "meaning": "The human hand",
-      "example": "This is the hand.",
-      "level": "a1"
-    },
-    {
-      "word": "tut",
-      "meaning": "It hurts the back",
-      "example": "Maria tut mir weh.",
-      "level": "a1"
-    },
-    {
-      "word": "schultern",
-      "meaning": "Shoulder, shoulders",
-      "example": "Maria zuckt mit den Schultern.",
-      "level": "a1"
-    },
-    {
-      "word": "kopf",
-      "meaning": "head of the body",
-      "example": "Mein Kopf schmerzt.",
+      "word": "Pronomen",
+      "meaning": "Personal pronouns",
+      "example": "Pronomen werden oft verwendet.",
       "level": "a1"
     },
     {
       "word": "Artikel",
       "meaning": "The article",
-      "example": "Der Artikel ist interessant.",
+      "example": "Ich brauche einen Artikel über die Stadt.",
       "level": "a1"
     },
     {
-      "word": "üben",
-      "meaning": "to practice or exercise",
-      "example": "Ich übe jeden Tag mein Deutsch.",
-      "level": "a1"
-    },
-    {
-      "word": "Tee",
-      "meaning": "Tea, hot beverage",
-      "example": "Ich trinke gerne Tee.",
-      "level": "a1"
-    },
-    {
-      "word": "antwortet",
-      "meaning": "gives an answer",
-      "example": "Maria antwortet auf die Frage.",
+      "word": "seht",
+      "meaning": "Look, see",
+      "example": "Seht, was passiert!",
       "level": "a1"
     }
   ],
-  "Prepositions": [
-    {
-      "word": "Auto",
-      "meaning": "Car, vehicle",
-      "example": "Ich fahre mit dem Auto.",
-      "level": "a1"
-    },
-    {
-      "word": "steht",
-      "meaning": "stands or is standing",
-      "example": "Das Haus steht auf dem Berg.",
-      "level": "a1"
-    },
-    {
-      "word": "Dativ",
-      "meaning": "Dative case",
-      "example": "Die Präposition 'bei' wird im Dativ verwendet.",
-      "level": "a1"
-    },
+  "Grammar → Prepositions": [
     {
       "word": "fahrrad",
       "meaning": "Bicycle",
@@ -1242,7 +160,7 @@
     },
     {
       "word": "Musik",
-      "meaning": "Music or song",
+      "meaning": "Music, sound, or song",
       "example": "Wir mögen Musik hören.",
       "level": "a1"
     },
@@ -1253,20 +171,8 @@
       "level": "a1"
     },
     {
-      "word": "gebildet",
-      "meaning": "well-educated",
-      "example": "Mein Bruder ist gebildet.",
-      "level": "a1"
-    },
-    {
-      "word": "artikel",
-      "meaning": "Article, noun",
-      "example": "Die Artikel müssen gestellt werden.",
-      "level": "a1"
-    },
-    {
       "word": "zwiebeln",
-      "meaning": "without onions",
+      "meaning": "to omit onions",
       "example": "Ich möchte einen Döner ohne Zwiebeln.",
       "level": "a1"
     },
@@ -1277,9 +183,21 @@
       "level": "a1"
     },
     {
-      "word": "Präpositionen",
-      "meaning": "Prepositions",
-      "example": "Lernen Sie die Präpositionen.",
+      "word": "artikel",
+      "meaning": "Article, noun",
+      "example": "Die Artikel müssen gestellt werden.",
+      "level": "a1"
+    },
+    {
+      "word": "stehen",
+      "meaning": "to stand up",
+      "example": "Wir müssen stehen, um zu warten.",
+      "level": "a1"
+    },
+    {
+      "word": "vegetarischen",
+      "meaning": "Vegetarian food",
+      "example": "Ich möchte einen vegetarischen Salat.",
       "level": "a1"
     },
     {
@@ -1295,9 +213,9 @@
       "level": "a1"
     },
     {
-      "word": "stehen",
-      "meaning": "to stand up",
-      "example": "Wir müssen stehen, um zu warten.",
+      "word": "dativ",
+      "meaning": "Dative case",
+      "example": "Die Artikel werden immer im Dativ gestellt.",
       "level": "a1"
     },
     {
@@ -1307,20 +225,26 @@
       "level": "a1"
     },
     {
-      "word": "vegetarischen",
-      "meaning": "Vegetarian food",
-      "example": "Ich möchte einen vegetarischen Salat.",
-      "level": "a1"
-    },
-    {
       "word": "käse",
       "meaning": "Cheese, dairy product",
       "example": "Ich esse gerne Käse zum Brot.",
       "level": "a1"
     },
     {
+      "word": "gesehen",
+      "meaning": "seen before",
+      "example": "Habt ihr diesen Film schon gesehen?",
+      "level": "a1"
+    },
+    {
+      "word": "personalpronomen",
+      "meaning": "Personal pronouns",
+      "example": "Ich verwende personalpronomen im Satz.",
+      "level": "a1"
+    },
+    {
       "word": "Arzt",
-      "meaning": "Doctor",
+      "meaning": "Doctor, Medical Specialist",
       "example": "Der Arzt hilft mir.",
       "level": "a1"
     },
@@ -1361,43 +285,25 @@
       "level": "a1"
     },
     {
+      "word": "pronomen",
+      "meaning": "Personal pronouns",
+      "example": "Die Pronomen müssen immer richtig gestellt werden.",
+      "level": "a1"
+    },
+    {
+      "word": "adjektive",
+      "meaning": "Descriptive words",
+      "example": "Die adjektive beschreiben den Mann.",
+      "level": "a1"
+    },
+    {
       "word": "stellen",
-      "meaning": "to put or place",
+      "meaning": "to place or put",
       "example": "Wir stellen das Fahrrad ab.",
       "level": "a1"
     }
   ],
-  "Restaurant & Food": [
-    {
-      "word": "Essen",
-      "meaning": "To eat a meal",
-      "example": "Wir haben jetzt ein Mittagessen gehabt.",
-      "level": "a1"
-    },
-    {
-      "word": "Mittagessen",
-      "meaning": "Midday meal",
-      "example": "Wir haben jetzt ein vietnamesisches Mittagessen gehabt.",
-      "level": "a1"
-    },
-    {
-      "word": "essen",
-      "meaning": "to eat",
-      "example": "Wir haben jetzt ein Mittagessen gehabt.",
-      "level": "a1"
-    },
-    {
-      "word": "Musik",
-      "meaning": "Music",
-      "example": "Ich liebe Musik.",
-      "level": "a1"
-    },
-    {
-      "word": "Reis",
-      "meaning": "Rice, especially with vegetables",
-      "example": "Ich esse gerne Reis mit Gemüse.",
-      "level": "a1"
-    },
+  "Nouns → Food & Restaurant": [
     {
       "word": "danke",
       "meaning": "Thank you very much",
@@ -1405,315 +311,303 @@
       "level": "a1"
     },
     {
-      "word": "esse",
-      "meaning": "eat slowly",
-      "example": "Ich esse langsam.",
-      "level": "a1"
-    },
-    {
-      "word": "lecker",
-      "meaning": "tasty",
-      "example": "Das Essen ist lecker.",
-      "level": "a1"
-    },
-    {
-      "word": "Salat",
-      "meaning": "Green salad",
-      "example": "Ich esse gerne Salat zum Mittagessen.",
+      "word": "vegane",
+      "meaning": "plant-based food",
+      "example": "Wir essen vegane Currywurst.",
       "level": "a1"
     },
     {
       "word": "Hunger",
-      "meaning": "Feeling very hungry",
-      "example": "Ich habe Hunger, kann ich etwas essen?",
+      "meaning": "Feeling of extreme hunger",
+      "example": "Ich habe Hunger.",
       "level": "a1"
     },
     {
-      "word": "vegane",
-      "meaning": "Vegan food or product",
-      "example": "Die vegane Ente ist sehr lecker.",
+      "word": "essen",
+      "meaning": "to eat food",
+      "example": "Wir gehen jetzt essen.",
       "level": "a1"
     },
     {
-      "word": "Ente",
-      "meaning": "Vegan duck",
-      "example": "Die vegane Ente ist sehr lecker.",
+      "word": "bestellen",
+      "meaning": "Order something to drink",
+      "example": "Getränke bestellen, ein großes Sprudelwasser bitte.",
+      "level": "a1"
+    },
+    {
+      "word": "Kaffee",
+      "meaning": "Coffee, hot drink",
+      "example": "Wir möchten Kaffee bestellen.",
+      "level": "a1"
+    },
+    {
+      "word": "Restaurant",
+      "meaning": "A place to eat",
+      "example": "Wir gehen in ein Restaurant.",
       "level": "a1"
     },
     {
       "word": "bestellt",
-      "meaning": "Ordered, requested",
-      "example": "Wir haben bestellt, jetzt kommt es.",
-      "level": "a1"
-    },
-    {
-      "word": "nehme",
-      "meaning": "take a spoon",
-      "example": "Wenn ich einen Löffel nehme, esse ich langsam.",
-      "level": "a1"
-    },
-    {
-      "word": "geht's",
-      "meaning": "It's going to happen",
-      "example": "Wenn du den Löffel nimmst, geht's los.",
-      "level": "a1"
-    },
-    {
-      "word": "schöne",
-      "meaning": "beautiful thing",
-      "example": "Das ist das Schöne an Berlin.",
-      "level": "a1"
-    },
-    {
-      "word": "Restaurants",
-      "meaning": "Places to eat food",
-      "example": "In Berlin gibt es viele Restaurants.",
-      "level": "a1"
-    },
-    {
-      "word": "sieht",
-      "meaning": "looks like",
-      "example": "Wie sieht das aus?",
-      "level": "a1"
-    },
-    {
-      "word": "Bratwurst",
-      "meaning": "Grilled sausage",
-      "example": "I eat Bratwurst every Wednesday.",
-      "level": "a1"
-    },
-    {
-      "word": "Rindfleisch",
-      "meaning": "Beef from a cow",
-      "example": "Ich esse Rindfleisch.",
-      "level": "a1"
-    },
-    {
-      "word": "Freund",
-      "meaning": "Close male friend",
-      "example": "Janusch hat einen Freund.",
-      "level": "a1"
-    },
-    {
-      "word": "Diät",
-      "meaning": "Diet or weight loss plan",
-      "example": "Mein Freund hilft mir bei meiner Diät.",
-      "level": "a1"
-    },
-    {
-      "word": "weiß",
-      "meaning": "knows something about it",
-      "example": "Er weiß, was das ist.",
-      "level": "a1"
-    },
-    {
-      "word": "Käse",
-      "meaning": "Cheese, dairy product",
-      "example": "Es gibt Käse in Deutschland.",
+      "meaning": "ordered food at a restaurant",
+      "example": "Wir haben bestellt und warten auf unser Essen.",
       "level": "a1"
     },
     {
       "word": "Nummer",
       "meaning": "Number, phone number",
-      "example": "Die Nummer ist 123.",
-      "level": "a1"
-    }
-  ],
-  "Shopping": [
-    {
-      "word": "Geschäft",
-      "meaning": "Business or shop",
-      "example": "Wir sind im Geschäft.",
+      "example": "Ich brauche deine Nummer.",
       "level": "a1"
     },
     {
       "word": "Musik",
-      "meaning": "Music and Sound",
-      "example": "Wir hören Musik im Geschäft.",
+      "meaning": "Music",
+      "example": "Wir hören Musik im Restaurant.",
       "level": "a1"
     },
     {
-      "word": "gehe",
-      "meaning": "I am going in",
-      "example": "Ich gehe rein.",
+      "word": "esti",
+      "meaning": "I want to eat",
+      "example": "Kari esti, wollen wir was essen?",
       "level": "a1"
     },
     {
-      "word": "Supermarkt",
-      "meaning": "Large grocery store",
-      "example": "Wir gehen zum Supermarkt.",
+      "word": "Ente",
+      "meaning": "Duck",
+      "example": "Die Ente schwimmt im See.",
       "level": "a1"
     },
     {
-      "word": "Einkaufswagen",
-      "meaning": "Shopping cart",
-      "example": "Do you want a basket or a cart?",
+      "word": "schmeckt",
+      "meaning": "tastes good to me",
+      "example": "Die Vorspeise schmeckt total lecker.",
       "level": "a1"
     },
     {
-      "word": "Jacke",
-      "meaning": "Winter coat",
-      "example": "Wir suchen eine neue Jacke.",
+      "word": "Soße",
+      "meaning": "Sauce or condiment",
+      "example": "Die Soße war sehr lecker.",
       "level": "a1"
     },
     {
-      "word": "gefällt",
-      "meaning": "Likes it very much",
-      "example": "Die Jacke gefällt mir sehr gut.",
+      "word": "nehmen",
+      "meaning": "to take something",
+      "example": "Soll ich den Lachs nehmen?",
       "level": "a1"
     },
     {
-      "word": "System",
-      "meaning": "Buying method",
-      "example": "Bevor wir anfangen, möchte ich wissen, mit welchem System du kaufst.",
+      "word": "entscheiden",
+      "meaning": "Make a decision",
+      "example": "Ich kann mich nicht entscheiden, was ich essen soll.",
       "level": "a1"
     },
     {
-      "word": "Leute",
-      "meaning": "Hello people",
-      "example": "Hallo Leute, wie geht es Ihnen?",
+      "word": "Nachtisch",
+      "meaning": "Midnight snack",
+      "example": "Ich esse ein Nachtisch.",
       "level": "a1"
     },
     {
-      "word": "Biomarkt",
-      "meaning": "Organic market",
-      "example": "Wir gehen zum Biomarkt.",
+      "word": "Sesambällchen",
+      "meaning": "Tofu balls",
+      "example": "I'll order the Sesambällchen without milk.",
       "level": "a1"
     },
     {
-      "word": "DM",
-      "meaning": "German Marks currency",
-      "example": "Hier gibt es DM-Wechselstuben.",
+      "word": "Kondensmilch",
+      "meaning": "Condensed milk substitute",
+      "example": "Ich bestelle die Sesambällchen ohne Kondensmilch.",
       "level": "a1"
     },
     {
-      "word": "kauf",
-      "meaning": "purchase or buying",
-      "example": "Das Geschäft heißt Kauf.",
+      "word": "langsamen",
+      "meaning": "slow German speaking",
+      "example": "Wir sprechen auf langsamen Deutsch.",
       "level": "a1"
     },
     {
-      "word": "gucken",
-      "meaning": "to look around",
-      "example": "Wir gucken uns um.",
+      "word": "Deutsch",
+      "meaning": "Slow German language",
+      "example": "Wir sprechen auf Deutsch.",
       "level": "a1"
     },
     {
-      "word": "bisschen",
-      "meaning": "a little bit",
-      "example": "Wir gucken einfach mal ein bisschen rum.",
+      "word": "Essen",
+      "meaning": "To eat food",
+      "example": "Wir gehen jetzt essen.",
       "level": "a1"
     },
     {
-      "word": "Anziehsachen",
-      "meaning": "Clothing items",
-      "example": "Wir suchen Anziehsachen für den Sommer.",
+      "word": "Pizza",
+      "meaning": "Italian flatbread dish",
+      "example": "Willst du Pizza essen?",
       "level": "a1"
     },
     {
-      "word": "sehen",
-      "meaning": "to look at something",
-      "example": "Wir gucken einfach mal ein bisschen rum und sehen, was wir finden.",
+      "word": "asiatischen",
+      "meaning": "Asian countries' dishes",
+      "example": "Monkey, here are dishes from various Asian countries.",
       "level": "a1"
     },
     {
-      "word": "stehen",
-      "meaning": "to stand",
-      "example": "Wir stehen hier im Geschäft.",
-      "level": "a1"
-    },
-    {
-      "word": "Pia",
-      "meaning": "Girl's name",
-      "example": "Pia ist mein Freundin.",
-      "level": "a1"
-    },
-    {
-      "word": "Sommer",
-      "meaning": "Summer season",
-      "example": "Die Jacke ist für den Sommer geeignet.",
-      "level": "a1"
-    },
-    {
-      "word": "steht",
-      "meaning": "stands up",
-      "example": "Die Tür steht offen.",
-      "level": "a1"
-    },
-    {
-      "word": "anfangen",
-      "meaning": "To start something",
-      "example": "Bevor wir anfangen, möchte ich wissen, mit welchem System du kaufst.",
-      "level": "a1"
-    },
-    {
-      "word": "Einkaufsliste",
-      "meaning": "Shopping list",
-      "example": "Hast du eine Einkaufsliste digital oder handgeschrieben?",
-      "level": "a1"
-    },
-    {
-      "word": "einkaufen",
-      "meaning": "to go shopping",
-      "example": "Ich muss einkaufen gehen.",
-      "level": "a1"
-    },
-    {
-      "word": "Jagd",
-      "meaning": "Hunting or hunting trip",
-      "example": "Die Jagd beginnt.",
-      "level": "a1"
-    },
-    {
-      "word": "sehe",
-      "meaning": "I see",
-      "example": "Ich sehe ein schönes Kleid.",
+      "word": "Janisch",
+      "meaning": "Familiar or informal name",
+      "example": "Küche Janisch und esti setzen sich an den Tisch.",
       "level": "a1"
     }
   ],
-  "Verbs": [
+  "Other": [
     {
-      "word": "fahren",
-      "meaning": "to travel by car",
-      "example": "Wohin fahren wir in den Urlaub?",
+      "word": "Musik",
+      "meaning": "Music",
+      "example": "Ich liebe Musik.",
       "level": "a1"
     },
     {
-      "word": "gefahren",
-      "meaning": "to travel by car",
-      "example": "Ich will ans Meer fahren.",
+      "word": "Wort",
+      "meaning": "A single word",
+      "example": "Ein Wort ist ein Buchstabenreihen.",
       "level": "a1"
     },
     {
-      "word": "Verben",
-      "meaning": "Action verbs",
-      "example": "You have seen three verbs with 'auf'.",
+      "word": "deutschen",
+      "meaning": "Of the Germans",
+      "example": "In deutschen Texten ist das E der häufigste Buchstabe.",
       "level": "a1"
     },
     {
-      "word": "Präpositionen",
-      "meaning": "Prepositions",
-      "example": "Verben mit Präpositionen sind schwierig.",
+      "word": "rücken",
+      "meaning": "back or backbone",
+      "example": "Ein Rücken ist ein Teil des Skeletts.",
       "level": "a1"
     },
     {
-      "word": "kombiniert",
-      "meaning": "combined with a preposition",
-      "example": "Sie wird mit dem Auto kombiniert.",
+      "word": "imperativ",
+      "meaning": "Imperative mood",
+      "example": "Der Imperativ wird in der Grammatik gelehrt.",
       "level": "a1"
     },
     {
-      "word": "sprechen",
-      "meaning": "to speak about something",
-      "example": "Wir sprechen über das Wetter.",
+      "word": "merken",
+      "meaning": "to take notice",
+      "example": "Ich merke, dass es regnet.",
       "level": "a1"
     },
     {
-      "word": "werk",
-      "meaning": "Work or job",
-      "example": "Ich arbeite an einem neuen Werk.",
+      "word": "finger",
+      "meaning": "a body part",
+      "example": "das hier ist ein Finger",
       "level": "a1"
     },
+    {
+      "word": "daumen",
+      "meaning": "thumb",
+      "example": "Lisa drückt mir die Daumen.",
+      "level": "a1"
+    },
+    {
+      "word": "zeigen",
+      "meaning": "to show something",
+      "example": "Lisa zeigt mir ihren Bauch.",
+      "level": "a1"
+    },
+    {
+      "word": "Kaffee",
+      "meaning": "Coffee, hot drink",
+      "example": "Ich trinke Kaffee am Morgen.",
+      "level": "a1"
+    },
+    {
+      "word": "sucht",
+      "meaning": "searches for something",
+      "example": "Er sucht nach seiner Schlüssel.",
+      "level": "a1"
+    },
+    {
+      "word": "Schlüssel",
+      "meaning": "Key or house key",
+      "example": "Ich habe den Schlüssel verloren.",
+      "level": "a1"
+    },
+    {
+      "word": "Artikel",
+      "meaning": "The definite article",
+      "example": "Der Artikel ist wichtig.",
+      "level": "a1"
+    },
+    {
+      "word": "kennt",
+      "meaning": "knows someone",
+      "example": "Erik kennt eine coole Kneipe.",
+      "level": "a1"
+    },
+    {
+      "word": "braucht",
+      "meaning": "needs something",
+      "example": "Erik braucht eine neue Mikrowelle.",
+      "level": "a1"
+    },
+    {
+      "word": "form",
+      "meaning": "shape or appearance",
+      "example": "Die Form des Hauses ist interessant.",
+      "level": "a1"
+    },
+    {
+      "word": "konjugation",
+      "meaning": "Grammar form variation",
+      "example": "The form of konjugation differs slightly.",
+      "level": "a1"
+    },
+    {
+      "word": "gehst",
+      "meaning": "You are going",
+      "example": "Du gehst jetzt zum Park.",
+      "level": "a1"
+    },
+    {
+      "word": "lernen",
+      "meaning": "to learn something",
+      "example": "You must learn this verb.",
+      "level": "a1"
+    },
+    {
+      "word": "drückt",
+      "meaning": "presses my thumbs",
+      "example": "Lisa drückt mir die Daumen.",
+      "level": "a1"
+    },
+    {
+      "word": "bein",
+      "meaning": "lower leg part",
+      "example": "Maria steht auf einem Bein.",
+      "level": "a1"
+    },
+    {
+      "word": "hand",
+      "meaning": "The human hand",
+      "example": "This is the hand.",
+      "level": "a1"
+    },
+    {
+      "word": "schultern",
+      "meaning": "Shoulder, shoulders",
+      "example": "Maria zuckt mit den Schultern.",
+      "level": "a1"
+    },
+    {
+      "word": "kopf",
+      "meaning": "head of the body",
+      "example": "Mein Kopf schmerzt.",
+      "level": "a1"
+    },
+    {
+      "word": "aussprechen",
+      "meaning": "to pronounce something",
+      "example": "Wie lautet das Wort, wenn du es aussprechen musst?",
+      "level": "a1"
+    }
+  ],
+  "Verbs → Common verbs": [
     {
       "word": "Musik",
       "meaning": "Music, singing",
@@ -1721,33 +615,15 @@
       "level": "a1"
     },
     {
-      "word": "merken",
-      "meaning": "to remember something",
-      "example": "Du musst es merken, um es zu vergessen.",
+      "word": "Verben",
+      "meaning": "Irregular verbs",
+      "example": "Im Deutschen gibt es 200 unregelmäßige Verben.",
       "level": "a1"
     },
     {
-      "word": "Verb",
-      "meaning": "Action or activity word",
-      "example": "Ein Verb ist ein Wort, das eine Handlung beschreibt.",
-      "level": "a1"
-    },
-    {
-      "word": "sagen",
-      "meaning": "to say something",
-      "example": "Ich sage, dass ich mit Janus spreche.",
-      "level": "a1"
-    },
-    {
-      "word": "wartet",
-      "meaning": "is waiting for",
-      "example": "Ludwig wartet auf seine Belohnung.",
-      "level": "a1"
-    },
-    {
-      "word": "spreche",
-      "meaning": "I speak about something",
-      "example": "Wir sprechen über deine Lieblingsmusikrichtung.",
+      "word": "lernen",
+      "meaning": "to learn",
+      "example": "You must learn the conjugation individually.",
       "level": "a1"
     },
     {
@@ -1757,63 +633,57 @@
       "level": "a1"
     },
     {
-      "word": "Briefträger",
-      "meaning": "Mail carrier person",
-      "example": "Der Briefträger bringt den Brief.",
+      "word": "werk",
+      "meaning": "Work or job",
+      "example": "Ich habe einen neuen Werk.",
       "level": "a1"
     },
     {
-      "word": "Akkusativ",
-      "meaning": "Accusative case",
-      "example": "Die Verben haben einen Akkusativ.",
+      "word": "hören",
+      "meaning": "to listen",
+      "example": "Ich möchte, dass du zuhörst.",
       "level": "a1"
     },
     {
-      "word": "freut",
-      "meaning": "is happy about something",
-      "example": "Janisch freut sich auf das Bier.",
+      "word": "kombiniert",
+      "meaning": "Combined, together",
+      "example": "Wir haben unsere Pläne kombiniert.",
       "level": "a1"
     },
     {
-      "word": "werben",
-      "meaning": "to recruit or hire",
-      "example": "Wir werben neue Mitarbeiter an.",
+      "word": "zeigen",
+      "meaning": "to show something",
+      "example": "Man zeigt mir den Weg.",
       "level": "a1"
     },
     {
-      "word": "kombinieren",
-      "meaning": "to combine",
-      "example": "Man kann sprechen und sprechen kombinieren.",
+      "word": "fahren",
+      "meaning": "to travel by car",
+      "example": "Wohin fahren wir in den Urlaub?",
       "level": "a1"
     },
     {
-      "word": "folgt",
-      "meaning": "follows next",
-      "example": "Das folgt dem Satz.",
+      "word": "unregelmäßige",
+      "meaning": "Irregular verbs",
+      "example": "Im Deutschen gibt es 200 unregelmäßige Verben.",
       "level": "a1"
     },
     {
-      "word": "seht",
-      "meaning": "Look, see",
-      "example": "Seht, wie schön das Wetter ist!",
-      "level": "a1"
-    },
-    {
-      "word": "eingeblendet",
-      "meaning": "inserted into the conversation",
-      "example": "Man hat mich eingeblendet in die Diskussion.",
+      "word": "Seedlang",
+      "meaning": "Language learning app",
+      "example": "Try our app Seedlang now.",
       "level": "a1"
     },
     {
       "word": "möchtest",
-      "meaning": "Would you like to",
-      "example": "Willst du mit mir sprechen?",
+      "meaning": "Do you want to",
+      "example": "Was möchtest du denn?",
       "level": "a1"
     },
     {
       "word": "szene",
-      "meaning": "Scene or situation",
-      "example": "Ich spreche über die Szene in der Stadt.",
+      "meaning": "Scene, situation",
+      "example": "Die Szene war sehr komisch.",
       "level": "a1"
     },
     {
@@ -1821,157 +691,71 @@
       "meaning": "Action or activity word",
       "example": "Ein Verb ist ein Wort, das eine Handlung beschreibt.",
       "level": "a1"
-    }
-  ],
-  "Vocabulary": [
+    },
     {
-      "word": "melone",
-      "meaning": "type of fruit",
-      "example": "Das ist eine Melone.",
+      "word": "klingt",
+      "meaning": "Sounds like",
+      "example": "Das Klingt gut.",
       "level": "a1"
     },
     {
-      "word": "kiwis",
-      "meaning": "Small, sweet fruit",
-      "example": "Das ist eine Kiwi.",
+      "word": "hört",
+      "meaning": "has heard something",
+      "example": "Heute habt ihr die drei häufigsten Verben gehört.",
       "level": "a1"
     },
     {
-      "word": "zitronen",
-      "meaning": "lemon fruits",
-      "example": "Er isst eine Zitrone.",
+      "word": "gesprochenen",
+      "meaning": "spoken language",
+      "example": "Man hört es oft in der gesprochenen Sprache.",
       "level": "a1"
     },
     {
-      "word": "Situation",
-      "meaning": "Uncomfortable or embarrassing situation",
-      "example": "Eine Situation, die peinlich ist.",
+      "word": "sprache",
+      "meaning": "Language or speech",
+      "example": "In Seedlang könnt ihr eure Aussprache trainieren.",
       "level": "a1"
     },
     {
-      "word": "letzte",
-      "meaning": "last time",
-      "example": "Ich war gestern das letzte Mal hier.",
+      "word": "stehen",
+      "meaning": "to stand up",
+      "example": "Ich stehe auf dem Tisch.",
       "level": "a1"
     },
     {
-      "word": "Mal",
-      "meaning": "Last time",
-      "example": "Ich war das letzte Mal am Samstag hier.",
+      "word": "infiniti",
+      "meaning": "infinite mode",
+      "example": "They always stand in the infiniti.",
       "level": "a1"
     },
     {
-      "word": "privaten",
-      "meaning": "private space",
-      "example": "Wir brauchen ein privaten Raum.",
+      "word": "singen",
+      "meaning": "to sing a song",
+      "example": "Ich singe gerne im Chor.",
       "level": "a1"
     },
     {
-      "word": "sprechen",
-      "meaning": "to speak",
-      "example": "Wir sprechen morgen Deutsch.",
+      "word": "tanzen",
+      "meaning": "to dance",
+      "example": "Ich will tanzen gehen.",
       "level": "a1"
     },
     {
-      "word": "verschiedene",
-      "meaning": "Different kinds of fruit",
-      "example": "Wir haben verschiedene Obstsorten im Laden.",
+      "word": "konjugation",
+      "meaning": "Grammar form variation",
+      "example": "Now we show you the conjugation.",
       "level": "a1"
     },
     {
-      "word": "apfel",
-      "meaning": "Apple fruit",
-      "example": "Das ist ein Apfel.",
+      "word": "Deutschen",
+      "meaning": "Of the Germans",
+      "example": "Im Deutschen gibt es 200 unregelmäßige Verben.",
       "level": "a1"
     },
     {
-      "word": "banane",
-      "meaning": "Yellow tropical fruit",
-      "example": "Das ist eine Banane.",
-      "level": "a1"
-    },
-    {
-      "word": "zählt",
-      "meaning": "counts or is counting",
-      "example": "Janisch zählt die Apfelsinen.",
-      "level": "a1"
-    },
-    {
-      "word": "apfelsine",
-      "meaning": "Tangerine or mandarin orange",
-      "example": "Janisch counts one apfelsine.",
-      "level": "a1"
-    },
-    {
-      "word": "apfelsinen",
-      "meaning": "orange fruits",
-      "example": "Chelsea doesn't like to steal apfelsinen.",
-      "level": "a1"
-    },
-    {
-      "word": "melonen",
-      "meaning": "Watermelon or other melons",
-      "example": "Es gibt verschiedene Arten von Melonen.",
-      "level": "a1"
-    },
-    {
-      "word": "teilt",
-      "meaning": "divides or shares",
-      "example": "Janosch teilt die Melone mit einem Messer.",
-      "level": "a1"
-    },
-    {
-      "word": "birne",
-      "meaning": "Pomegranate",
-      "example": "Das ist eine Birne.",
-      "level": "a1"
-    },
-    {
-      "word": "himbeeren",
-      "meaning": "strawberry",
-      "example": "Das sind Himbeeren.",
-      "level": "a1"
-    },
-    {
-      "word": "liebt",
-      "meaning": "loves someone or something",
-      "example": "Janus liebt Grapefruit.",
-      "level": "a1"
-    },
-    {
-      "word": "kiwi",
-      "meaning": "Small, hairy fruit",
-      "example": "Das ist eine Kiwi.",
-      "level": "a1"
-    },
-    {
-      "word": "zitrone",
-      "meaning": "Citrus fruit, lemon",
-      "example": "Er isst eine Zitrone.",
-      "level": "a1"
-    },
-    {
-      "word": "freuen",
-      "meaning": "to feel happy about",
-      "example": "Wir freuen uns auf den Urlaub.",
-      "level": "a1"
-    },
-    {
-      "word": "nächsten",
-      "meaning": "next to each other",
-      "example": "Wir werden uns in den Nächsten treffen.",
-      "level": "a1"
-    },
-    {
-      "word": "benutzen",
-      "meaning": "to use something",
-      "example": "Man kann das einfach so benutzen.",
-      "level": "a1"
-    },
-    {
-      "word": "genert",
-      "meaning": "causes embarrassment",
-      "example": "Das ist mir peinlich.",
+      "word": "Konjugation",
+      "meaning": "Grammar conjugation rules",
+      "example": "You must learn the conjugation of these verbs.",
       "level": "a1"
     }
   ]
