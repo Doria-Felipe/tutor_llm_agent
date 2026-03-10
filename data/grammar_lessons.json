@@ -1,48 +1,48 @@
 {
   "Introduce Yourself in Slow German | Super Easy German 258": {
-    "title": "Conversation with a Stranger",
+    "title": "Introducing Yourself in German",
     "vocabulary": [
       {
-        "word": "Haustiere",
-        "translation": "Pets"
+        "word": "Wie heißt du?",
+        "translation": "What is your name?"
       },
       {
-        "word": "Musik",
-        "translation": "Music"
+        "word": "Ich heiße",
+        "translation": "My name is"
       },
       {
-        "word": "Sprache",
-        "translation": "Language"
+        "word": "Ich bin",
+        "translation": "I am"
       },
       {
-        "word": "Hund",
-        "translation": "Dog"
+        "word": "Alt",
+        "translation": "Old"
       },
       {
-        "word": "Papagei",
-        "translation": "Parrot"
+        "word": "Jung",
+        "translation": "Young"
       }
     ],
     "examples": [
       {
-        "german": "Ich habe keine Haustiere.",
-        "english": "I don't have any pets."
+        "german": "Wie heißt du?",
+        "english": "What is your name?"
       },
       {
-        "german": "Ich höre gerne Indie Musik.",
-        "english": "I like listening to Indie music."
+        "german": "Ich heiße Pauline.",
+        "english": "My name is Pauline."
       },
       {
-        "german": "Ich spreche Deutsch, Englisch und ein bisschen Spanisch.",
-        "english": "I speak German, English, and a little Spanish."
+        "german": "Ich bin 28 Jahre alt.",
+        "english": "I am 28 years old."
       },
       {
-        "german": "Ich habe einen tollen Hund.",
-        "english": "I have a great dog."
+        "german": "Ich bin 64 Jahre alt.",
+        "english": "I am 64 years old."
       },
       {
-        "german": "Ich möchte gerne einen Papagei haben.",
-        "english": "I would like to have a parrot."
+        "german": "Ich bin aus Deutschland.",
+        "english": "I am from Germany."
       }
     ]
   },
@@ -76,16 +76,16 @@
         "english": "What is your name?"
       },
       {
-        "german": "Ich heiße Max.",
-        "english": "My name is Max."
+        "german": "Ich heiße Angela.",
+        "english": "My name is Angela."
       },
       {
         "german": "Woher kommst du?",
         "english": "Where are you from?"
       },
       {
-        "german": "Ich komme aus Berlin.",
-        "english": "I am from Berlin."
+        "german": "Ich komme aus Zürich.",
+        "english": "I am from Zürich."
       },
       {
         "german": "Wo lebst du?",
@@ -94,143 +94,143 @@
     ]
   },
   "German Alphabet & Pronunciation - Full Guide | Super Easy German 253": {
-    "title": "Deutsche Aussprache",
+    "title": "German Alphabet & Pronunciation",
     "vocabulary": [
       {
-        "word": "Aussprache",
-        "translation": "pronunciation"
+        "word": "Vater",
+        "translation": "father"
       },
       {
-        "word": "Vokal",
-        "translation": "vowel"
+        "word": "Bahn",
+        "translation": "train"
       },
       {
-        "word": "Konsonant",
-        "translation": "consonant"
+        "word": "Apfel",
+        "translation": "apple"
       },
       {
-        "word": "Diftong",
-        "translation": "diphthong"
+        "word": "Mann",
+        "translation": "man"
       },
       {
-        "word": "Umlaut",
-        "translation": "umlaut"
+        "word": "Äpfel",
+        "translation": "apples"
       }
     ],
     "examples": [
       {
-        "german": "Die Aussprache ist wichtig.",
-        "english": "Pronunciation is important."
+        "german": "Mein Vater ist groß.",
+        "english": "My father is big."
       },
       {
-        "german": "Der Vokal 'e' wird wie ein 'eh' ausgesprochen.",
-        "english": "The vowel 'e' is pronounced like 'eh.'"
+        "german": "Die Bahn fährt um 10 Uhr ab.",
+        "english": "The train departs at 10 o'clock."
       },
       {
-        "german": "Der Konsonant 'ch' wird wie ein 'k' ausgesprochen.",
-        "english": "The consonant 'ch' is pronounced like 'k.'"
+        "german": "Ich esse einen Apfel.",
+        "english": "I eat an apple."
       },
       {
-        "german": "Ein Diftong ist eine Kombination von zwei Vokalen.",
-        "english": "A diphthong is a combination of two vowels."
+        "german": "Der Mann ist freundlich.",
+        "english": "The man is friendly."
       },
       {
-        "german": "Ein Umlaut ist ein spezieller Buchstabe.",
-        "english": "An umlaut is a special letter."
+        "german": "Wir essen Äpfel zum Frühstück.",
+        "english": "We eat apples for breakfast."
       }
     ]
   },
   "Our Morning Routine in Slow German | Super Easy German 232": {
-    "title": "Morgenroutine",
+    "title": "Unsere Morgenroutine",
     "vocabulary": [
       {
-        "word": "Badezimmer",
-        "translation": "bathroom"
+        "word": "Wecker",
+        "translation": "alarm clock"
       },
       {
-        "word": "Fahrrad",
-        "translation": "bicycle"
+        "word": "Klo",
+        "translation": "toilet"
       },
       {
-        "word": "Büro",
-        "translation": "office"
+        "word": "Dusche",
+        "translation": "shower"
       },
       {
-        "word": "Morgen",
-        "translation": "morning"
+        "word": "Kaffee",
+        "translation": "coffee"
       },
       {
-        "word": "Arbeitstag",
-        "translation": "workday"
+        "word": "Schrank",
+        "translation": "wardrobe"
       }
     ],
     "examples": [
       {
-        "german": "Ich gehe ins Badezimmer.",
-        "english": "I go to the bathroom."
+        "german": "Der Wecker klingelt um 8 Uhr.",
+        "english": "The alarm clock rings at 8 o'clock."
       },
       {
-        "german": "Ich fahre mit meinem Fahrrad ins Büro.",
-        "english": "I ride my bicycle to the office."
+        "german": "Ich gehe ins Klo, um mich zu putzen.",
+        "english": "I go to the toilet to wash myself."
       },
       {
-        "german": "Mein Morgen beginnt um 8 Uhr.",
-        "english": "My morning begins at 8 o'clock."
+        "german": "Ich dusche mich morgens.",
+        "english": "I shower in the morning."
       },
       {
-        "german": "Ich genieße meinen Kaffee.",
-        "english": "I enjoy my coffee."
+        "german": "Ich trinke meinen Kaffee schwarz.",
+        "english": "I drink my coffee black."
       },
       {
-        "german": "Ich öffne 50 Youtube Tabs.",
-        "english": "I open 50 Youtube tabs."
+        "german": "Ich öffne meinen Schrank, um meine Klamotten zu suchen.",
+        "english": "I open my wardrobe to look for my clothes."
       }
     ]
   },
   "Learn Basic German Greetings & Farewells in Slow German | Super Easy German 274": {
-    "title": "Begrüßungen und Verabschiedungen",
+    "title": "Basic German Greetings & Farewells",
     "vocabulary": [
       {
         "word": "Hallo",
         "translation": "Hello"
       },
       {
-        "word": "Servus",
-        "translation": "Hi"
-      },
-      {
-        "word": "Grüzi",
-        "translation": "Hi"
-      },
-      {
         "word": "Tschüss",
         "translation": "Goodbye"
       },
       {
-        "word": "Papa",
-        "translation": "Goodbye"
+        "word": "Guten Tag",
+        "translation": "Good day"
+      },
+      {
+        "word": "Auf Wiedersehen",
+        "translation": "Goodbye (formal)"
+      },
+      {
+        "word": "Ciao",
+        "translation": "Goodbye (informal)"
       }
     ],
     "examples": [
-      {
-        "german": "Servus, wie geht's?",
-        "english": "Hi, how are you?"
-      },
-      {
-        "german": "Grüzi, bis später!",
-        "english": "Hi, see you later!"
-      },
-      {
-        "german": "Tschüss, Papa!",
-        "english": "Goodbye, Dad!"
-      },
       {
         "german": "Hallo, wie geht's?",
         "english": "Hello, how are you?"
       },
       {
-        "german": "Servus, ich bin gut!",
-        "english": "Hi, I'm fine!"
+        "german": "Tschüss, bis bald!",
+        "english": "Goodbye, see you soon!"
+      },
+      {
+        "german": "Guten Tag, wie geht es Ihnen?",
+        "english": "Good day, how are you?"
+      },
+      {
+        "german": "Auf Wiedersehen, Frau Müller!",
+        "english": "Goodbye, Mrs. Müller!"
+      },
+      {
+        "german": "Ciao, bis später!",
+        "english": "Goodbye, see you later!"
       }
     ]
   },
@@ -276,8 +276,8 @@
         "english": "We say: Welcome."
       },
       {
-        "german": "Sie sagen: Auf Wiedersehen.",
-        "english": "They say: Goodbye."
+        "german": "Ihr sagt: Tschüss!",
+        "english": "You say: Goodbye!"
       }
     ]
   },
@@ -376,143 +376,143 @@
     ]
   },
   "How to learn the German Plural endings | Super Easy German (127)": {
-    "title": "Plural Trainer Test",
+    "title": "German Plural Endings",
     "vocabulary": [
       {
-        "word": "Hund",
-        "translation": "dog"
+        "word": "Frau",
+        "translation": "woman"
       },
       {
-        "word": "Katze",
-        "translation": "cat"
+        "word": "Faulen",
+        "translation": "lazy"
       },
       {
-        "word": "Haus",
-        "translation": "house"
+        "word": "Stadt",
+        "translation": "city"
       },
       {
-        "word": "Baum",
-        "translation": "tree"
+        "word": "Vogel",
+        "translation": "bird"
       },
       {
-        "word": "Stuhl",
-        "translation": "chair"
+        "word": "Buch",
+        "translation": "book"
       }
     ],
     "examples": [
       {
-        "german": "Ein Hund ist ein Tier.",
-        "english": "A dog is an animal."
+        "german": "Die Frau ist faul.",
+        "english": "The woman is lazy."
       },
       {
-        "german": "Die Katze ist ein Haustier.",
-        "english": "The cat is a household animal."
+        "german": "Die Städte sind groß.",
+        "english": "The cities are big."
       },
       {
-        "german": "Das Haus ist groß.",
-        "english": "The house is big."
+        "german": "Der Vogel ist schön.",
+        "english": "The bird is beautiful."
       },
       {
-        "german": "Der Baum ist alt.",
-        "english": "The tree is old."
+        "german": "Das Buch ist interessant.",
+        "english": "The book is interesting."
       },
       {
-        "german": "Ein Stuhl ist ein Möbelstück.",
-        "english": "A chair is a piece of furniture."
+        "german": "Die Bücher sind viele.",
+        "english": "The books are many."
       }
     ]
   },
   "Emotions in Slow German | Super Easy German 263": {
-    "title": "Emotions and Personality",
+    "title": "Emotions in Slow German",
     "vocabulary": [
       {
-        "word": "Mut",
-        "translation": "Courage"
+        "word": "nervös",
+        "translation": "nervous"
       },
       {
-        "word": "Angst",
-        "translation": "Fear"
+        "word": "glücklich",
+        "translation": "happy"
       },
       {
-        "word": "Langeweile",
-        "translation": "Boredom"
+        "word": "ängstlich",
+        "translation": "afraid"
       },
       {
-        "word": "Glaube",
-        "translation": "Belief"
+        "word": "enttäuscht",
+        "translation": "disappointed"
       },
       {
-        "word": "Hoffnung",
-        "translation": "Hope"
+        "word": "traurig",
+        "translation": "sad"
       }
     ],
     "examples": [
       {
-        "german": "Er ist sehr mutig.",
-        "english": "He is very courageous."
+        "german": "Ich bin nervös.",
+        "english": "I am nervous."
       },
       {
-        "german": "Ich habe Angst vor dem Flugzeug.",
-        "english": "I am afraid of flying."
+        "german": "Ich bin glücklich.",
+        "english": "I am happy."
       },
       {
-        "german": "Das ist langweilig.",
-        "english": "That is boring."
+        "german": "Ich habe Angst.",
+        "english": "I am afraid."
       },
       {
-        "german": "Ich habe noch Glauben an die Menschheit.",
-        "english": "I still believe in humanity."
+        "german": "Ich bin enttäuscht.",
+        "english": "I am disappointed."
       },
       {
-        "german": "Ich hoffe, dass es besser wird.",
-        "english": "I hope it gets better."
+        "german": "Ich bin traurig.",
+        "english": "I am sad."
       }
     ]
   },
   "Winter in Berlin in Slow German | Super Easy German 273": {
-    "title": "Winter in Deutschland",
+    "title": "Winter in Berlin",
     "vocabulary": [
+      {
+        "word": "Schnee",
+        "translation": "snow"
+      },
+      {
+        "word": "Kalt",
+        "translation": "cold"
+      },
+      {
+        "word": "Mauerpark",
+        "translation": "Mauerpark"
+      },
+      {
+        "word": "Schneeball",
+        "translation": "snowball"
+      },
       {
         "word": "Kaffee",
         "translation": "coffee"
-      },
-      {
-        "word": "Kuchen",
-        "translation": "cake"
-      },
-      {
-        "word": "Cappuccino",
-        "translation": "cappuccino"
-      },
-      {
-        "word": "Mandelkuchen",
-        "translation": "almond cake"
-      },
-      {
-        "word": "Rubostee",
-        "translation": "hot chocolate"
       }
     ],
     "examples": [
       {
-        "german": "Ein Cappuccino ist ein leckerer Kaffee.",
-        "english": "A cappuccino is a delicious coffee."
+        "german": "Es liegt Schnee in Berlin.",
+        "english": "There is snow in Berlin."
       },
       {
-        "german": "Der Mandelkuchen ist sehr lecker.",
-        "english": "The almond cake is very delicious."
+        "german": "Es ist kalt heute.",
+        "english": "It is cold today."
       },
       {
-        "german": "Ein Rubostee ist ein warmer Getränk.",
-        "english": "A hot chocolate is a warm drink."
+        "german": "Wir gehen in den Mauerpark.",
+        "english": "We are going to the Mauerpark."
       },
       {
-        "german": "Wir trinken Kaffee und Kuchen.",
-        "english": "We drink coffee and cake."
+        "german": "Wir werfen einen Schneeball.",
+        "english": "We are throwing a snowball."
       },
       {
-        "german": "Der Kaffee ist sehr heiß.",
-        "english": "The coffee is very hot."
+        "german": "Wir trinken Kaffee.",
+        "english": "We are drinking coffee."
       }
     ]
   },
@@ -593,119 +593,119 @@
         "english": "I am 37 years old."
       },
       {
-        "german": "Das ist 54 Euro.",
-        "english": "That is 54 euros."
+        "german": "Die Zahl 20 ist zwanzig.",
+        "english": "The number 20 is twenty."
       },
       {
-        "german": "Ich habe 99 Moskitos.",
-        "english": "I have 99 mosquitoes."
+        "german": "Die Zahl 100 ist hundert.",
+        "english": "The number 100 is hundred."
       },
       {
-        "german": "Das ist 2 Euro 49.",
-        "english": "That is 2 euros 49."
+        "german": "Die Zahl 37 ist dreißig und sieben.",
+        "english": "The number 37 is thirty-seven."
       },
       {
-        "german": "Ich bin 98 Jahre alt.",
-        "english": "I am 98 years old."
+        "german": "Die Zahl 99 ist neunzig und neun.",
+        "english": "The number 99 is ninety-nine."
       }
     ]
   },
   "How to Tell the Time in German | Super Easy German 183": {
-    "title": "Uhrzeiten in Deutschland",
+    "title": "Telling the Time in German",
     "vocabulary": [
       {
-        "word": "Viertelstunde",
-        "translation": "quarter of an hour"
+        "word": "Vormittag",
+        "translation": "morning"
       },
       {
-        "word": "Halbstunde",
-        "translation": "half an hour"
+        "word": "Mittag",
+        "translation": "noon"
       },
       {
-        "word": "Stunde",
-        "translation": "hour"
+        "word": "Nachmittag",
+        "translation": "afternoon"
       },
       {
-        "word": "Viertel nach",
-        "translation": "quarter past"
+        "word": "Abend",
+        "translation": "evening"
       },
       {
-        "word": "Halb",
-        "translation": "half"
+        "word": "Morgen",
+        "translation": "tomorrow"
       }
     ],
     "examples": [
       {
-        "german": "Es ist Viertel nach fünf.",
-        "english": "It is quarter past five."
+        "german": "Heute ist Mittag.",
+        "english": "Today is noon."
       },
       {
-        "german": "Es ist halb sechs.",
-        "english": "It is half past six."
+        "german": "Wir treffen uns morgen Vormittag.",
+        "english": "We will meet tomorrow morning."
       },
       {
-        "german": "Es ist eine Stunde.",
-        "english": "It is one o'clock."
+        "german": "Der Zug fährt um 15 Uhr ab.",
+        "english": "The train leaves at 3 o'clock."
       },
       {
-        "german": "Es ist Viertel vor sechs.",
-        "english": "It is quarter to six."
+        "german": "Es ist Viertel vor zwei.",
+        "english": "It is a quarter to two."
       },
       {
-        "german": "Es ist halb neun.",
-        "english": "It is half past nine."
+        "german": "Die Uhr zeigt 12 Uhr.",
+        "english": "The clock shows 12 o'clock."
       }
     ]
   },
   "Possessive Pronouns in German | Super Easy German 223": {
-    "title": "Possessivpronomen",
+    "title": "Possessive Pronouns in German",
     "vocabulary": [
       {
         "word": "mein",
         "translation": "my"
       },
       {
-        "word": "meine",
-        "translation": "my (feminine)"
+        "word": "dein",
+        "translation": "your"
       },
       {
-        "word": "meines",
-        "translation": "my (genitive)"
+        "word": "sein",
+        "translation": "his/her/its"
       },
       {
-        "word": "meinem",
-        "translation": "my (dative)"
+        "word": "unser",
+        "translation": "our"
       },
       {
-        "word": "meinen",
-        "translation": "my (accusative)"
+        "word": "ihr",
+        "translation": "your (plural)"
       }
     ],
     "examples": [
-      {
-        "german": "Das ist mein Haus.",
-        "english": "That is my house."
-      },
-      {
-        "german": "Die Uhr ist meine Uhr.",
-        "english": "The clock is my clock."
-      },
       {
         "german": "Das ist mein Apfel.",
         "english": "That is my apple."
       },
       {
-        "german": "Ich gehe mit meiner Frau ins Kino.",
-        "english": "I go to the cinema with my wife."
+        "german": "Das ist dein Buch.",
+        "english": "That is your book."
       },
       {
-        "german": "Das ist mein Auto.",
-        "english": "That is my car."
+        "german": "Das ist sein Haus.",
+        "english": "That is his house."
+      },
+      {
+        "german": "Das ist unser Auto.",
+        "english": "That is our car."
+      },
+      {
+        "german": "Das ist ihr Spielzeug.",
+        "english": "That is your toy."
       }
     ]
   },
   "Hoch, höher am höchsten! | Super Easy German (63)": {
-    "title": "A1 German Lesson: Steigerung von Adjektiven",
+    "title": "Adjektive - Steigerung",
     "vocabulary": [
       {
         "word": "hoch",
@@ -716,16 +716,16 @@
         "translation": "higher"
       },
       {
-        "word": "am höchsten",
-        "translation": "the highest"
+        "word": "höchsten",
+        "translation": "highest"
       },
       {
         "word": "groß",
         "translation": "big"
       },
       {
-        "word": "größer",
-        "translation": "bigger"
+        "word": "älter",
+        "translation": "older"
       }
     ],
     "examples": [
@@ -742,12 +742,12 @@
         "english": "The tree is old."
       },
       {
-        "german": "Janosch ist dick.",
-        "english": "Janosch is fat."
+        "german": "Das Gebäude ist höher.",
+        "english": "The building is higher."
       },
       {
-        "german": "Ich bin am ältesten.",
-        "english": "I am the oldest."
+        "german": "Das Gebäude ist am höchsten.",
+        "english": "The building is the highest."
       }
     ]
   },
@@ -793,60 +793,60 @@
         "english": "It rains very often."
       },
       {
-        "german": "Die Kälte ist sehr stark.",
-        "english": "The cold is very strong."
+        "german": "Es ist sehr kalt.",
+        "english": "It is very cold."
       }
     ]
   },
   "unknown": {
-    "title": "Vietnamese Food",
+    "title": "Bestellen im Restaurant",
     "vocabulary": [
       {
-        "word": "Bôn",
-        "translation": "Rice"
+        "word": "Restaurant",
+        "translation": "restaurant"
       },
       {
-        "word": "Phô",
-        "translation": "Noodle"
+        "word": "Speisekarte",
+        "translation": "menu"
       },
       {
-        "word": "Gôi",
-        "translation": "Meat"
+        "word": "Gericht",
+        "translation": "dish"
       },
       {
-        "word": "Rau",
-        "translation": "Vegetable"
+        "word": "Trinken",
+        "translation": "to drink"
       },
       {
-        "word": "Nùng",
-        "translation": "Soup"
+        "word": "Essen",
+        "translation": "to eat"
       }
     ],
     "examples": [
       {
-        "german": "Ich esse Bôn zum Mittagessen.",
-        "english": "I eat rice for lunch."
+        "german": "Ich möchte ein Gericht bestellen.",
+        "english": "I want to order a dish."
       },
       {
-        "german": "Der Phô ist sehr lecker.",
-        "english": "The noodle is very delicious."
+        "german": "Was kostet das Trinken?",
+        "english": "How much does it cost to drink?"
       },
       {
-        "german": "Ich esse Gôi zum Abendessen.",
-        "english": "I eat meat for dinner."
+        "german": "Ich möchte ein Glas Wasser.",
+        "english": "I want a glass of water."
       },
       {
-        "german": "Der Rau ist sehr gesund.",
-        "english": "The vegetable is very healthy."
+        "german": "Ich möchte ein Bier.",
+        "english": "I want a beer."
       },
       {
-        "german": "Ich trinke Nùng zum Mittagessen.",
-        "english": "I drink soup for lunch."
+        "german": "Ich möchte ein Getränk bestellen.",
+        "english": "I want to order a drink."
       }
     ]
   },
   "German Verbs: Geben | Super Easy German (148)": {
-    "title": "German Verbs: Geben (A1)",
+    "title": "German Verbs: Geben",
     "vocabulary": [
       {
         "word": "geben",
@@ -875,25 +875,25 @@
         "english": "I give you a bottle of water."
       },
       {
-        "german": "Du gibst mir ein Buch.",
-        "english": "You give me a book."
+        "german": "Du gibst mir ein Geschenk.",
+        "english": "You give me a present."
       },
       {
-        "german": "Er gibt seiner Schwester ein Geschenk.",
-        "english": "He gives his sister a gift."
+        "german": "Er gibt es uns.",
+        "english": "He gives it to us."
       },
       {
-        "german": "Sie gibt mir ein Sandwich.",
-        "english": "She gives me a sandwich."
+        "german": "Wir geben es euch.",
+        "english": "We give it to you."
       },
       {
-        "german": "Wir geben den Kindern ein Spielzeug.",
-        "english": "We give the children a toy."
+        "german": "Sie geben uns viel Inspiration.",
+        "english": "They give us a lot of inspiration."
       }
     ]
   },
   "German Verbs: Wissen | Super Easy German (153)": {
-    "title": "German Lesson: Wissen (To Know)",
+    "title": "German Verbs: Wissen",
     "vocabulary": [
       {
         "word": "wissen",
@@ -908,12 +908,12 @@
         "translation": "conditional tense"
       },
       {
-        "word": "wusste",
-        "translation": "past conditional tense"
+        "word": "würde",
+        "translation": "would"
       },
       {
-        "word": "würde",
-        "translation": "future conditional tense"
+        "word": "wissen",
+        "translation": "to know"
       }
     ],
     "examples": [
@@ -934,33 +934,33 @@
         "english": "We know."
       },
       {
-        "german": "Ich wusste nicht.",
-        "english": "I didn't know."
+        "german": "Ihr wisst.",
+        "english": "You all know."
       }
     ]
   },
   "Irregular Verbs: Mögen | Super Easy German (103)": {
-    "title": "Irregular Verb Mögen (A1)",
+    "title": "Irregular Verb: Mögen",
     "vocabulary": [
       {
         "word": "mögen",
         "translation": "to like"
       },
       {
-        "word": "Ich",
-        "translation": "I"
+        "word": "Pizza",
+        "translation": "pizza"
       },
       {
-        "word": "Du",
-        "translation": "you"
+        "word": "Eis",
+        "translation": "ice cream"
       },
       {
-        "word": "Sie",
-        "translation": "she/he/it"
+        "word": "Gitarre",
+        "translation": "guitar"
       },
       {
-        "word": "Es",
-        "translation": "it"
+        "word": "Berlin",
+        "translation": "Berlin"
       }
     ],
     "examples": [
@@ -969,25 +969,25 @@
         "english": "I like pizza."
       },
       {
-        "german": "Du magst Fußball.",
-        "english": "You like football."
+        "german": "Du magst Eis.",
+        "english": "You like ice cream."
       },
       {
-        "german": "Sie mag Reisen.",
-        "english": "She likes traveling."
+        "german": "Sie mag Gitarre spielen.",
+        "english": "She likes to play the guitar."
       },
       {
-        "german": "Es mag nicht kalt sein.",
-        "english": "It likes not to be cold."
+        "german": "Wir mögen Berlin.",
+        "english": "We like Berlin."
       },
       {
-        "german": "Wir mögen Musik.",
-        "english": "We like music."
+        "german": "Ich mochte Nudeln mit Tomatensauce.",
+        "english": "I used to like noodles with tomato sauce."
       }
     ]
   },
   "German Verbs: Machen | Super Easy German (142)": {
-    "title": "German Verbs: Machen (A1)",
+    "title": "Machen - Present Tense",
     "vocabulary": [
       {
         "word": "machen",
@@ -1012,76 +1012,76 @@
     ],
     "examples": [
       {
-        "german": "Ich mache ein Foto.",
-        "english": "I make a photo."
+        "german": "Ich mache.",
+        "english": "I make."
       },
       {
-        "german": "Du machst ein Kurs.",
-        "english": "You make a course."
+        "german": "Du machst.",
+        "english": "You make."
       },
       {
-        "german": "Er macht ein Haus.",
-        "english": "He makes a house."
+        "german": "Er macht.",
+        "english": "He makes."
       },
       {
-        "german": "Wir machen ein Video.",
-        "english": "We make a video."
+        "german": "Wir machen.",
+        "english": "We make."
       },
       {
-        "german": "Ihr macht ein Projekt.",
-        "english": "You make a project."
+        "german": "Ihr macht.",
+        "english": "You all make."
       }
     ]
   },
   "\"Wollen\" vs. \"Mögen\" vs. \"Möchten\" | Super Easy German 192": {
-    "title": "Modal Verbs: Will, Mag, Möchte",
+    "title": "Wollen, Mögen, Möchten",
     "vocabulary": [
       {
-        "word": "wollen",
-        "translation": "to want"
+        "word": "Wunsch",
+        "translation": "wish"
       },
       {
-        "word": "mögen",
-        "translation": "to like"
+        "word": "Plan",
+        "translation": "plan"
       },
       {
-        "word": "möchten",
-        "translation": "to want (polite)"
+        "word": "Objekt",
+        "translation": "object"
       },
       {
-        "word": "wollen",
-        "translation": "to want"
+        "word": "Infinitiv",
+        "translation": "infinitive"
       },
       {
-        "word": "mögen",
-        "translation": "to like"
+        "word": "Kombination",
+        "translation": "combination"
       }
     ],
     "examples": [
       {
-        "german": "Ich will ein Eis.",
-        "english": "I want an ice cream."
+        "german": "Ich will eine Praline.",
+        "english": "I want a praline."
       },
       {
-        "german": "Ich mag Fußball.",
-        "english": "I like football."
+        "german": "Ich mag die Musik.",
+        "english": "I like the music."
       },
       {
-        "german": "Ich möchte ein Buch.",
-        "english": "I would like a book."
+        "german": "Ich möchte ein Bier trinken.",
+        "english": "I would like to drink a beer."
       },
       {
-        "german": "Ich will ein Auto.",
-        "english": "I want a car."
+        "german": "Ich will raus gehen.",
+        "english": "I want to go out."
       },
       {
-        "german": "Ich mag Musik.",
-        "english": "I like music."
+        "german": "Ich mag die Praline nicht.",
+        "english": "I don't like the praline."
       }
     ]
   },
   "German Verbs: Können | Super Easy German (138)": {
-    "title": "German Verbs: Können (A1)",
+    "title": "Können - A1 German Lesson",
     "vocabulary": [
       {
         "word": "können",
@@ -1100,8 +1100,8 @@
         "translation": "infinitive"
       },
       {
-        "word": "kann",
-        "translation": "can (singular, present tense)"
+        "word": "konjugation",
+        "translation": "conjugation"
       }
     ],
     "examples": [
@@ -1110,20 +1110,20 @@
         "english": "I can dance."
       },
       {
-        "german": "Wir können singen.",
-        "english": "We can sing."
+        "german": "Du kannst singen.",
+        "english": "You can sing."
       },
       {
-        "german": "Du kannst gymnastik machen.",
-        "english": "You can do gymnastics."
+        "german": "Wir können schwimmen.",
+        "english": "We can swim."
       },
       {
-        "german": "Ich konnte heute morgen nicht aufstehen.",
-        "english": "I couldn't get up this morning."
+        "german": "Ich kann nicht lesen.",
+        "english": "I cannot read."
       },
       {
-        "german": "Wir werden in Zukunft noch viel schlafen können.",
-        "english": "We will be able to sleep a lot in the future."
+        "german": "Du kannst morgen kommen.",
+        "english": "You can come tomorrow."
       }
     ]
   },
@@ -1131,51 +1131,51 @@
     "title": "Verben mit Präpositionen",
     "vocabulary": [
       {
+        "word": "freuen",
+        "translation": "to be happy"
+      },
+      {
+        "word": "kümmern",
+        "translation": "to take care of"
+      },
+      {
         "word": "sprechen",
         "translation": "to speak"
       },
       {
-        "word": "mit",
-        "translation": "with"
+        "word": "tragen",
+        "translation": "to carry"
       },
       {
-        "word": "von",
-        "translation": "from"
-      },
-      {
-        "word": "über",
-        "translation": "about"
-      },
-      {
-        "word": "an",
-        "translation": "to"
+        "word": "warten",
+        "translation": "to wait"
       }
     ],
     "examples": [
       {
-        "german": "Ich spreche mit dir.",
-        "english": "I speak with you."
+        "german": "Ich freue mich auf den Urlaub.",
+        "english": "I am looking forward to the holiday."
       },
       {
-        "german": "Ich spreche von der Wettervorhersage.",
-        "english": "I speak about the weather forecast."
+        "german": "Ich kümmere mich um meine Mutter.",
+        "english": "I take care of my mother."
       },
       {
-        "german": "Ich spreche über das neue Video.",
-        "english": "I speak about the new video."
+        "german": "Ich spreche mit meinem Freund.",
+        "english": "I am speaking with my friend."
       },
       {
-        "german": "Ich spreche an dich.",
-        "english": "I speak to you."
+        "german": "Ich trage meine Tasche.",
+        "english": "I am carrying my bag."
       },
       {
-        "german": "Ich spreche mit Janus über das neue Video.",
-        "english": "I speak with Janus about the new video."
+        "german": "Ich warte auf den Bus.",
+        "english": "I am waiting for the bus."
       }
     ]
   },
   "Separable verbs in German | Super Easy German (31)": {
-    "title": "A1 German Lesson: Separable Verbs",
+    "title": "Trennbare Verben",
     "vocabulary": [
       {
         "word": "kommen",
@@ -1186,22 +1186,26 @@
         "translation": "with"
       },
       {
+        "word": "gehen",
+        "translation": "to go"
+      },
+      {
         "word": "anrufen",
         "translation": "to call"
       },
       {
-        "word": "aufgeräumt",
-        "translation": "cleaned up"
-      },
-      {
-        "word": "wegbringen",
-        "translation": "to take away"
+        "word": "räumen",
+        "translation": "to clean"
       }
     ],
     "examples": [
       {
         "german": "Naomi kommt mit.",
         "english": "Naomi is coming with."
+      },
+      {
+        "german": "Jack geht zur Party.",
+        "english": "Jack is going to the party."
       },
       {
         "german": "Michael ruft Luke an.",
@@ -1212,59 +1216,55 @@
         "english": "Luke is cleaning up."
       },
       {
-        "german": "Jemand muss den Müll wegbringen.",
-        "english": "Someone has to take the trash away."
-      },
-      {
-        "german": "Jack bringt den Müll weg.",
-        "english": "Jack is taking the trash away."
+        "german": "Naomi wäscht das Geschirr ab.",
+        "english": "Naomi is washing the dishes."
       }
     ]
   },
   "These Verbs Always Use The Simple Past | Super Easy German 191": {
-    "title": "Vergangenheitsformen im Gesprochenen Deutsch",
+    "title": "Simple Past and Perfect in German",
     "vocabulary": [
       {
         "word": "Präteritum",
-        "translation": "Past tense"
+        "translation": "Simple Past"
       },
       {
         "word": "Perfekt",
-        "translation": "Perfect tense"
+        "translation": "Perfect"
       },
       {
-        "word": "Imperfekt",
-        "translation": "Imperfect tense"
+        "word": "Sein",
+        "translation": "To be"
       },
       {
-        "word": "Plusquamperfekt",
-        "translation": "Pluperfect tense"
+        "word": "Haben",
+        "translation": "To have"
       },
       {
-        "word": "Futur I",
-        "translation": "Future tense I"
+        "word": "Gehen",
+        "translation": "To go"
       }
     ],
     "examples": [
       {
-        "german": "Ich ging zum Konzert.",
-        "english": "I went to the concert."
+        "german": "Ich ging zum Supermarkt.",
+        "english": "I went to the supermarket."
       },
       {
-        "german": "Ich habe das Buch gelesen.",
-        "english": "I have read the book."
+        "german": "Ich bin gestern zum Supermarkt gegangen.",
+        "english": "I went to the supermarket yesterday."
       },
       {
-        "german": "Ich war gestern in Berlin.",
-        "english": "I was in Berlin yesterday."
+        "german": "Ich habe gestern ein Sandwich gegessen.",
+        "english": "I ate a sandwich yesterday."
       },
       {
-        "german": "Ich hatte gestern Abend ein Meeting.",
-        "english": "I had a meeting last night."
+        "german": "Ich bin gestern ins Kino gegangen.",
+        "english": "I went to the cinema yesterday."
       },
       {
-        "german": "Ich werde morgen zum Flughafen fahren.",
-        "english": "I will drive to the airport tomorrow."
+        "german": "Ich habe gestern ein Buch gelesen.",
+        "english": "I read a book yesterday."
       }
     ]
   },
@@ -1316,148 +1316,148 @@
     ]
   },
   "10 German Verbs that Change Vowels (Strong Verbs for Beginners) | Super Easy German 220": {
-    "title": "Strong Verbs with E",
+    "title": "Strong Verbs in German",
     "vocabulary": [
-      {
-        "word": "essen",
-        "translation": "to eat"
-      },
-      {
-        "word": "geben",
-        "translation": "to give"
-      },
-      {
-        "word": "gehen",
-        "translation": "to go"
-      },
       {
         "word": "sprechen",
         "translation": "to speak"
       },
       {
-        "word": "vergessen",
-        "translation": "to forget"
+        "word": "lesen",
+        "translation": "to read"
+      },
+      {
+        "word": "sehen",
+        "translation": "to see"
+      },
+      {
+        "word": "essen",
+        "translation": "to eat"
+      },
+      {
+        "word": "sprechen",
+        "translation": "to speak"
       }
     ],
     "examples": [
       {
-        "german": "Ich esse ein Sandwich.",
-        "english": "I eat a sandwich."
+        "german": "Ich spreche Deutsch.",
+        "english": "I speak German."
       },
       {
-        "german": "Ich gebe dir ein Buch.",
-        "english": "I give you a book."
+        "german": "Du liest ein Buch.",
+        "english": "You are reading a book."
       },
       {
-        "german": "Ich gehe ins Kino.",
-        "english": "I go to the cinema."
+        "german": "Er sieht den Baum.",
+        "english": "He sees the tree."
       },
       {
-        "german": "Ich spreche mit meinem Freund.",
-        "english": "I speak with my friend."
+        "german": "Wir essen ein Sandwich.",
+        "english": "We are eating a sandwich."
       },
       {
-        "german": "Ich habe mein Fahrrad vergessen.",
-        "english": "I forgot my bike."
+        "german": "Du sprichst Chinesisch.",
+        "english": "You speak Chinese."
       }
     ]
   },
   "Wie vs. Als | Super Easy German (88)": {
-    "title": "Comparing Sizes and Quantities",
+    "title": "Wie vs. Als",
     "vocabulary": [
       {
-        "word": "höher",
-        "translation": "taller"
+        "word": "Wie",
+        "translation": "as"
       },
       {
-        "word": "größer",
-        "translation": "bigger"
+        "word": "Als",
+        "translation": "when"
       },
       {
-        "word": "älter",
-        "translation": "older"
+        "word": "Gleich",
+        "translation": "equal"
       },
       {
-        "word": "voll",
-        "translation": "full"
+        "word": "Ungleich",
+        "translation": "unequal"
       },
       {
-        "word": "leer",
-        "translation": "empty"
+        "word": "Vergleichen",
+        "translation": "to compare"
       }
     ],
     "examples": [
       {
-        "german": "Das Haus ist höher als das Haus nebenan.",
-        "english": "The house is taller than the house next door."
+        "german": "New York ist größer als Berlin.",
+        "english": "New York is bigger than Berlin."
       },
       {
-        "german": "Der Baum ist größer als der Baum im Garten.",
-        "english": "The tree is bigger than the tree in the garden."
+        "german": "Wien ist so groß wie Hamburg.",
+        "english": "Vienna is as big as Hamburg."
       },
       {
-        "german": "Das Auto ist älter als das Auto meines Vaters.",
-        "english": "The car is older than my father's car."
+        "german": "Ich habe nicht so viel Geld wie du.",
+        "english": "I don't have as much money as you."
       },
       {
-        "german": "Die Tonne ist voll, aber die andere Tonne ist leer.",
-        "english": "The bin is full, but the other bin is empty."
+        "german": "Das Haus ist genauso groß wie das andere Haus.",
+        "english": "The house is as big as the other house."
       },
       {
-        "german": "Die 50 Cent-Münze ist genauso groß wie die Viertel-Dollar-Münze.",
-        "english": "The 50 cent coin is the same size as the quarter dollar coin."
+        "german": "Ich bin nicht so alt wie mein Vater.",
+        "english": "I'm not as old as my father."
       }
     ]
   },
   "MIT vs. OHNE | Super Easy German 201": {
-    "title": "Mit und Ohne",
+    "title": "Mit vs. Ohne",
     "vocabulary": [
       {
-        "word": "Mit",
+        "word": "mit",
         "translation": "with"
       },
       {
-        "word": "Ohne",
+        "word": "ohne",
         "translation": "without"
       },
       {
-        "word": "Präposition",
-        "translation": "preposition"
+        "word": "Döner",
+        "translation": "doner kebab"
       },
       {
-        "word": "Dativ",
-        "translation": "dative"
+        "word": "Käse",
+        "translation": "cheese"
       },
       {
-        "word": "Akkusativ",
-        "translation": "accusative"
+        "word": "Zwiebeln",
+        "translation": "onions"
       }
     ],
     "examples": [
       {
-        "german": "Ich gehe mit dir.",
-        "english": "I'm going with you."
+        "german": "Ich möchte einen Döner mit Käse.",
+        "english": "I want a doner kebab with cheese."
       },
       {
-        "german": "Ich gehe ohne dich.",
-        "english": "I'm going without you."
+        "german": "Ich möchte einen Döner ohne Zwiebeln.",
+        "english": "I want a doner kebab without onions."
       },
       {
-        "german": "Mit und ohne sind zwei Präpositionen.",
-        "english": "With and without are two prepositions."
+        "german": "Ich bin mit dem Fahrrad unterwegs.",
+        "english": "I am on my bike."
       },
       {
-        "german": "Ich habe mit dem Fahren begonnen.",
-        "english": "I started driving with it."
+        "german": "Ich bin ohne das Fahrrad.",
+        "english": "I am without the bike."
       },
       {
-        "german": "Ich habe ohne Hilfe gefahren.",
-        "english": "I drove without help."
+        "german": "Ich möchte einen Döner mit Chilis, aber ohne Zwiebeln.",
+        "english": "I want a doner kebab with chilis, but without onions."
       }
     ]
   },
   "German Prepositions: BEI | Super Easy German (39)": {
-    "title": "German Prepositions: BEI",
+    "title": "German Preposition: BEI",
     "vocabulary": [
       {
         "word": "bei",
@@ -1486,8 +1486,8 @@
         "english": "I am at my mother's."
       },
       {
-        "german": "Ich war gerade beim Arzt.",
-        "english": "I was just at the doctor's."
+        "german": "Ich war beim Arzt.",
+        "english": "I was at the doctor's."
       },
       {
         "german": "Ich bin beim Supermarkt.",
@@ -1504,7 +1504,7 @@
     ]
   },
   "Kein vs. Nicht | Easy German 341": {
-    "title": "Deutsche Satzstellung mit 'kein' und 'nicht'",
+    "title": "Kein vs. Nicht",
     "vocabulary": [
       {
         "word": "kein",
@@ -1513,33 +1513,45 @@
       {
         "word": "nicht",
         "translation": "not"
+      },
+      {
+        "word": "unbestimmter Artikel",
+        "translation": "indefinite article"
+      },
+      {
+        "word": "Nomen",
+        "translation": "noun"
+      },
+      {
+        "word": "Adjektiv",
+        "translation": "adjective"
       }
     ],
     "examples": [
       {
-        "german": "Ich habe kein Geld.",
-        "english": "I have no money."
+        "german": "Ich bin nicht dumm.",
+        "english": "I am not stupid."
       },
       {
-        "german": "Das ist nicht einfach.",
-        "english": "That is not easy."
+        "german": "Ich bin kein dummer Mensch.",
+        "english": "I am not a stupid person."
       },
       {
-        "german": "Ich habe nicht viel Zeit.",
-        "english": "I have not much time."
+        "german": "Ich trinke nicht.",
+        "english": "I do not drink."
       },
       {
-        "german": "Er ist nicht hier.",
-        "english": "He is not here."
+        "german": "Ich trinke keinen Alkohol.",
+        "english": "I do not drink alcohol."
       },
       {
-        "german": "Das ist kein Problem.",
-        "english": "That is no problem."
+        "german": "Ich bin nicht verkatert.",
+        "english": "I am not drunk."
       }
     ]
   },
   "Our Vacation in Slow German | Super Easy German 234": {
-    "title": "Slow German: Urlaub",
+    "title": "Urlaub in England",
     "vocabulary": [
       {
         "word": "Urlaub",
@@ -1550,90 +1562,110 @@
         "translation": "beach"
       },
       {
-        "word": "Fahrrad",
-        "translation": "bicycle"
+        "word": "Sonnencreme",
+        "translation": "sunscreen"
       },
       {
-        "word": "Bier",
-        "translation": "beer"
+        "word": "Fisch und Chips",
+        "translation": "fish and chips"
       },
       {
-        "word": "Polnisch",
-        "translation": "Polish"
+        "word": "Handtuch",
+        "translation": "towel"
       }
     ],
     "examples": [
       {
-        "german": "Ich gehe in den Urlaub.",
-        "english": "I'm going on vacation."
+        "german": "Wir sind auf Urlaub in England.",
+        "english": "We are on vacation in England."
       },
       {
-        "german": "Der Strand ist schön.",
-        "english": "The beach is nice."
+        "german": "Wir gehen am Strand spazieren.",
+        "english": "We are walking on the beach."
       },
       {
-        "german": "Ich fahre mit dem Fahrrad.",
-        "english": "I'm riding a bicycle."
+        "german": "Ich habe Sonnencreme dabei.",
+        "english": "I have sunscreen with me."
       },
       {
-        "german": "Ich trinke ein Bier.",
-        "english": "I'm drinking a beer."
+        "german": "Wir essen Fisch und Chips.",
+        "english": "We are eating fish and chips."
       },
       {
-        "german": "Das ist polnisch.",
-        "english": "That's Polish."
+        "german": "Ich lege mich in die Sonne.",
+        "english": "I am lying in the sun."
       }
     ]
   },
   "\"Ach\" Explained | Super Easy German (126)": {
-    "title": "Acht and its meanings",
+    "title": "Ach Explained",
     "vocabulary": [
       {
-        "word": "Acht",
-        "translation": "eight"
+        "word": "Ach",
+        "translation": "expression of surprise, regret, or excitement"
       },
       {
-        "word": "Ärger",
-        "translation": "trouble"
+        "word": "Erstaunt",
+        "translation": "surprised"
       },
       {
         "word": "Begriff",
         "translation": "concept"
       },
       {
-        "word": "Resignieren",
-        "translation": "to resign"
+        "word": "Verhinderung",
+        "translation": "obstacle"
       },
       {
-        "word": "Fassungslos",
-        "translation": "amazed"
+        "word": "Freut",
+        "translation": "pleased"
       }
     ],
     "examples": [
       {
-        "german": "Ich habe meine Handschuhe vergessen und jetzt bin ich in die Hinterste getreten.",
-        "english": "I forgot my gloves and now I'm in the back."
+        "german": "Ach, ich habe meine Handschuhe vergessen!",
+        "english": "Oh no, I forgot my gloves!"
       },
       {
-        "german": "Das ist aber ärgerlich!",
-        "english": "That's really annoying!"
+        "german": "Ach, das ist ärgerlich!",
+        "english": "Oh, that's annoying!"
       },
       {
-        "german": "Ich bin fassungslos über das, was passiert ist.",
-        "english": "I'm amazed by what happened."
+        "german": "Ach, ich bin so froh, dass ich endlich frei bin!",
+        "english": "Oh, I'm so happy to be finally free!"
       },
       {
-        "german": "Ich resigniere, ich kann nicht mehr weitermachen.",
-        "english": "I resign, I can't go on anymore."
+        "german": "Ach, das ist ein großes Problem!",
+        "english": "Oh, that's a big problem!"
       },
       {
-        "german": "Ich bin enttäuscht, aber ich werde mich nicht resignieren.",
-        "english": "I'm disappointed, but I won't give up."
+        "german": "Ach, ich wusste nicht, dass das so ist!",
+        "english": "Oh, I didn't know that!"
+      },
+      {
+        "german": "Ach, das ist wunderbar!",
+        "english": "Oh, that's wonderful!"
+      },
+      {
+        "german": "Ach, ich bin so enttäuscht!",
+        "english": "Oh, I'm so disappointed!"
+      },
+      {
+        "german": "Ach, das ist ein großes Glück!",
+        "english": "Oh, that's a big luck!"
+      },
+      {
+        "german": "Ach, ich bin so froh, dass ich endlich meine neue Gitarre habe!",
+        "english": "Oh, I'm so happy to finally have my new guitar!"
+      },
+      {
+        "german": "Ach, das ist ein großes Problem!",
+        "english": "Oh, that's a big problem!"
       }
     ]
   },
   "Pia and Lisa go shopping | Easy German 85": {
-    "title": "A1 German Lesson: Shopping in Münster",
+    "title": "Pia and Lisa go shopping",
     "vocabulary": [
       {
         "word": "Geschäft",
@@ -1652,30 +1684,30 @@
         "translation": "jewelry"
       },
       {
-        "word": "Kapuze",
-        "translation": "hood"
+        "word": "Jacke",
+        "translation": "jacket"
       }
     ],
     "examples": [
       {
-        "german": "Ich gehe in das Geschäft.",
-        "english": "I'm going to the shop."
+        "german": "Wir sind im Geschäft.",
+        "english": "We are in the shop."
       },
       {
-        "german": "Ich kaufe Anziehsachen.",
-        "english": "I'm buying clothes."
+        "german": "Ich kaufe eine Jacke.",
+        "english": "I am buying a jacket."
       },
       {
-        "german": "Ich trage Schuhe.",
-        "english": "I'm wearing shoes."
+        "german": "Die Schuhe sind sehr teuer.",
+        "english": "The shoes are very expensive."
       },
       {
-        "german": "Ich habe Schmuck.",
-        "english": "I have jewelry."
+        "german": "Ich möchte ein T-Shirt.",
+        "english": "I would like a T-shirt."
       },
       {
-        "german": "Das Kleid hat eine Kapuze.",
-        "english": "The dress has a hood."
+        "german": "Das ist ein schönes Kleid.",
+        "english": "That is a nice dress."
       }
     ]
   },
@@ -1687,51 +1719,59 @@
         "translation": "a mixture of yes and no"
       },
       {
-        "word": "Zweifel",
-        "translation": "doubt"
+        "word": "JA",
+        "translation": "yes"
       },
       {
-        "word": "Perspektive",
-        "translation": "perspective"
+        "word": "NEIN",
+        "translation": "no"
       },
       {
-        "word": "Gegenargument",
-        "translation": "counterargument"
+        "word": "WETTER",
+        "translation": "weather"
       },
       {
-        "word": "Ausruf",
-        "translation": "exclamation"
+        "word": "FRAGEN",
+        "translation": "to ask"
       }
     ],
     "examples": [
       {
-        "german": "Ich habe NA JA gesagt.",
-        "english": "I said yes and no."
+        "german": "Das Wetter ist schön, naja.",
+        "english": "The weather is nice, I suppose."
       },
       {
-        "german": "Ich habe Zweifel.",
-        "english": "I have doubts."
+        "german": "Ich kann sehr gut singen, naja.",
+        "english": "I can sing very well, I suppose."
       },
       {
-        "german": "Ich sehe es aus verschiedenen Perspektiven.",
-        "english": "I see it from different perspectives."
+        "german": "Das Essen schmeckt nicht so schlecht, naja.",
+        "english": "The food doesn't taste too bad, I suppose."
       },
       {
-        "german": "Ein Gegenargument ist wichtig.",
-        "english": "A counterargument is important."
+        "german": "Wie geht es dir? Na ja, es geht so.",
+        "english": "How are you? I'm fine, I suppose."
       },
       {
-        "german": "Das ist ein Ausruf der Freude.",
-        "english": "That's an exclamation of joy."
+        "german": "Ich bin zu spät gekommen, naja.",
+        "english": "I'm late, I suppose."
       }
     ]
   },
   "Berlin in December in Slow German | Super Easy German 268": {
-    "title": "Weihnachtsmarkt",
+    "title": "Berlin in December",
     "vocabulary": [
       {
-        "word": "Weihnachtsmarkt",
-        "translation": "Christmas market"
+        "word": "Winter",
+        "translation": "winter"
+      },
+      {
+        "word": "Fahrrad",
+        "translation": "bicycle"
+      },
+      {
+        "word": "Späti",
+        "translation": "convenience store"
       },
       {
         "word": "Glühwein",
@@ -1740,276 +1780,268 @@
       {
         "word": "Bratwurst",
         "translation": "sausage"
-      },
-      {
-        "word": "Schmand",
-        "translation": "sour cream"
-      },
-      {
-        "word": "Kräuter",
-        "translation": "herbs"
       }
     ],
     "examples": [
       {
-        "german": "Wir gehen zum Weihnachtsmarkt.",
-        "english": "We are going to the Christmas market."
+        "german": "Berlin sieht grau aus im Winter.",
+        "english": "Berlin looks grey in winter."
       },
       {
-        "german": "Ich trinke einen Glühwein.",
-        "english": "I am drinking a mulled wine."
+        "german": "Janusch fährt auf seinem Fahrrad.",
+        "english": "Janusch is riding his bicycle."
       },
       {
-        "german": "Wir essen eine Bratwurst.",
-        "english": "We are eating a sausage."
+        "german": "Wir kaufen Wasser im Späti.",
+        "english": "We buy water at the convenience store."
       },
       {
-        "german": "Das Essen ist lecker.",
-        "english": "The food is delicious."
+        "german": "Janusch trinkt Glühwein.",
+        "english": "Janusch is drinking mulled wine."
       },
       {
-        "german": "Wir kaufen ein Geschenk.",
-        "english": "We are buying a gift."
+        "german": "Wir essen Bratwurst auf dem Weihnachtsmarkt.",
+        "english": "We are eating sausages at the Christmas market."
       }
     ]
   },
   "Clothing Vocabulary in Slow German | Super Easy German 270": {
-    "title": "Fashion Styles",
+    "title": "Clothing Vocabulary in Slow German",
     "vocabulary": [
       {
-        "word": "Comfortwear",
-        "translation": "Comfortable clothing"
+        "word": "Kleidung",
+        "translation": "clothing"
       },
       {
-        "word": "Kuschelpullover",
-        "translation": "Soft sweater"
+        "word": "Schrank",
+        "translation": "wardrobe"
       },
       {
-        "word": "Leggings",
-        "translation": "Tight-fitting pants"
+        "word": "T-Shirt",
+        "translation": "t-shirt"
       },
       {
-        "word": "Hausschuhe",
-        "translation": "House shoes"
+        "word": "Hose",
+        "translation": "pants"
       },
       {
-        "word": "Samuraitil",
-        "translation": "Japanese style"
+        "word": "Schuhe",
+        "translation": "shoes"
       }
     ],
     "examples": [
       {
-        "german": "Ich trage oft Leggings zu Hause.",
-        "english": "I often wear leggings at home."
+        "german": "Ich trage ein T-Shirt.",
+        "english": "I wear a t-shirt."
       },
       {
-        "german": "Mein Kuschelpullover ist sehr bequem.",
-        "english": "My soft sweater is very comfortable."
+        "german": "Meine Hose ist blau.",
+        "english": "My pants are blue."
       },
       {
-        "german": "Ich habe Hausschuhe an.",
-        "english": "I have house shoes on."
+        "german": "Ich habe neue Schuhe.",
+        "english": "I have new shoes."
       },
       {
-        "german": "Der Samuraitil ist ein japanischer Stil.",
-        "english": "The samuraitil is a Japanese style."
+        "german": "Mein Schrank ist voll.",
+        "english": "My wardrobe is full."
       },
       {
-        "german": "Janusch sieht gut aus in seinem Lieblingsstil.",
-        "english": "Janusch looks good in his favorite style."
+        "german": "Ich trage ein Jackett.",
+        "english": "I wear a jacket."
       }
     ]
   },
   "At the Mall in Slow German | Super Easy German 276": {
-    "title": "Shopping in the Mall",
+    "title": "At the Mall in Slow German",
     "vocabulary": [
       {
         "word": "Mall",
         "translation": "shopping center"
       },
       {
-        "word": "Aldi",
-        "translation": "discount supermarket"
+        "word": "Kunden WC",
+        "translation": "customer toilet"
       },
       {
-        "word": "Sortiment",
-        "translation": "assortment"
+        "word": "OG",
+        "translation": "floor"
       },
       {
-        "word": "Billoladen",
-        "translation": "discount store"
+        "word": "Pfeffermühle",
+        "translation": "pepper mill"
       },
       {
-        "word": "Pfefferstreuer",
-        "translation": "pepper shaker"
+        "word": "Parfüm",
+        "translation": "perfume"
       }
     ],
     "examples": [
       {
-        "german": "Ich bin in der Mall",
-        "english": "I am in the shopping center"
+        "german": "Wir sind in der Mall von Berlin.",
+        "english": "We are in the Berlin Mall."
       },
       {
-        "german": "Aldi ist ein Billoladen",
-        "english": "Aldi is a discount store"
+        "german": "Ich gehe zum Kunden WC.",
+        "english": "I'm going to the customer toilet."
       },
       {
-        "german": "Das Sortiment ist riesig",
-        "english": "The assortment is huge"
+        "german": "Wir sind im ersten OG.",
+        "english": "We are on the first floor."
       },
       {
-        "german": "Ich habe einen Pfefferstreuer gekauft",
-        "english": "I bought a pepper shaker"
+        "german": "Ich möchte eine Pfeffermühle kaufen.",
+        "english": "I want to buy a pepper mill."
       },
       {
-        "german": "Das war ein toller Ausflug",
-        "english": "That was a great outing"
+        "german": "Ich möchte ein Parfüm kaufen.",
+        "english": "I want to buy perfume."
       }
     ]
   },
   "At The Train Station in Slow German | Super Easy German 279": {
-    "title": "Easy German: Hauptbahnhof in Berlin",
+    "title": "At The Train Station in Slow German",
     "vocabulary": [
-      {
-        "word": "Aufzug",
-        "translation": "elevator"
-      },
-      {
-        "word": "Kinderwagen",
-        "translation": "stroller"
-      },
-      {
-        "word": "Rollstuhl",
-        "translation": "wheelchair"
-      },
-      {
-        "word": "Fahrrad",
-        "translation": "bicycle"
-      },
       {
         "word": "Bahnhof",
         "translation": "train station"
-      }
-    ],
-    "examples": [
-      {
-        "german": "Wir warten auf den Aufzug.",
-        "english": "We are waiting for the elevator."
       },
       {
-        "german": "Ich habe meinen Kinderwagen im Aufzug.",
-        "english": "I have my stroller in the elevator."
+        "word": "Zug",
+        "translation": "train"
       },
       {
-        "german": "Der Rollstuhl ist im Aufzug.",
-        "english": "The wheelchair is in the elevator."
+        "word": "Gleis",
+        "translation": "track"
       },
-      {
-        "german": "Ich fahre mein Fahrrad zum Bahnhof.",
-        "english": "I am riding my bicycle to the train station."
-      },
-      {
-        "german": "Der Bahnhof ist sehr groß.",
-        "english": "The train station is very big."
-      }
-    ]
-  },
-  "German Dative Case: 15 Simple Verbs That Always Take the Dative | Super Easy German 215": {
-    "title": "Verben mit dem Dativ",
-    "vocabulary": [
-      {
-        "word": "brennen",
-        "translation": "to burn"
-      },
-      {
-        "word": "fehlen",
-        "translation": "to miss"
-      },
-      {
-        "word": "passen",
-        "translation": "to fit"
-      },
-      {
-        "word": "vertrauen",
-        "translation": "to trust"
-      },
-      {
-        "word": "wehtun",
-        "translation": "to hurt"
-      }
-    ],
-    "examples": [
-      {
-        "german": "Das Feuer brennt mir an der Hand.",
-        "english": "The fire is burning my hand."
-      },
-      {
-        "german": "Mir fehlt heute Zeit.",
-        "english": "I am missing time today."
-      },
-      {
-        "german": "Die Bluse passt mir gut.",
-        "english": "The blouse fits me well."
-      },
-      {
-        "german": "Ich vertraue dir nicht.",
-        "english": "I do not trust you."
-      },
-      {
-        "german": "Mir tut der Kopf weh.",
-        "english": "I have a headache."
-      }
-    ]
-  },
-  "10 Min Conversation in Slow German | Super Easy German 287": {
-    "title": "Kaffee und Büro",
-    "vocabulary": [
       {
         "word": "Kaffee",
         "translation": "coffee"
       },
       {
-        "word": "Büro",
-        "translation": "office"
+        "word": "Bäckerei",
+        "translation": "bakery"
+      }
+    ],
+    "examples": [
+      {
+        "german": "Wir gehen zum Bahnhof.",
+        "english": "We are going to the train station."
+      },
+      {
+        "german": "Der Zug fährt nach Frankfurt.",
+        "english": "The train is going to Frankfurt."
+      },
+      {
+        "german": "Wir suchen das Gleis 13.",
+        "english": "We are looking for track 13."
+      },
+      {
+        "german": "Ich hol mir einen Kaffee.",
+        "english": "I am getting a coffee."
+      },
+      {
+        "german": "Wir kaufen ein Brötchen bei der Bäckerei.",
+        "english": "We are buying a bread roll at the bakery."
+      }
+    ]
+  },
+  "German Dative Case: 15 Simple Verbs That Always Take the Dative | Super Easy German 215": {
+    "title": "German Dative Case: 15 Simple Verbs That Always Take the Dative",
+    "vocabulary": [
+      {
+        "word": "schmecken",
+        "translation": "to taste"
+      },
+      {
+        "word": "helfen",
+        "translation": "to help"
+      },
+      {
+        "word": "passieren",
+        "translation": "to happen"
+      },
+      {
+        "word": "folgen",
+        "translation": "to follow"
+      },
+      {
+        "word": "glauben",
+        "translation": "to believe"
+      }
+    ],
+    "examples": [
+      {
+        "german": "Die Suppe schmeckt mir nicht.",
+        "english": "I don't like the soup."
+      },
+      {
+        "german": "Ich helfe der Frau.",
+        "english": "I help the woman."
+      },
+      {
+        "german": "Mir passiert etwas.",
+        "english": "Something is happening to me."
+      },
+      {
+        "german": "Ich folge dem Hund.",
+        "english": "I'm following the dog."
+      },
+      {
+        "german": "Ich glaube dir nicht.",
+        "english": "I don't believe you."
+      }
+    ]
+  },
+  "10 Min Conversation in Slow German | Super Easy German 287": {
+    "title": "Kaffee und Pause",
+    "vocabulary": [
+      {
+        "word": "Kaffeepause",
+        "translation": "coffee break"
+      },
+      {
+        "word": "Flat White",
+        "translation": "Flat White coffee"
       },
       {
         "word": "Apfelschorle",
         "translation": "apple spritzer"
       },
       {
-        "word": "LKW",
-        "translation": "truck"
+        "word": "Zufall",
+        "translation": "chance"
       },
       {
-        "word": "Paket",
-        "translation": "package"
+        "word": "Hobby",
+        "translation": "hobby"
       }
     ],
     "examples": [
       {
-        "german": "Ich trinke einen Kaffee.",
-        "english": "I drink a coffee."
+        "german": "Ich mache jetzt eine Kaffeepause.",
+        "english": "I'm taking a coffee break."
       },
       {
-        "german": "Das Büro ist leer.",
-        "english": "The office is empty."
+        "german": "Wir hätten gerne einen Flat White.",
+        "english": "We would like a Flat White."
       },
       {
-        "german": "Ich trinke eine Apfelschorle.",
-        "english": "I drink an apple spritzer."
+        "german": "Ich habe ein neues Hobby.",
+        "english": "I have a new hobby."
       },
       {
-        "german": "Der LKW bringt ein Paket.",
-        "english": "The truck brings a package."
+        "german": "Der Zufall spielt eine große Rolle.",
+        "english": "Chance plays a big role."
       },
       {
-        "german": "Ich gehe zurück ins Büro.",
-        "english": "I go back to the office."
+        "german": "Ich trinke gerne Apfelschorle.",
+        "english": "I like to drink apple spritzer."
       }
     ]
   },
   "German Verbs: Haben | Super Easy German (131)": {
-    "title": "German Lesson: Haben (A1)",
+    "title": "Haben - A1 German Lesson",
     "vocabulary": [
       {
         "word": "Haben",
@@ -2050,8 +2082,8 @@
         "english": "I am thirsty."
       },
       {
-        "german": "Ich habe keine Geld.",
-        "english": "I don't have money."
+        "german": "Ich habe Lust.",
+        "english": "I have the desire to..."
       }
     ]
   }

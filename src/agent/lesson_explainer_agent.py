@@ -1,7 +1,6 @@
 import json
 import re
 
-
 def extract_json(text: str):
 
     text = re.sub(r"```json", "", text)
@@ -14,62 +13,58 @@ def extract_json(text: str):
 
     return text
 
-
 def lesson_explainer_agent(lesson, llm):
-
+    """
+    Enhance the lesson JSON:
+    - Add learner-friendly grammar notes
+    - Add optional exercises
+    - Ensure bilingual examples
+    """
     prompt = f"""
-You are a German teacher.
+You are an expert German teacher.
 
-Expand this lesson so it becomes a **complete beginner lesson**.
+Expand the following A1 lesson for students:
 
-Lesson:
+{json.dumps(lesson, ensure_ascii=False)}
 
-{json.dumps(lesson, ensure_ascii=False, indent=2)}
-
-Return ONLY valid JSON.
-
-Format:
+Output JSON format:
 
 {{
-"title": "...",
-
-"grammar_explanation": "...",
-
-"vocabulary":[
-{{
-"word":"...",
-"translation":"...",
-"explanation":"..."
-}}
+"title": "lesson title",
+"vocabulary": [
+    {{"word": "...", "translation": "...", "note": "..."}}
 ],
-
-"examples":[
-{{
-"german":"...",
-"english":"...",
-"explanation":"Explain grammar of the sentence."
-}}
+"examples": [
+    {{"german": "...", "english": "...", "note": "..."}}
+],
+"grammar_notes": [
+    "...", "..."
+],
+"exercises": [
+    "...", "..."
 ]
 }}
 
 Rules:
-- Grammar explanation must be simple (A1 level)
-- Explain vocabulary meaning and usage
-- Explain grammar of the example sentences
-- Keep explanations short
-- JSON only
+- Keep max 5 vocab words and 5 examples
+- Include simple notes explaining tricky parts
+- JSON only, no markdown, complete and valid
 """
 
     response = llm.invoke(prompt)
-
     raw = response.content
 
     try:
         clean_json = extract_json(raw)
         return json.loads(clean_json)
-
-    except Exception:
-
+    
+    except Exception as e:
         print("\nRAW LLM OUTPUT:\n", raw)
-
-        return lesson
+        # fallback safe output
+        return {
+            "title": lesson.get("title","unknown"),
+            "vocabulary": lesson.get("vocabulary", []),
+            "examples": lesson.get("examples", []),
+            "grammar_notes": [],
+            "exercises": []
+        }

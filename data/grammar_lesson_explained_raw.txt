@@ -1,5 +1,10 @@
+Expanding lesson: Introduce Yourself in Slow German | Super Easy German 258
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson:
+
+```json
 {
-  "Introduce Yourself in Slow German | Super Easy German 258": {
   "title": "Introducing Yourself in German",
   "vocabulary": [
     {
@@ -73,8 +78,15 @@
       "answer": "Ich bin [Your Age] Jahre alt."
     }
   ]
-  },
-  "Introduce yourself in German (for absolute beginners) | Super Easy German (76)": {
+}
+```
+Expanding lesson: Introduce yourself in German (for absolute beginners) | Super Easy German (76)
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "Introducing Yourself in German",
   "vocabulary": [
     {
@@ -148,8 +160,22 @@
       "answer": "Ich lebe in [Stadt/Region]"
     }
   ]
-  },
-  "German Alphabet & Pronunciation - Full Guide | Super Easy German 253": {
+}
+```
+
+This expanded lesson includes:
+
+* 5 vocabulary words with notes explaining tricky parts
+* 5 examples with notes explaining the context and usage
+* 2 grammar notes explaining the verb conjugation in the first person singular form
+* 3 exercises to practice introducing yourself in German
+Expanding lesson: German Alphabet & Pronunciation - Full Guide | Super Easy German 253
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "German Alphabet & Pronunciation",
   "vocabulary": [
     {
@@ -231,8 +257,15 @@
       "answer": "Äpfel"
     }
   ]
-},
-  "Our Morning Routine in Slow German | Super Easy German 232": {
+}
+```
+Expanding lesson: Our Morning Routine in Slow German | Super Easy German 232
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "Unsere Morgenroutine",
   "vocabulary": [
     {
@@ -305,8 +338,22 @@
       "answer": "Klo"
     }
   ]
-},
-  "Learn Basic German Greetings & Farewells in Slow German | Super Easy German 274": {
+}
+```
+
+This expanded lesson includes:
+
+* 5 vocabulary words with notes explaining tricky parts
+* 5 examples with notes explaining the context
+* 2 grammar notes explaining important aspects of German grammar
+* 2 exercises to practice the vocabulary and grammar
+Expanding lesson: Learn Basic German Greetings & Farewells in Slow German | Super Easy German 274
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "Basic German Greetings & Farewells",
   "vocabulary": [
     {
@@ -388,8 +435,15 @@
       "answer": "Ciao, bis später!"
     }
   ]
-},
-  "Conjugation of regular verbs: Sagen, Machen, Hören | Super Easy German (83)": {
+}
+```
+Expanding lesson: Conjugation of regular verbs: Sagen, Machen, Hören | Super Easy German (83)
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "Conjugation of Regular Verbs: Sagen, Machen, Hören",
   "vocabulary": [
     {
@@ -463,8 +517,15 @@
       "answer": "Sie hören"
     }
   ]
-},
-  "Easy German - Basic Conversation Phrases 1": {
+}
+```
+Expanding lesson: Easy German - Basic Conversation Phrases 1
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "Basic Conversation Phrases 1",
   "vocabulary": [
     {
@@ -534,8 +595,22 @@
       "answer": "Example: A: Hallo, wie geht es dir? B: Ich habe Hunger, kannst du mir helfen?"
     }
   ]
-},
-  "Easy German - Basic Conversation Phrases 2": {
+}
+```
+
+This expanded lesson includes:
+
+* 5 vocabulary words with notes explaining tricky parts
+* 5 examples with notes explaining how to use the vocabulary words in context
+* 2 grammar notes explaining important grammar concepts
+* 2 exercises to help students practice the vocabulary and grammar
+Expanding lesson: Easy German - Basic Conversation Phrases 2
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "Basic Conversation Phrases 2",
   "vocabulary": [
     {
@@ -609,8 +684,22 @@
       "answer": "Die Rechnung bitte"
     }
   ]
-},
-  "How to learn the German Plural endings | Super Easy German (127)": {
+}
+```
+
+This expanded lesson includes:
+
+* 5 vocabulary words with notes explaining tricky parts
+* 5 examples with notes explaining the context and usage
+* 2 grammar notes explaining important grammar rules
+* 3 exercises to practice the vocabulary and grammar
+Expanding lesson: How to learn the German Plural endings | Super Easy German (127)
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "German Plural Endings",
   "vocabulary": [
     {
@@ -685,8 +774,22 @@
       "answer": "Bücher"
     }
   ]
-},
-  "Emotions in Slow German | Super Easy German 263": {
+}
+```
+
+This expanded lesson includes:
+
+* A vocabulary list with 5 words, each with a translation and a note explaining the plural form of the word.
+* 5 examples of sentences using the vocabulary words, each with a translation and a note explaining any tricky parts.
+* A grammar notes section explaining the rules for forming plural nouns in German.
+* 2 exercises to practice the vocabulary and grammar: a fill-in-the-blank exercise and a multiple-choice exercise.
+Expanding lesson: Emotions in Slow German | Super Easy German 263
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "Emotions in Slow German",
   "vocabulary": [
     {
@@ -760,8 +863,22 @@
       "options": ["Ich bin glücklich.", "Ich bin nervös.", "Ich bin enttäuscht.", "Ich bin traurig.", "Ich bin ängstlich."]
     }
   ]
-},
-  "Winter in Berlin in Slow German | Super Easy German 273": {
+}
+```
+
+This expanded lesson includes:
+
+* 5 vocabulary words with notes explaining tricky parts
+* 5 examples with notes explaining the verb usage
+* 2 grammar notes explaining the verb usage and adjective form
+* 2 exercises: fill-in-the-blank and multiple-choice
+Expanding lesson: Winter in Berlin in Slow German | Super Easy German 273
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "Winter in Berlin",
   "vocabulary": [
     {
@@ -842,8 +959,15 @@
       "answer": "Wir werfen einen Schneeball."
     }
   ]
-},
-  "Introduce yourself in Slow German | Super Easy German (1)": {
+}
+```
+Expanding lesson: Introduce yourself in Slow German | Super Easy German (1)
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "Introducing Yourself in German",
   "vocabulary": [
     {
@@ -917,8 +1041,22 @@
       "answer": "Ich heisse [name]."
     }
   ]
-},
-  "Counting in German from 1 - 100 | Super Easy German 178": {
+}
+```
+
+This expanded lesson includes:
+
+* 5 vocabulary words with notes explaining tricky parts
+* 5 examples with notes explaining the context and usage
+* 2 grammar notes explaining the usage of the verb 'heisst' and the verb 'bin'
+* 3 exercises to practice introducing yourself, asking someone's name, and responding to 'Wie heisst du?'
+Expanding lesson: Counting in German from 1 - 100 | Super Easy German 178
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "Counting in German from 1 to 100",
   "vocabulary": [
     {
@@ -993,8 +1131,22 @@
       "answer": "dreißig und sieben"
     }
   ]
-},
-  "How to Tell the Time in German | Super Easy German 183": {
+}
+```
+
+This expanded lesson includes:
+
+* 5 vocabulary words with notes explaining tricky parts
+* 5 examples with notes explaining how to use the vocabulary words
+* 2 grammar notes explaining important rules for counting in German
+* 2 exercises to practice counting in German, including fill-in-the-blank and multiple-choice questions.
+Expanding lesson: How to Tell the Time in German | Super Easy German 183
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson:
+
+```json
+{
   "title": "Telling the Time in German",
   "vocabulary": [
     {
@@ -1068,8 +1220,15 @@
       "answer": "Der Zug fährt um 15 Uhr ab."
     }
   ]
-},
-  "Possessive Pronouns in German | Super Easy German 223": {
+}
+```
+Expanding lesson: Possessive Pronouns in German | Super Easy German 223
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson:
+
+```json
+{
   "title": "Possessive Pronouns in German",
   "vocabulary": [
     {
@@ -1139,8 +1298,15 @@
       "answer": "Das ist unser Auto."
     }
   ]
-},
-  "Hoch, höher am höchsten! | Super Easy German (63)": {
+}
+```
+Expanding lesson: Hoch, höher am höchsten! | Super Easy German (63)
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "Adjektive - Steigerung (Comparative and Superlative)",
   "vocabulary": [
     {
@@ -1224,8 +1390,22 @@
       "answer": "höchsten"
     }
   ]
-},
-  "The Weather | Super Easy German (14)": {
+}
+```
+
+This expanded lesson includes:
+
+* 5 vocabulary words with notes explaining the comparative and superlative forms
+* 5 examples with notes explaining the usage of the comparative and superlative forms
+* 4 grammar notes explaining the rules for forming the comparative and superlative forms
+* 5 exercises to practice the usage of the comparative and superlative forms
+Expanding lesson: The Weather | Super Easy German (14)
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "Lesson 1: The Weather in Berlin",
   "vocabulary": [
     {
@@ -1307,8 +1487,15 @@
       "answer": "Es schneit in Berlin."
     }
   ]
-},
-  "unknown": {
+}
+```
+Expanding lesson: unknown
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "Bestellen im Restaurant (Ordering in a Restaurant)",
   "vocabulary": [
     {
@@ -1382,8 +1569,22 @@
       "answer": "Ich möchte ein Glas Wasser."
     }
   ]
-},
-  "German Verbs: Geben | Super Easy German (148)": {
+}
+```
+
+This expanded lesson includes:
+
+* 5 vocabulary words with notes explaining tricky parts
+* 5 examples with notes explaining the context and usage
+* 2 grammar notes explaining important aspects of German grammar
+* 3 exercises to practice ordering in a restaurant
+Expanding lesson: German Verbs: Geben | Super Easy German (148)
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "German Verbs: Geben (To Give)",
   "vocabulary": [
     {
@@ -1453,8 +1654,22 @@
       "answer": "He gives it to us."
     }
   ]
-},
-  "German Verbs: Wissen | Super Easy German (153)": {
+}
+```
+
+This expanded lesson includes:
+
+* 5 vocabulary words with notes explaining tricky parts
+* 5 examples with notes explaining the use of the verb 'geben' and pronouns
+* 2 grammar notes explaining the verb conjugation and pronoun usage
+* 2 exercises to practice the verb 'geben' and pronoun usage
+Expanding lesson: German Verbs: Wissen | Super Easy German (153)
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "German Verbs: Wissen (To Know)",
   "vocabulary": [
     {
@@ -1525,8 +1740,22 @@
       "answer": "Wir wissen Englisch."
     }
   ]
-},
-  "Irregular Verbs: Mögen | Super Easy German (103)": {
+}
+```
+
+This expanded lesson includes:
+
+* 5 vocabulary words with notes explaining tricky parts
+* 5 examples with notes explaining the usage of the verb 'wissen' in different tenses
+* 3 grammar notes explaining the usage of the verb 'wissen' in the present and conditional tenses
+* 2 exercises to practice the usage of the verb 'wissen' in the present tense
+Expanding lesson: Irregular Verbs: Mögen | Super Easy German (103)
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "Irregular Verb: Mögen (To Like)",
   "vocabulary": [
     {
@@ -1596,8 +1825,23 @@
       "answer": "mögen"
     }
   ]
-},
-  "German Verbs: Machen | Super Easy German (142)": {
+}
+```
+
+This expanded lesson includes:
+
+* A title and introduction to the irregular verb "mögen"
+* 5 vocabulary words with notes explaining tricky parts
+* 5 examples of the verb "mögen" in use, with notes explaining the grammar and usage
+* 2 grammar notes explaining the irregularity of the verb "mögen" and its usage in the present and past tense
+* 2 exercises for students to practice using the verb "mögen" in context
+Expanding lesson: German Verbs: Machen | Super Easy German (142)
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "Machen - Present Tense",
   "vocabulary": [
     {
@@ -1667,8 +1911,22 @@
       "answer": "machen"
     }
   ]
-},
-  "\"Wollen\" vs. \"Mögen\" vs. \"Möchten\" | Super Easy German 192": {
+}
+```
+
+This expanded lesson includes:
+
+* 5 vocabulary words with notes explaining the tricky parts of the verb 'machen'
+* 5 examples with notes explaining the -e, -st, -t, -en, and -t endings for the subject pronouns
+* 2 grammar notes explaining the regular verb pattern and the intransitive nature of the verb 'machen'
+* 2 exercises to practice the verb 'machen' in context
+Expanding lesson: "Wollen" vs. "Mögen" vs. "Möchten" | Super Easy German 192
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "Wollen, Mögen, Möchten: Wishes and Preferences",
   "vocabulary": [
     {
@@ -1751,8 +2009,15 @@
       "answer": "will"
     }
   ]
-},
-  "German Verbs: Können | Super Easy German (138)": {
+}
+```
+Expanding lesson: German Verbs: Können | Super Easy German (138)
+
+RAW LLM OUTPUT:
+ Here is the expanded A1 lesson in JSON format:
+
+```json
+{
   "title": "Können - A1 German Lesson",
   "vocabulary": [
     {
@@ -1835,8 +2100,15 @@
       "answer": "kannst"
     }
   ]
-},
-  "16 Verbs + Prepositions You Should Know (A1 Level) | Super Easy German 229": {
+}
+```
+Expanding lesson: 16 Verbs + Prepositions You Should Know (A1 Level) | Super Easy German 229
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "Verben mit Präpositionen (Verbs with Prepositions)",
   "vocabulary": [
     {
@@ -1911,8 +2183,22 @@
       "answer": "kümmere mich um"
     }
   ]
-},
-  "Separable verbs in German | Super Easy German (31)": {
+}
+```
+
+This expanded lesson includes:
+
+* 5 vocabulary words with notes explaining tricky parts
+* 5 examples with notes explaining the use of prepositions
+* 2 grammar notes explaining the use of verbs with prepositions
+* 2 exercises to practice the use of verbs with prepositions
+Expanding lesson: Separable verbs in German | Super Easy German (31)
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "Trennbare Verben (Separable Verbs)",
   "vocabulary": [
     {
@@ -1986,8 +2272,22 @@
       "answer": "räu-"
     }
   ]
-},
-  "These Verbs Always Use The Simple Past | Super Easy German 191": {
+}
+```
+
+This expanded lesson includes:
+
+* 5 vocabulary words with notes explaining tricky parts
+* 5 examples with notes explaining the usage of separable verbs
+* Grammar notes explaining the concept of separable verbs in German
+* 3 exercises to practice the usage of separable verbs
+Expanding lesson: These Verbs Always Use The Simple Past | Super Easy German 191
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "Simple Past and Perfect in German",
   "vocabulary": [
     {
@@ -2067,8 +2367,15 @@
       "correct_answer": "Ich bin gestern zum Supermarkt gegangen."
     }
   ]
-},
-  "Perfect Tense in German | Super Easy German (26)": {
+}
+```
+Expanding lesson: Perfect Tense in German | Super Easy German (26)
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "Perfect Tense in German",
   "vocabulary": [
     {
@@ -2138,8 +2445,15 @@
       "answer": "Sie haben geschrieben."
     }
   ]
-},
-  "10 German Verbs that Change Vowels (Strong Verbs for Beginners) | Super Easy German 220": {
+}
+```
+Expanding lesson: 10 German Verbs that Change Vowels (Strong Verbs for Beginners) | Super Easy German 220
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "Strong Verbs in German",
   "vocabulary": [
     {
@@ -2221,8 +2535,15 @@
       "answer": "sprichst"
     }
   ]
-},
-  "Wie vs. Als | Super Easy German (88)": {
+}
+```
+Expanding lesson: Wie vs. Als | Super Easy German (88)
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "Wie vs. Als: Vergleichen und Gleichheit",
   "vocabulary": [
     {
@@ -2292,8 +2613,23 @@
       "answer": "Ich war so glücklich, als ich meine beste Freundin getroffen habe."
     }
   ]
-},
-  "MIT vs. OHNE | Super Easy German 201": {
+}
+```
+
+This expanded lesson includes:
+
+* A title that summarizes the topic
+* A vocabulary section with 5 words, including notes to explain tricky parts
+* An examples section with 5 sentences, including notes to explain the grammar and usage
+* A grammar notes section with 2 points to clarify the usage of 'wie' and 'als'
+* An exercises section with 2 exercises to practice the usage of 'wie' and 'als'
+Expanding lesson: MIT vs. OHNE | Super Easy German 201
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "Mit vs. Ohne - With and Without",
   "vocabulary": [
     {
@@ -2367,8 +2703,15 @@
       "answer": "mit, ohne"
     }
   ]
-},
-  "German Prepositions: BEI | Super Easy German (39)": {
+}
+```
+Expanding lesson: German Prepositions: BEI | Super Easy German (39)
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "German Preposition: BEI - At, By, With",
   "vocabulary": [
     {
@@ -2441,8 +2784,23 @@
       "options": ["bei", "beim", "im", "am"]
     }
   ]
-},
-  "Kein vs. Nicht | Easy German 341": {
+}
+```
+
+This expanded lesson includes:
+
+* A brief introduction to the preposition "bei" and its uses
+* A selection of 5 vocabulary words with notes on tricky parts
+* 5 examples of how to use the preposition "bei" in different contexts
+* 2 grammar notes to clarify the use of "bei" with the dative and accusative cases
+* 2 exercises to practice using the preposition "bei" in different situations
+Expanding lesson: Kein vs. Nicht | Easy German 341
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson:
+
+```json
+{
   "title": "Kein vs. Nicht: Understanding Negation in German",
   "vocabulary": [
     {
@@ -2516,8 +2874,15 @@
       "answer": "Ich bin nicht dumm."
     }
   ]
-},
-  "Our Vacation in Slow German | Super Easy German 234": {
+}
+```
+Expanding lesson: Our Vacation in Slow German | Super Easy German 234
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "Urlaub in England - A1 Level",
   "vocabulary": [
     {
@@ -2592,8 +2957,15 @@
       "answer": "Fisch und Chips"
     }
   ]
-},
-  "\"Ach\" Explained | Super Easy German (126)": {
+}
+```
+Expanding lesson: "Ach" Explained | Super Easy German (126)
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "Ach Explained: Expressing Surprise, Regret, and Excitement",
   "vocabulary": [
     {
@@ -2668,8 +3040,17 @@
       "answer": "Problem"
     }
   ]
-},
-  "Pia and Lisa go shopping | Easy German 85": {
+}
+```
+
+This lesson includes 5 vocabulary words, 5 examples, and 2 grammar notes. The exercises include a fill-in-the-blank and a multiple-choice question to help students practice their understanding of Ach.
+Expanding lesson: Pia and Lisa go shopping | Easy German 85
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "Pia und Lisa einkaufen gehen",
   "vocabulary": [
     {
@@ -2749,8 +3130,17 @@
       "answer": "T-Shirt"
     }
   ]
-},
-  "NA JA - Explained | Super Easy German (125)": {
+}
+```
+
+This lesson includes 5 vocabulary words, 5 examples, grammar notes, and exercises to practice the language. The exercises include translation, fill-in-the-blank, and multiple-choice questions to help students practice their language skills.
+Expanding lesson: NA JA - Explained | Super Easy German (125)
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "NA JA - Explained",
   "vocabulary": [
     {
@@ -2832,8 +3222,15 @@
       "answer": "Ich bin zu spät gekommen, naja."
     }
   ]
-},
-  "Berlin in December in Slow German | Super Easy German 268": {
+}
+```
+Expanding lesson: Berlin in December in Slow German | Super Easy German 268
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "Berlin in December - A1 Level",
   "vocabulary": [
     {
@@ -2906,8 +3303,17 @@
       "options": ["Fahrrad", "Auto", "Bus"]
     }
   ]
-},
-  "Clothing Vocabulary in Slow German | Super Easy German 270": {
+}
+```
+
+This lesson includes 5 vocabulary words, 5 examples, and 2 grammar notes. The exercises include a fill-in-the-blank exercise and a multiple-choice exercise.
+Expanding lesson: Clothing Vocabulary in Slow German | Super Easy German 270
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson:
+
+```json
+{
   "title": "Clothing Vocabulary in Slow German",
   "vocabulary": [
     {
@@ -2918,7 +3324,7 @@
     {
       "word": "Schrank",
       "translation": "wardrobe",
-      "note": "Note: Schrank is a bit more formal than \"Kleiderschrank\" (clothing cabinet). It's often used in formal or business settings."
+      "note": "Note: Schrank is a bit more formal than "Kleiderschrank" (clothing cabinet). It's often used in formal or business settings."
     },
     {
       "word": "T-Shirt",
@@ -2940,32 +3346,32 @@
     {
       "german": "Ich trage ein T-Shirt.",
       "english": "I wear a t-shirt.",
-      "note": "Note: The verb \"trage\" is in the present tense, which means it's happening now."
+      "note": "Note: The verb "trage" is in the present tense, which means it's happening now."
     },
     {
       "german": "Meine Hose ist blau.",
       "english": "My pants are blue.",
-      "note": "Note: The verb \"ist\" is in the present tense, which means it's happening now. The adjective \"blau\" describes the color of the pants."
+      "note": "Note: The verb "ist" is in the present tense, which means it's happening now. The adjective "blau" describes the color of the pants."
     },
     {
       "german": "Ich habe neue Schuhe.",
       "english": "I have new shoes.",
-      "note": "Note: The verb \"habe\" is in the present perfect tense, which means it's happened recently. The adjective \"neue\" describes the shoes as new."
+      "note": "Note: The verb "habe" is in the present perfect tense, which means it's happened recently. The adjective "neue" describes the shoes as new."
     },
     {
       "german": "Mein Schrank ist voll.",
       "english": "My wardrobe is full.",
-      "note": "Note: The verb \"ist\" is in the present tense, which means it's happening now. The adjective \"voll\" describes the state of the wardrobe."
+      "note": "Note: The verb "ist" is in the present tense, which means it's happening now. The adjective "voll" describes the state of the wardrobe."
     },
     {
       "german": "Ich trage ein Jackett.",
       "english": "I wear a jacket.",
-      "note": "Note: The verb \"trage\" is in the present tense, which means it's happening now. The noun \"Jackett\" is a direct loanword from English."
+      "note": "Note: The verb "trage" is in the present tense, which means it's happening now. The noun "Jackett" is a direct loanword from English."
     }
   ],
   "grammar_notes": [
-    "Note: In German, the verb \"tragen\" (to wear) is in the present tense for actions that are happening now.",
-    "Note: The adjective \"neue\" (new) is used to describe the shoes as new."
+    "Note: In German, the verb "tragen" (to wear) is in the present tense for actions that are happening now.",
+    "Note: The adjective "neue" (new) is used to describe the shoes as new."
   ],
   "exercises": [
     {
@@ -2989,8 +3395,15 @@
       ]
     }
   ]
-},
-  "At the Mall in Slow German | Super Easy German 276": {
+}
+```
+Expanding lesson: At the Mall in Slow German | Super Easy German 276
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "At the Mall in Slow German",
   "vocabulary": [
     {
@@ -3064,8 +3477,22 @@
       "answer": "Pfeffermühle"
     }
   ]
-},
-  "At The Train Station in Slow German | Super Easy German 279": {
+}
+```
+
+This expanded lesson includes:
+
+* 5 vocabulary words with notes explaining tricky parts
+* 5 examples with notes explaining tricky parts
+* 2 grammar notes explaining key concepts
+* 3 exercises to practice vocabulary and grammar
+Expanding lesson: At The Train Station in Slow German | Super Easy German 279
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "At The Train Station in Slow German",
   "vocabulary": [
     {
@@ -3145,8 +3572,15 @@
       ]
     }
   ]
-},
-  "German Dative Case: 15 Simple Verbs That Always Take the Dative | Super Easy German 215": {
+}
+```
+Expanding lesson: German Dative Case: 15 Simple Verbs That Always Take the Dative | Super Easy German 215
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "German Dative Case: 15 Simple Verbs That Always Take the Dative",
   "vocabulary": [
     {
@@ -3229,8 +3663,15 @@
       "answer": "Ich folge dem Hund."
     }
   ]
-},
-  "10 Min Conversation in Slow German | Super Easy German 287": {
+}
+```
+Expanding lesson: 10 Min Conversation in Slow German | Super Easy German 287
+
+RAW LLM OUTPUT:
+ Here is the expanded lesson in JSON format:
+
+```json
+{
   "title": "Kaffee und Pause",
   "vocabulary": [
     {
@@ -3305,8 +3746,22 @@
       "answer": "Flat White"
     }
   ]
-},
-  "German Verbs: Haben | Super Easy German (131)": {
+}
+```
+
+This expanded lesson includes:
+
+* 5 vocabulary words with notes explaining tricky parts
+* 5 examples with notes explaining tricky parts
+* 2 grammar notes explaining key grammar concepts
+* 2 exercises to practice vocabulary and grammar
+Expanding lesson: German Verbs: Haben | Super Easy German (131)
+
+RAW LLM OUTPUT:
+ Here is the expanded A1 lesson in JSON format:
+
+```json
+{
   "title": "Haben - A1 German Lesson",
   "vocabulary": [
     {
@@ -3377,4 +3832,12 @@
     }
   ]
 }
-}
+```
+
+This expanded lesson includes:
+
+* 5 vocabulary words with notes explaining tricky parts
+* 5 examples with notes explaining the grammar and usage
+* 2 grammar notes explaining the usage of the verb 'haben' in the present tense
+* 2 exercises to practice the usage of the verb 'haben' in the present tense
+✅ Explained grammar lessons saved to data/grammar_lessons_explained.json

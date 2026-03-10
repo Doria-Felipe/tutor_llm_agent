@@ -36,12 +36,9 @@ def chunk_text(text, chunk_size=1200):
 # -----------------------------
 # Lesson Generator
 # -----------------------------
+
 def lesson_agent(title, transcript, level, llm):
-
     chunks = chunk_text(transcript)
-
-    # Use first chunk only (best intro context)
-    # context = chunks[0]
     context = " ".join(chunks[:2])
 
     prompt = f"""
@@ -80,7 +77,10 @@ Rules:
 - Make sure the JSON is complete and closed.
 """
 
-    response = llm.invoke(prompt, format="json")
+    # ===========================
+    # FIX HERE: remove format="json"
+    # ===========================
+    response = llm.invoke(prompt)  # just pass the prompt
 
     raw = response.content
 
@@ -89,15 +89,76 @@ Rules:
         return json.loads(clean_json)
 
     except Exception as e:
-
         print("\nRAW LLM OUTPUT:\n", raw)
-
-        # Safe fallback so script never crashes
+        # Safe fallback
         return {
             "title": title,
             "vocabulary": [],
             "examples": []
         }
+
+# def lesson_agent(title, transcript, level, llm):
+
+#     chunks = chunk_text(transcript)
+
+#     # Use first chunk only (best intro context)
+#     # context = chunks[0]
+#     context = " ".join(chunks[:2])
+
+#     prompt = f"""
+# You are a German teacher.
+
+# Create a **short A1 German lesson** based on this transcript.
+
+# Video title:
+# {title}
+
+# Transcript:
+# {context}
+
+# Return ONLY valid JSON.
+
+# Format:
+
+# {{
+# "title": "lesson title",
+# "vocabulary": [
+# {{"word": "Haus", "translation": "house"}},
+# {{"word": "Baum", "translation": "tree"}}
+# ],
+# "examples": [
+# {{"german": "Das Haus ist groß.", "english": "The house is big."}},
+# {{"german": "Der Baum ist alt.", "english": "The tree is old."}}
+# ]
+# }}
+
+# Rules:
+# - Maximum 5 vocabulary words
+# - Maximum 5 examples
+# - No explanations
+# - No markdown
+# - JSON only
+# - Make sure the JSON is complete and closed.
+# """
+
+#     response = llm.invoke(prompt, format="json")
+
+#     raw = response.content
+
+#     try:
+#         clean_json = extract_json(raw)
+#         return json.loads(clean_json)
+
+#     except Exception as e:
+
+#         print("\nRAW LLM OUTPUT:\n", raw)
+
+#         # Safe fallback so script never crashes
+#         return {
+#             "title": title,
+#             "vocabulary": [],
+#             "examples": []
+#         }
 
 
 # import json
