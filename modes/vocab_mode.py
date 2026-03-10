@@ -1,103 +1,106 @@
-# import streamlit as st
-# import json
-# from data.topic_lookup import get_topics
-
-
-# @st.cache_data
-# def load_vocab():
-#     with open("data/topics_vocab_clean.json",encoding="utf8") as f:
-#         return json.load(f)
-
-
-# def run_vocab(level):
-
-#     topics = get_topics()
-
-#     topic = st.selectbox("Choose topic",topics)
-
-#     vocab = load_vocab()
-
-#     words = [
-#         w for w in vocab.get(topic,[])
-#         if w["level"].lower()==level.lower()
-#     ]
-
-#     col1,col2 = st.columns(2)
-
-#     for i,w in enumerate(words):
-
-#         with (col1 if i%2==0 else col2):
-
-#             with st.container(border=True):
-
-#                 st.markdown(f"### 🇩🇪 {w['word']}")
-#                 st.markdown(f"**Meaning:** {w['meaning']}")
-#                 st.markdown(f"*Example:* {w['example']}")
-
 import streamlit as st
 import json
-from scripts.topic_lookup import get_topics
-from pathlib import Path
+import random
 
-VOCAB_PATH = Path("data/topics_vocab_clean.json")
+# -----------------------------
+# Config
+# -----------------------------
+VOCAB_PATH = "data/topics_vocab_clean.json"
 
-# -------------------------
-# Load vocab
-# -------------------------
+# -----------------------------
+# Load vocab once and cache
+# -----------------------------
 @st.cache_data
-def load_vocab():
-    with open(VOCAB_PATH, encoding="utf8") as f:
-        return json.load(f)
+def load_vocab(level=None):
+    with open(VOCAB_PATH, "r", encoding="utf-8") as f:
+        vocab = json.load(f)
+    # Flatten all words
+    words = []
+    for entries in vocab.values():
+        words.extend(entries)
+    if level:
+        words = [w for w in words if w.get("level") == level]
+    return words
 
-# -------------------------
-# Run vocab mode
-# -------------------------
-def run_vocab(level: str):
+# -----------------------------
+# Initialize session state
+# -----------------------------
+def init_session(level=None):
+    if "words" not in st.session_state:
+        words = load_vocab(level)
+        st.session_state.words = words
+        random.shuffle(st.session_state.words)
+    if "vocab_index" not in st.session_state:
+        st.session_state.vocab_index = 0
+    if "show_translation" not in st.session_state:
+        st.session_state.show_translation = False
 
-    st.header("📚 Vocabulary Mode")
+# -----------------------------
+# Handlers
+# -----------------------------
+def show_translation():
+    st.session_state.show_translation = True
 
-    vocab = load_vocab()
-    topics = get_topics()
+def next_card():
+    st.session_state.vocab_index = (st.session_state.vocab_index + 1) % len(st.session_state.words)
+    st.session_state.show_translation = False
 
-    # -------------------------
-    # Main topic selectbox
-    # -------------------------
-    main_topics = sorted({t.split(" → ")[0] for t in topics})
-    selected_main = st.selectbox("Select Main Topic", main_topics)
+def mark_easy():
+    idx = st.session_state.vocab_index
+    word = st.session_state.words.pop(idx)
+    st.session_state.words.append(word)
+    next_card()
 
-    # Subtopic filter
-    subtopics = sorted([t.split(" → ")[1] for t in topics if t.startswith(selected_main)])
-    selected_sub = st.selectbox("Select Subtopic", subtopics)
+def mark_medium():
+    next_card()
 
-    selected_topic = f"{selected_main} → {selected_sub}"
+def mark_hard():
+    idx = st.session_state.vocab_index
+    word = st.session_state.words.pop(idx)
+    insert_idx = min(idx + 2, len(st.session_state.words))
+    st.session_state.words.insert(insert_idx, word)
+    next_card()
 
-    words = [
-        w for w in vocab.get(selected_topic, [])
-        if w["level"].lower() == level.lower()
-    ]
+# -----------------------------
+# Show single flashcard
+# -----------------------------
+def show_card(word_entry):
+    st.markdown(f"🟦 **{word_entry['word']}**")
+    if st.session_state.show_translation:
+        st.markdown(f"**Meaning:** {word_entry['meaning']}")
+        if "example" in word_entry:
+            st.markdown(f"**Example:** {word_entry['example']}")
+    else:
+        st.button(
+            "Show translation",
+            key=f"show_{st.session_state.vocab_index}",
+            on_click=show_translation
+        )
 
-    if not words:
-        st.info("No words found for this topic and level.")
-        st.stop()
+# -----------------------------
+# Main Vocab Mode
+# -----------------------------
+def run_vocab(level=None):
+    st.title("🇩🇪 German RAG Tutor - Vocab Mode")
+    init_session(level)
 
-    # -------------------------
-    # Display flip cards
-    # -------------------------
-    col1, col2 = st.columns(2)
-    for i, w in enumerate(words):
-        col = col1 if i % 2 == 0 else col2
-        key = f"{selected_topic}_{i}"
-        show_example = st.session_state.get("flashcard_state", {}).get(key, False)
+    if not st.session_state.words:
+        st.warning("No vocabulary words found.")
+        return
 
-        with col:
-            st.markdown(f"### 🇩🇪 {w['word']}")
+    idx = st.session_state.vocab_index
+    word_entry = st.session_state.words[idx]
 
-            if st.button("Flip card", key=key):
-                if "flashcard_state" not in st.session_state:
-                    st.session_state.flashcard_state = {}
-                st.session_state.flashcard_state[key] = not show_example
-                show_example = not show_example
+    show_card(word_entry)
 
-            if show_example:
-                st.markdown(f"**Meaning:** {w['meaning']}")
-                st.markdown(f"*Example:* {w['example']}")
+    # Buttons with callbacks
+    col1, col2, col3 = st.columns([1,1,1])
+    with col1:
+        st.button("Easy", key=f"easy_{idx}", on_click=mark_easy)
+    with col2:
+        st.button("Medium", key=f"medium_{idx}", on_click=mark_medium)
+    with col3:
+        st.button("Hard", key=f"hard_{idx}", on_click=mark_hard)
+
+    # Progress
+    st.markdown(f"Progress: {idx+1} / {len(st.session_state.words)}")

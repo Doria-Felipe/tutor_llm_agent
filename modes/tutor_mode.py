@@ -3,7 +3,8 @@ import time
 
 from src.agent.german_agent import german_agent
 from src.rag.hybrid_retriever import return_context
-from llm.client import get_llm
+# from llm.client import get_llm
+from src.llm.client import get_llm
 
 @st.cache_resource
 def load_llm(model):

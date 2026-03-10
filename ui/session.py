@@ -1,12 +1,18 @@
 import streamlit as st
 
+
 def init_session():
+    defaults = {
+        "messages": [],
+        "vocab_topic": None,
+        "vocab_subtopic": None,
+        "vocab_index": 0,
+        "show_translation": False,
 
-    if "messages" not in st.session_state:
-        st.session_state.messages = []
+        # spaced repetition memory
+        "srs_data": {}
+    }
 
-    if "model_name" not in st.session_state:
-        st.session_state.model_name = "llama3.1"
-
-    if "flashcard_state" not in st.session_state:
-        st.session_state.flashcard_state = {}
+    for key, value in defaults.items():
+        if key not in st.session_state:
+            st.session_state[key] = value
