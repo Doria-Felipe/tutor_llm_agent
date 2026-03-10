@@ -6,9 +6,9 @@ import csv
 import json
 import spacy # type: ignore
 from src.rag.retriever import return_context_by_video_ids
-from data.topic_lookup import get_video_ids_by_topic
+from scripts.topic_lookup import get_video_ids_by_topic
 from collections import Counter
-from data.topic_lookup import get_topics, get_video_ids_by_topic
+from scripts.topic_lookup import get_topics, get_video_ids_by_topic
 from src.rag.retriever import return_context_by_video_ids
 
 nlp = spacy.load("de_core_news_sm")

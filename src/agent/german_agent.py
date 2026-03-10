@@ -1,6 +1,6 @@
 from langchain_core.messages import SystemMessage, HumanMessage
-from src.rag.retriever import clean_context #, return_context
-from src.rag.hybrid_retriever import return_context
+# from src.rag.retriever import clean_context #, return_context
+from src.rag.hybrid_retriever import return_context, clean_context
 
 def german_agent(llm, user_query: str, mode: str='tutor', level: str='a1', k: int=2, ctx: str = None):
     # if context passed from outside, use it

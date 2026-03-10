@@ -3,6 +3,17 @@ from src.rag.vector_store import col, _model
 from src.rag.bm25_index import bm25_search
 # from src.rag.reranker import rerank
 
+def clean_context(ctx: str) -> str:
+    """Cleaning some spilt garbage from the transcripts
+
+    Args:
+        ctx (str): The actual context from the transcripts
+
+    Returns:
+        str: the cleaned context
+    """
+    return "\n".join([line for line in ctx.split("\n")
+                      if not ("|" in line and "[" in line)])
 
 def hybrid_search(query, k=3):
 
