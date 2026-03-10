@@ -4,7 +4,7 @@ from langchain_community.chat_models import ChatOllama
 from ragas.llms import LangchainLLMWrapper
 from ragas import evaluate
 from ragas.metrics.collections import faithfulness, answer_relevancy
-from src.rag.retriever import return_context
+from src.rag.hybrid_retriever import return_context
 from src.agent.german_agent import german_agent
 from src.llm.ollama_client import get_llm
 

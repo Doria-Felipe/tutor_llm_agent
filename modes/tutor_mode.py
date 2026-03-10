@@ -2,7 +2,7 @@ import streamlit as st
 import time
 
 from src.agent.german_agent import german_agent
-from src.rag.retriever import return_context
+from src.rag.hybrid_retriever import return_context
 # from src.llm.ollama_client import get_llm
 from src.llm.local_vllm_client import get_llm
 

@@ -5,7 +5,7 @@ sys.path.append(str(Path(__file__).resolve().parents[1]))
 import json
 import pandas as pd
 
-from src.rag.retriever import return_context
+from src.rag.hybrid_retriever import return_context
 from src.agent.german_agent import german_agent
 # from src.llm.ollama_client import get_llm
 from src.llm.local_vllm_client import get_llm

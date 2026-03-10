@@ -4,8 +4,8 @@ sys.path.append(str(Path(__file__).resolve().parents[1]))
 
 import json
 import re
-from src.rag.vector_store import col  # your Chroma collection
-from src.quiz.quiz_generator import get_llm  # we will define generate_quiz below
+from src.rag.vector_store import col
+from src.llm.local_vllm_client import get_llm
 
 # -------------------------------
 # Safe Quiz Generator using llm.invoke
