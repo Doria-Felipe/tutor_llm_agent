@@ -7,8 +7,7 @@ import pandas as pd
 
 from src.rag.hybrid_retriever import return_context
 from src.agent.german_agent import german_agent
-# from src.llm.ollama_client import get_llm
-from src.llm.local_vllm_client import get_llm
+from llm.client import get_llm
 
 llm = get_llm("llama3.1")
 

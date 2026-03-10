@@ -18,7 +18,7 @@ from ragas.metrics._context_recall import ContextRecall
 
 from langchain_ollama import ChatOllama
 from ragas.llms import LangchainLLMWrapper
-from src.llm.local_vllm_client import get_llm
+from llm.client import get_llm
 
 from sklearn.metrics.pairwise import cosine_similarity
 from src.rag.hybrid_retriever import hybrid_search, format_context

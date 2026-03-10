@@ -4,8 +4,7 @@ sys.path.append(str(Path(__file__).resolve().parents[1]))
 
 import json
 import chromadb
-# from src.llm.ollama_client import get_llm
-from src.llm.local_vllm_client import get_llm
+from llm.client import get_llm
 from src.agent.lesson_agent import lesson_agent
 
 # ------------------------

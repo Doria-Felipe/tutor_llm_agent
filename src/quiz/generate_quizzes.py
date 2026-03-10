@@ -5,7 +5,7 @@ sys.path.append(str(Path(__file__).resolve().parents[1]))
 import json
 import re
 from src.rag.vector_store import col
-from src.llm.local_vllm_client import get_llm
+from llm.client import get_llm
 
 # -------------------------------
 # Safe Quiz Generator using llm.invoke

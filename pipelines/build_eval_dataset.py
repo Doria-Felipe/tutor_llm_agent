@@ -4,8 +4,7 @@ sys.path.append(str(Path(__file__).resolve().parents[1]))
 
 import json
 from src.agent.eval_question_agent import eval_question_agent
-# from src.llm.ollama_client import get_llm
-from src.llm.local_vllm_client import get_llm
+from llm.client import get_llm
 
 LESSON_FILE = "data/grammar_lessons_explained.json"
 OUTPUT_FILE = "data/eval_questions.json"

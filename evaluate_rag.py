@@ -6,7 +6,7 @@ from ragas import evaluate
 from ragas.metrics.collections import faithfulness, answer_relevancy
 from src.rag.hybrid_retriever import return_context
 from src.agent.german_agent import german_agent
-from src.llm.ollama_client import get_llm
+from src.llm.client import get_llm
 
 judge_llm = LangchainLLMWrapper(
     ChatOllama(model="llama3.1", temperature=0)
