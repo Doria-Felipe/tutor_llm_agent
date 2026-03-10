@@ -36,7 +36,7 @@
 
 import streamlit as st
 import json
-from data.topic_lookup import get_topics
+from scripts.topic_lookup import get_topics
 from pathlib import Path
 
 VOCAB_PATH = Path("data/topics_vocab_clean.json")

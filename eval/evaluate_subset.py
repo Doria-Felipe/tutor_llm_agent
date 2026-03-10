@@ -1,3 +1,7 @@
+import sys
+from pathlib import Path
+sys.path.append(str(Path(__file__).resolve().parents[1]))
+
 import pandas as pd
 import numpy as np
 from datasets import Dataset
@@ -14,7 +18,10 @@ from ragas.metrics._context_recall import ContextRecall
 
 from langchain_ollama import ChatOllama
 from ragas.llms import LangchainLLMWrapper
+from src.llm.local_vllm_client import get_llm
+
 from sklearn.metrics.pairwise import cosine_similarity
+from src.rag.hybrid_retriever import hybrid_search, format_context
 
 # ---------- SETTINGS ----------
 EVAL_PERCENTAGE = 0.08       # fraction of questions to evaluate
@@ -31,16 +38,19 @@ TOP_K = 5                    # number of top contexts to select
 
 metrics = [
     ContextPrecision(),
-    AnswerRelevancy()
+    AnswerRelevancy(),
+    ContextRecall(),
+    Faithfulness()
 ]
 
 embedding_model = HuggingFaceEmbeddings(
     # model_name="sentence-transformers/all-MiniLM-L6-v2"
     model_name="intfloat/multilingual-e5-base"
+    # model_name="paraphrase-multilingual-MiniLM-L12-v2"
     )
 
 # ---------- LOAD GENERATED ANSWERS ----------
-df = pd.read_csv("eval/generated_answers.csv")
+df = pd.read_csv("data/generated_answers.csv")
 
 df_sample = df.sample(
     frac=EVAL_PERCENTAGE,
@@ -51,24 +61,22 @@ print(f"Evaluating {len(df_sample)} / {len(df)} questions")
 
 # ---------- COMPUTE EMBEDDINGS FOR CONTEXTS ----------
 # Extract all unique contexts
-all_contexts = df["context"].unique()
-context_embeddings = embedding_model.embed_documents(list(all_contexts))
+# all_contexts = df["context"].unique()
+# context_embeddings = embedding_model.embed_documents(list(all_contexts))
 
 # ---------- SELECT TOP-K CONTEXTS PER QUESTION ----------
 ragas_dataset_list = []
 
 for _, row in tqdm(df_sample.iterrows(), total=len(df_sample)):
+
     question = row["question"]
     answer = row["answer"]
     ground_truth = row["ground_truth"]
 
-    # Embed the question
-    question_emb = embedding_model.embed_query(question)
+    # use your retriever
+    results = hybrid_search(question, k=TOP_K)
 
-    # Compute cosine similarity with all context embeddings
-    sims = cosine_similarity([question_emb], context_embeddings)[0]
-    top_idx = np.argsort(sims)[-TOP_K:][::-1]  # descending order
-    top_contexts = [all_contexts[i] for i in top_idx]
+    top_contexts = [r["doc"] for r in results]
 
     ragas_dataset_list.append({
         "question": question,
@@ -79,14 +87,15 @@ for _, row in tqdm(df_sample.iterrows(), total=len(df_sample)):
 
 dataset = Dataset.from_list(ragas_dataset_list)
 
-judge_llm = LangchainLLMWrapper(
-    ChatOllama(
-        model="qwen2.5:3b",
-        temperature=0,
-        format="json",
-        num_predict=256
-    )
-)
+# judge_llm = LangchainLLMWrapper(
+#     ChatOllama(
+#         model="qwen2.5:3b",
+#         temperature=0,
+#         format="json",
+#         num_predict=256
+#     )
+# )
+judge_llm = LangchainLLMWrapper(get_llm())
 
 # ---------- RUN EVALUATION ----------
 result = evaluate(
@@ -105,7 +114,7 @@ print(result)
 
 # ---------- SAVE RESULTS ----------
 results_df = pd.DataFrame([result])
-results_df.to_csv("eval/eval_results.csv", index=False)
-df_sample.to_csv("eval/evaluated_subset.csv", index=False)
+results_df.to_csv("data/eval_results.csv", index=False)
+df_sample.to_csv("data/evaluated_subset.csv", index=False)
 
 print("\nSaved evaluation outputs")

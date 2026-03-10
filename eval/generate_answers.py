@@ -7,8 +7,8 @@ import pandas as pd
 
 from src.rag.retriever import return_context
 from src.agent.german_agent import german_agent
-from src.llm.ollama_client import get_llm
-
+# from src.llm.ollama_client import get_llm
+from src.llm.local_vllm_client import get_llm
 
 llm = get_llm("llama3.1")
 
@@ -43,6 +43,6 @@ for q in questions:
 
 df = pd.DataFrame(records)
 
-df.to_csv("eval/generated_answers.csv", index=False)
+df.to_csv("data/generated_answers.csv", index=False)
 
 print(f"Saved {len(df)} generated answers")

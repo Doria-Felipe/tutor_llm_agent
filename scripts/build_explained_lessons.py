@@ -3,7 +3,8 @@ from pathlib import Path
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 
 import json
-from src.llm.ollama_client import get_llm
+# from src.llm.ollama_client import get_llm
+from src.llm.local_vllm_client import get_llm
 from src.agent.lesson_explainer_agent import lesson_explainer_agent
 
 

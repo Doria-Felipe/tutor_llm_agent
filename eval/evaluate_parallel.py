@@ -66,6 +66,6 @@ with ThreadPoolExecutor(max_workers=6) as executor:
 
 results_df = pd.DataFrame(results)
 
-results_df.to_csv("eval/eval_results.csv", index=False)
+results_df.to_csv("data/eval_results.csv", index=False)
 
 print("Evaluation complete")
