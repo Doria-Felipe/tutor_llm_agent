@@ -1,43 +1,228 @@
 import streamlit as st
-from src.quiz.quiz_engine import QuizEngine
+import json
+import random
+from src.llm.client import get_llm
+from src.agent.answer_grader_agent import grade_answer
+
+LESSON_PATH = "data/grammar_lessons_explained.json"
+
+llm = get_llm("llama3.1", temperature=0)
+
+# -----------------------------
+# Load questions
+# -----------------------------
+def load_questions():
+
+    with open(LESSON_PATH, "r", encoding="utf-8") as f:
+        lessons = json.load(f)
+
+    questions = []
+
+    for lesson in lessons.values():
+
+        for ex in lesson.get("exercises", []):
+
+            question = ex.get("exercise")
+            answer = ex.get("answer")
+
+            if question and answer:
+
+                questions.append({
+                    "question": question,
+                    "answer": answer
+                })
+
+    random.shuffle(questions)
+
+    return questions
 
 
-def run_quiz(level):
+# -----------------------------
+# Session init
+# -----------------------------
+def init_session():
 
-    st.title("German Learning Quiz 🇩🇪")
+    if "quiz_questions" not in st.session_state:
+        st.session_state.quiz_questions = load_questions()
 
-    if "quiz" not in st.session_state:
-        st.session_state.quiz = QuizEngine()
+    if "quiz_index" not in st.session_state:
+        st.session_state.quiz_index = 0
 
-    if st.button("New Question"):
+    if "quiz_score" not in st.session_state:
+        st.session_state.quiz_score = 0
 
-        q = st.session_state.quiz.next_question(level)
+    if "checked_answer" not in st.session_state:
+        st.session_state.checked_answer = False
 
-        st.session_state.question = q
+    if "last_correct" not in st.session_state:
+        st.session_state.last_correct = False
 
-    if "question" not in st.session_state:
-        st.session_state.question = st.session_state.quiz.next_question(level)
 
-    if "question" in st.session_state:
+# -----------------------------
+# Next question
+# -----------------------------
+def next_question():
 
-        st.markdown("### Question")
-        st.write(st.session_state.question)
+    st.session_state.quiz_index += 1
+    st.session_state.checked_answer = False
+    st.session_state.last_correct = False
+    st.rerun()
 
-        answer = st.text_input("Your answer")
 
-        if st.button("Submit"):
+# # -----------------------------
+# # Quiz UI
+# # -----------------------------
+# def run_quiz(level=None):
 
-            result = st.session_state.quiz.check(answer)
+#     st.title("❓ Grammar Quiz")
 
-            if result.get("error"):
-                st.warning("Generate a question first.")
-                return
+#     init_session()
 
-            if result["correct"]:
-                st.success("Correct! 🎉")
-            else:
-                # st.error("Not quite.")
-                st.error("Not quite.")
-                st.caption(f"Similarity score: {result['similarity']}")
+#     questions = st.session_state.quiz_questions
+#     idx = st.session_state.quiz_index
 
-            st.write("Correct answer:", result["correct_answer"])
+#     if not questions:
+#         st.warning("No quiz questions found.")
+#         return
+
+#     # Quiz finished
+#     if idx >= len(questions):
+
+#         st.success(
+#             f"Quiz finished! Score: {st.session_state.quiz_score}/{len(questions)}"
+#         )
+
+#         if st.button("Restart Quiz"):
+
+#             for key in [
+#                 "quiz_questions",
+#                 "quiz_index",
+#                 "quiz_score",
+#                 "checked_answer",
+#                 "last_correct"
+#             ]:
+#                 if key in st.session_state:
+#                     del st.session_state[key]
+
+#             st.rerun()
+
+#         return
+
+#     q = questions[idx]
+
+#     st.markdown(f"### {q['question']}")
+
+#     user_answer = st.text_input("Your answer", key=f"user_answer_{idx}")
+
+#     # -----------------------------
+#     # Check answer
+#     # -----------------------------
+#     if not st.session_state.checked_answer:
+
+#         if st.button("Check Answer"):
+
+#             if user_answer.strip().lower() in q["answer"].lower():
+
+#                 st.session_state.quiz_score += 1
+#                 st.session_state.last_correct = True
+
+#             else:
+
+#                 st.session_state.last_correct = False
+
+#             st.session_state.checked_answer = True
+
+#             st.rerun()
+
+#     # -----------------------------
+#     # Show result
+#     # -----------------------------
+#     else:
+
+#         if st.session_state.last_correct:
+
+#             st.success("✅ Correct!")
+
+#         else:
+
+#             st.error("❌ Not quite.")
+
+#         st.info(f"Example answer: {q['answer']}")
+
+#         if st.button("Next Question"):
+
+#             next_question()
+
+#     st.progress((idx + 1) / len(questions))
+
+# -----------------------------
+# Run Quiz Mode
+# -----------------------------
+def run_quiz(level=None):
+    st.title("❓ Grammar Quiz with AI Grading")
+    init_session()
+
+    questions = st.session_state.quiz_questions
+    idx = st.session_state.quiz_index
+
+    if not questions:
+        st.warning("No quiz questions found.")
+        return
+
+    if idx >= len(questions):
+        st.success(
+            f"Quiz finished! Score: {st.session_state.quiz_score}/{len(questions)}"
+        )
+        if st.button("Restart Quiz"):
+            for key in [
+                "quiz_questions", "quiz_index", "quiz_score",
+                "checked_answer", "last_result"
+            ]:
+                if key in st.session_state:
+                    del st.session_state[key]
+            st.rerun()
+        return
+
+    q = questions[idx]
+
+    st.markdown(f"### {q['question']}")
+
+    user_answer = st.text_input("Your answer", key=f"user_answer_{idx}")
+
+    # -----------------------------
+    # Check answer using LLM
+    # -----------------------------
+    if not st.session_state.checked_answer:
+        if st.button("Check Answer"):
+            st.session_state.last_result = grade_answer(
+                q['question'], q['answer'], user_answer,
+                llm=llm
+            )
+            if st.session_state.last_result["score"] == "correct":
+                st.session_state.quiz_score += 1
+            st.session_state.checked_answer = True
+            st.rerun()
+
+    # -----------------------------
+    # Show grading feedback
+    # -----------------------------
+    else:
+        result = st.session_state.last_result
+        score = result.get("score")
+        feedback = result.get("feedback")
+        correction = result.get("correction")
+
+        if score == "correct":
+            st.success("✅ Correct!")
+        elif score == "almost":
+            st.warning("⚠️ Almost correct.")
+        else:
+            st.error("❌ Not correct.")
+
+        st.info(f"Feedback: {feedback}")
+        st.info(f"Corrected answer: {correction}")
+
+        if st.button("Next Question"):
+            next_question()
+
+    st.progress((idx + 1) / len(questions))
