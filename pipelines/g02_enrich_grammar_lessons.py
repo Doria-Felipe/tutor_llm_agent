@@ -37,4 +37,4 @@ Path("data").mkdir(exist_ok=True)
 with open(OUTPUT_FILE, "w", encoding="utf8") as f:
     json.dump(expanded, f, ensure_ascii=False, indent=2)
 
-print("\n✅ Lessons expanded!")
+print("Lessons expanded!")
