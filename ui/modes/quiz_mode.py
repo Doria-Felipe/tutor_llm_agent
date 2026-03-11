@@ -6,13 +6,17 @@ from src.agent.answer_grader_agent import grade_answer
 
 LESSON_PATH = "data/grammar_lessons_explained.json"
 
-llm = get_llm("llama3.1", temperature=0)
+@st.cache_resource
+def load_llm():
+    llm = get_llm("qwen2.5:3b", temperature=0)
+    return llm
 
-# -----------------------------
+llm = load_llm()
+
 # Load questions
-# -----------------------------
 def load_questions():
-
+    """Recovering questions from the lessons
+    """
     with open(LESSON_PATH, "r", encoding="utf-8") as f:
         lessons = json.load(f)
 
@@ -36,12 +40,10 @@ def load_questions():
 
     return questions
 
-
-# -----------------------------
 # Session init
-# -----------------------------
 def init_session():
-
+    """Start session
+    """
     if "quiz_questions" not in st.session_state:
         st.session_state.quiz_questions = load_questions()
 
@@ -58,108 +60,20 @@ def init_session():
         st.session_state.last_correct = False
 
 
-# -----------------------------
 # Next question
-# -----------------------------
 def next_question():
-
+    """Going to the next question
+    """
     st.session_state.quiz_index += 1
     st.session_state.checked_answer = False
     st.session_state.last_correct = False
     st.rerun()
 
-
-# # -----------------------------
-# # Quiz UI
-# # -----------------------------
-# def run_quiz(level=None):
-
-#     st.title("❓ Grammar Quiz")
-
-#     init_session()
-
-#     questions = st.session_state.quiz_questions
-#     idx = st.session_state.quiz_index
-
-#     if not questions:
-#         st.warning("No quiz questions found.")
-#         return
-
-#     # Quiz finished
-#     if idx >= len(questions):
-
-#         st.success(
-#             f"Quiz finished! Score: {st.session_state.quiz_score}/{len(questions)}"
-#         )
-
-#         if st.button("Restart Quiz"):
-
-#             for key in [
-#                 "quiz_questions",
-#                 "quiz_index",
-#                 "quiz_score",
-#                 "checked_answer",
-#                 "last_correct"
-#             ]:
-#                 if key in st.session_state:
-#                     del st.session_state[key]
-
-#             st.rerun()
-
-#         return
-
-#     q = questions[idx]
-
-#     st.markdown(f"### {q['question']}")
-
-#     user_answer = st.text_input("Your answer", key=f"user_answer_{idx}")
-
-#     # -----------------------------
-#     # Check answer
-#     # -----------------------------
-#     if not st.session_state.checked_answer:
-
-#         if st.button("Check Answer"):
-
-#             if user_answer.strip().lower() in q["answer"].lower():
-
-#                 st.session_state.quiz_score += 1
-#                 st.session_state.last_correct = True
-
-#             else:
-
-#                 st.session_state.last_correct = False
-
-#             st.session_state.checked_answer = True
-
-#             st.rerun()
-
-#     # -----------------------------
-#     # Show result
-#     # -----------------------------
-#     else:
-
-#         if st.session_state.last_correct:
-
-#             st.success("✅ Correct!")
-
-#         else:
-
-#             st.error("❌ Not quite.")
-
-#         st.info(f"Example answer: {q['answer']}")
-
-#         if st.button("Next Question"):
-
-#             next_question()
-
-#     st.progress((idx + 1) / len(questions))
-
-# -----------------------------
 # Run Quiz Mode
-# -----------------------------
 def run_quiz(level=None):
-    st.title("❓ Grammar Quiz with AI Grading")
+    """Run the quiz
+    """
+    st.title("Grammar Quiz with AI Grading")
     init_session()
 
     questions = st.session_state.quiz_questions
@@ -189,9 +103,7 @@ def run_quiz(level=None):
 
     user_answer = st.text_input("Your answer", key=f"user_answer_{idx}")
 
-    # -----------------------------
     # Check answer using LLM
-    # -----------------------------
     if not st.session_state.checked_answer:
         if st.button("Check Answer"):
             st.session_state.last_result = grade_answer(
@@ -203,9 +115,7 @@ def run_quiz(level=None):
             st.session_state.checked_answer = True
             st.rerun()
 
-    # -----------------------------
     # Show grading feedback
-    # -----------------------------
     else:
         result = st.session_state.last_result
         score = result.get("score")

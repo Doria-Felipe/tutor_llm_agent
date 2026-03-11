@@ -10,9 +10,7 @@ from src.llm.client import get_llm
 from src.agent.tools import build_german_tool
 from src.rag.hybrid_retriever import return_context
 
-# -----------------------------
 # SETTINGS
-# -----------------------------
 
 LESSONS_PATH = "data/grammar_lessons_explained.json"
 OUTPUT_PATH = "data/generated_agent_answers.csv"
@@ -21,19 +19,13 @@ llm = get_llm("llama3.1")
 # llm = get_llm("qwen2.5:3b")
 agent = build_german_tool(llm, level="a1")
 
-# -----------------------------
 # LOAD LESSON FILE
-# -----------------------------
-
 with open(LESSONS_PATH, "r", encoding="utf-8") as f:
     lessons = json.load(f)
 
 records = []
 
-# -----------------------------
 # EXTRACT EXERCISES
-# -----------------------------
-
 for video_title, lesson in lessons.items():
 
     exercises = lesson.get("exercises", [])
