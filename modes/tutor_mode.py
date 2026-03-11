@@ -1,57 +1,50 @@
 import streamlit as st
-import time
-
-from src.agent.german_agent import german_agent
-from src.rag.hybrid_retriever import return_context
 from src.llm.client import get_llm
+from src.agent.tools import build_german_tool
+
 
 @st.cache_resource
-def load_llm(model):
-    return get_llm(model)
+def load_agent(model_name, level):
+    llm = get_llm(model_name)
+    return build_german_tool(llm, level)
 
 
-def run_tutor(level, show_sources):
+def run_tutor(level="a1", show_sources=False):
 
-    for msg in st.session_state.messages:
+    st.header("German Tutor 🇩🇪")
 
-        with st.chat_message(msg["role"]):
-            st.markdown(msg["content"])
+    if "chat_history" not in st.session_state:
+        st.session_state.chat_history = []
 
-    if prompt := st.chat_input("Ask something about German..."):
+    # -----------------------------
+    # Input form (prevents rerun issues)
+    # -----------------------------
+    with st.form("tutor_form", clear_on_submit=True):
 
-        st.session_state.messages.append({"role":"user","content":prompt})
-
-        with st.chat_message("user"):
-            st.markdown(prompt)
-
-        with st.chat_message("assistant"):
-
-            with st.spinner("Thinking..."):
-
-                start = time.time()
-
-                # llm = get_llm(st.session_state.model_name)
-                llm = load_llm(st.session_state.model_name)
-
-                # context = return_context(prompt,k=2)
-                if len(prompt.split()) < 4:
-                    context = ""
-                else:
-                    context = return_context(prompt, k=2)
-
-                response = german_agent(
-                    llm=llm,
-                    user_query=prompt,
-                    ctx=context,
-                    mode="tutor",
-                    level=level
-                )
-
-                latency = round(time.time()-start,2)
-
-            st.markdown(response)
-            st.caption(f"⏱ {latency}s")
-
-        st.session_state.messages.append(
-            {"role":"assistant","content":response}
+        user_query = st.text_input(
+            "Ask a question about German",
+            placeholder="Example: How do I say 'I am learning German'?"
         )
+
+        submitted = st.form_submit_button("Ask")
+
+    # -----------------------------
+    # Run agent
+    # -----------------------------
+    if submitted and user_query:
+
+        agent = load_agent(st.session_state.model_name, level)
+
+        with st.spinner("Thinking..."):
+            answer = agent._run(user_query)
+
+        st.session_state.chat_history.append((user_query, answer))
+
+    # -----------------------------
+    # Chat history
+    # -----------------------------
+    for q, a in reversed(st.session_state.chat_history):
+
+        st.markdown(f"**Q:** {q}")
+        st.markdown(f"**A:** {a}")
+        st.markdown("---")
