@@ -32,8 +32,11 @@ def repair_example(word, example):
     # Otherwise prepend word
     return f"{word.capitalize()} ist ein deutsches Wort."
 
-
+# Cleaning the messy dataset examples
 def clean_dataset(data):
+    """
+    Cleaning the dataset examples.
+    """
 
     fixed = {}
 

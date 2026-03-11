@@ -4,10 +4,16 @@ import random
 
 VOCAB_PATH = "data/topics_vocab_clean.json"
 
-# -----------------------------
 # Load vocab
-# -----------------------------
 def load_vocab(level=None):
+    """Loads the prepared JSON file
+
+    Args:
+        level (str, optional): The level the tutor is in. Defaults to None.
+
+    Returns:
+        lst: Returns a list of words
+    """
     with open(VOCAB_PATH, "r", encoding="utf-8") as f:
         vocab = json.load(f)
 
@@ -22,11 +28,13 @@ def load_vocab(level=None):
     return words
 
 
-# -----------------------------
 # Session init
-# -----------------------------
 def init_session(level=None):
+    """Initiating the session with a word.
 
+    Args:
+        level (str, optional): The level the tutor is in. Defaults to None.
+    """
     if "words" not in st.session_state:
         st.session_state.words = load_vocab(level)
 
@@ -37,11 +45,10 @@ def init_session(level=None):
         st.session_state.show_translation = False
 
 
-# -----------------------------
 # Next card
-# -----------------------------
 def next_card():
-
+    """Get the next word from the list
+    """
     st.session_state.vocab_index = (
         st.session_state.vocab_index + 1
     ) % len(st.session_state.words)
@@ -53,7 +60,8 @@ def next_card():
 # Spaced repetition
 # -----------------------------
 def mark_easy():
-
+    """Give points if user finds it easier
+    """
     idx = st.session_state.vocab_index
     word = st.session_state.words.pop(idx)
 
@@ -64,13 +72,15 @@ def mark_easy():
 
 
 def mark_medium():
-
+    """Give points if user finds it medium
+    """
     next_card()
     st.rerun()
 
 
 def mark_hard():
-
+    """Give points if user finds it hard
+    """
     idx = st.session_state.vocab_index
     word = st.session_state.words.pop(idx)
 
@@ -81,11 +91,9 @@ def mark_hard():
     st.rerun()
 
 
-# -----------------------------
 # UI Card
-# -----------------------------
 def show_card(entry):
-
+    """The actual card with a word from the list"""
     st.markdown(
         f"""
         <div style="
@@ -123,7 +131,7 @@ def show_card(entry):
                 <div style="
                 text-align:center;
                 font-size:18px;
-                color:gray;">
+                color:white;">
                 {entry['example']}
                 </div>
                 """,
@@ -138,12 +146,14 @@ def show_card(entry):
             st.rerun()
 
 
-# -----------------------------
 # Main vocab mode
-# -----------------------------
 def run_vocab(level=None):
-
-    st.title("🧠 Vocabulary Trainer")
+    """The actual main for the vocabulary mode.
+       It mostly orchestrate this mode.
+    Args:
+        level (str, optional): The level the tutor is in. Defaults to None.
+    """
+    st.title("Vocabulary Trainer")
 
     init_session(level)
 
@@ -161,15 +171,15 @@ def run_vocab(level=None):
     col1, col2, col3 = st.columns(3)
 
     with col1:
-        if st.button("😄 Easy"):
+        if st.button("Easy"):
             mark_easy()
 
     with col2:
-        if st.button("😐 Medium"):
+        if st.button("Medium"):
             mark_medium()
 
     with col3:
-        if st.button("😓 Hard"):
+        if st.button("Hard"):
             mark_hard()
 
     st.write("")
