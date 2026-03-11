@@ -83,7 +83,7 @@ EVAL_PERCENTAGE = 0.08
 RANDOM_SEED = 42
 TOP_K = 5
 
-INPUT_PATH = "data/generated_agent_answers.csv"
+INPUT_PATH = "data/eval/generated_agent_answers.csv"
 
 embedding_model = HuggingFaceEmbeddings(
     model_name="intfloat/multilingual-e5-base"
@@ -153,7 +153,7 @@ print(result)
 
 # SAVE RESULTS
 results_df = pd.DataFrame([result])
-results_df.to_csv("data/ragas_results.csv", index=False)
-df.to_csv("data/evaluated_subset.csv", index=False)
+results_df.to_csv("data/eval/ragas_results.csv", index=False)
+df.to_csv("data/eval/evaluated_subset.csv", index=False)
 
-print("\nSaved results to data/ragas_results.csv and data/evaluated_subset.csv")
+print("\nSaved results to data/eval/ragas_results.csv and data/eval/evaluated_subset.csv")

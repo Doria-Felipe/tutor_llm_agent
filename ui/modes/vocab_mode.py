@@ -2,7 +2,7 @@ import streamlit as st
 import json
 import random
 
-VOCAB_PATH = "data/topics_vocab_clean.json"
+VOCAB_PATH = "data/vocab/topics_vocab_clean.json"
 
 # Load vocab
 def load_vocab(level=None):

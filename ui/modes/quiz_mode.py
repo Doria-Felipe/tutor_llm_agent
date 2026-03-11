@@ -4,7 +4,7 @@ import random
 from src.llm.client import get_llm
 from src.agent.answer_grader_agent import grade_answer
 
-LESSON_PATH = "data/grammar_lessons_explained.json"
+LESSON_PATH = "data/lessons/grammar_lessons_explained.json"
 
 @st.cache_resource
 def load_llm():

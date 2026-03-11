@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-VOCAB_PATH = Path("data/topics_vocab_clean.json")
+VOCAB_PATH = Path("data/vocab/topics_vocab_clean.json")
 
 
 def load_vocab():

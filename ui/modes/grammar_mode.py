@@ -1,7 +1,7 @@
 import streamlit as st
 import json
 
-LESSON_PATH = "data/grammar_lessons_explained.json"
+LESSON_PATH = "data/lessons/grammar_lessons_explained.json"
 
 
 # Load lessons

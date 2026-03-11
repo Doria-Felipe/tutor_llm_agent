@@ -12,8 +12,8 @@ from src.rag.hybrid_retriever import return_context
 
 # SETTINGS
 
-LESSONS_PATH = "data/grammar_lessons_explained.json"
-OUTPUT_PATH = "data/generated_agent_answers.csv"
+LESSONS_PATH = "data/lessons/grammar_lessons_explained.json"
+OUTPUT_PATH = "data/eval/generated_agent_answers.csv"
 
 llm = get_llm("llama3.1")
 # llm = get_llm("qwen2.5:3b")

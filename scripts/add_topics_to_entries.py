@@ -1,7 +1,7 @@
 import pandas as pd
 from pathlib import Path
 
-CSV_PATH = Path("data/entries.csv")
+CSV_PATH = Path("data/raw/entries.csv")
 
 # -------------------------
 # Hierarchical topic structure

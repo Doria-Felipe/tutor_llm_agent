@@ -3,7 +3,7 @@ import pandas as pd
 from pathlib import Path
 from src.rag.retriever import return_context_by_video_ids
 
-CSV_PATH = Path("data/entries.csv")
+CSV_PATH = Path("data/raw/entries.csv")
 
 def get_grammar_topics():
     df = pd.read_csv(CSV_PATH)

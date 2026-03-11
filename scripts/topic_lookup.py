@@ -1,7 +1,7 @@
 import pandas as pd
 from pathlib import Path
 
-CSV_PATH = Path("data/entries.csv")
+CSV_PATH = Path("data/raw/entries.csv")
 
 def get_topics():
     """ helper function to get topics from the entries.csv

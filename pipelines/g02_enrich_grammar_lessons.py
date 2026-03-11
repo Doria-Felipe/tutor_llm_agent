@@ -8,7 +8,7 @@ from src.agent.lesson_explainer_agent import lesson_explainer_agent
 
 # Settings
 INPUT_FILE = "data/grammar_lessons.json"
-OUTPUT_FILE = "data/grammar_lessons_explained.json"
+OUTPUT_FILE = "data/lessons/grammar_lessons_explained.json"
 
 # Initializing the LLM
 llm = get_llm("llama3.1")

@@ -2,7 +2,7 @@ import json
 import re
 
 INPUT_FILE = "data/topics_vocab_enriched.json"
-OUTPUT_FILE = "data/topics_vocab_clean.json"
+OUTPUT_FILE = "data/vocab/topics_vocab_clean.json"
 
 
 def normalize(text):
