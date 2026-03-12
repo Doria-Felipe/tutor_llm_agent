@@ -45,31 +45,52 @@ The agent orchestrates retrieval and generation to provide context-aware answers
 ```mermaid
 flowchart TD
 
-A[User Query] --> B[Streamlit App]
-B --> C[Tutor Agent]
+subgraph User Layer
+A[User Browser]
+end
 
-C --> D[Hybrid Retriever]
-D --> E[BM25]
-D --> F[Vector DB - Chroma]
+subgraph Application Layer
+B[Streamlit App]
+C[Tutor Agent]
+end
 
-E --> G[Context Builder]
-F --> G
+subgraph Retrieval Layer
+D[Hybrid Retriever]
+E[BM25 Search]
+F[Vector DB - Chroma]
+G[Context Builder]
+end
 
-G --> H[Local LLM - Ollama]
-
-H --> I[Response]
+subgraph Model Layer
+H[Local LLM - Ollama]
+end
 
 subgraph Data Pipelines
 J[Vocabulary Pipeline]
 K[Grammar Pipeline]
 end
 
-J --> F
-K --> F
-
 subgraph Evaluation
 L[RAGAS Metrics]
 end
+
+A --> B
+B --> C
+
+C --> D
+D --> E
+D --> F
+
+E --> G
+F --> G
+
+G --> H
+H --> I[Generated Response]
+
+I --> B
+
+J --> F
+K --> F
 
 I --> L
 ```
