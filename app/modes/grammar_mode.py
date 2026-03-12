@@ -1,5 +1,6 @@
 import streamlit as st
 import json
+from src.audio.tts import speak
 
 LESSON_PATH = "data/lessons/grammar_lessons_explained.json"
 
@@ -30,14 +31,36 @@ def show_vocab(vocab):
 
 
 # Examples
+# def show_examples(examples):
+#     """The examples enriched previously
+#     """
+#     st.subheader("Examples")
+
+#     for ex in examples:
+        
+#         audio_path = speak(ex["german"])
+#         st.markdown(f"**{ex['german']}**")
+#         st.audio(audio_path)
+
+#         st.markdown(f"**{ex['german']}**")
+#         st.markdown(f"{ex['english']}")
+
+#         if "note" in ex:
+#             st.caption(ex["note"])
+
+#         st.write("")
+
 def show_examples(examples):
-    """The examples enriched previously
-    """
+
     st.subheader("Examples")
 
     for ex in examples:
 
         st.markdown(f"**{ex['german']}**")
+
+        audio_path = speak(ex["german"])
+        st.audio(audio_path)
+
         st.markdown(f"{ex['english']}")
 
         if "note" in ex:

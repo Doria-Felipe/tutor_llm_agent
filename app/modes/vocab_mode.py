@@ -1,6 +1,7 @@
 import streamlit as st
 import json
 import random
+from src.audio.tts import speak
 
 VOCAB_PATH = "data/vocab/topics_vocab_clean.json"
 
@@ -92,30 +93,80 @@ def mark_hard():
 
 
 # UI Card
+# def show_card(entry):
+#     """The actual card with a word from the list"""
+#     st.markdown(
+#         f"""
+#         <div style="
+#         padding:40px;
+#         border-radius:15px;
+#         text-align:center;
+#         background-color:#1e1e1e;
+#         font-size:40px;
+#         font-weight:600;">
+#         {entry['word']}
+#         </div>
+#         """,
+#         unsafe_allow_html=True,
+#     )
+#     # st.markdown(
+#     # f"""
+#     # <div class="translation">
+#     # {entry['meaning']}
+#     # </div>
+#     # """,
+#     # unsafe_allow_html=True
+#     # )
+
+#     st.write("")
+
+#     if st.session_state.show_translation:
+
+#         st.markdown(
+#             f"""
+#             <div style="
+#             text-align:center;
+#             font-size:28px;">
+#             {entry['meaning']}
+#             </div>
+#             """,
+#             unsafe_allow_html=True,
+#         )
+
+#         if "example" in entry:
+
+#             st.markdown(
+#                 f"""
+#                 <div style="
+#                 text-align:center;
+#                 font-size:18px;
+#                 color:#F2F2F2;">
+#                 {entry['example']}
+#                 </div>
+#                 """,
+#                 unsafe_allow_html=True,
+#             )
+
+#     else:
+
+#         if st.button("Reveal Translation"):
+
+#             st.session_state.show_translation = True
+#             st.rerun()
 def show_card(entry):
-    """The actual card with a word from the list"""
+
     st.markdown(
         f"""
-        <div style="
-        padding:40px;
-        border-radius:15px;
-        text-align:center;
-        background-color:#1e1e1e;
-        font-size:40px;
-        font-weight:600;">
+        <div class="flashcard">
         {entry['word']}
         </div>
         """,
-        unsafe_allow_html=True,
+        unsafe_allow_html=True
     )
-    # st.markdown(
-    # f"""
-    # <div class="translation">
-    # {entry['meaning']}
-    # </div>
-    # """,
-    # unsafe_allow_html=True
-    # )
+
+    # AUDIO
+    audio_path = speak(entry["word"])
+    st.audio(audio_path)
 
     st.write("")
 
@@ -123,36 +174,33 @@ def show_card(entry):
 
         st.markdown(
             f"""
-            <div style="
-            text-align:center;
-            font-size:28px;">
+            <div class="translation">
             {entry['meaning']}
             </div>
             """,
-            unsafe_allow_html=True,
+            unsafe_allow_html=True
         )
 
         if "example" in entry:
 
             st.markdown(
                 f"""
-                <div style="
-                text-align:center;
-                font-size:18px;
-                color:#F2F2F2;">
+                <div class="example">
                 {entry['example']}
                 </div>
                 """,
-                unsafe_allow_html=True,
+                unsafe_allow_html=True
             )
+
+            # Example audio
+            example_audio = speak(entry["example"])
+            st.audio(example_audio)
 
     else:
 
         if st.button("Reveal Translation"):
-
             st.session_state.show_translation = True
             st.rerun()
-
 
 # Main vocab mode
 def run_vocab(level=None):
