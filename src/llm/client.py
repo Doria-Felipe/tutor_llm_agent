@@ -6,7 +6,8 @@ def get_llm(
     num_ctx=2048,
     num_predict=512,
 ):
-
+    """call the llm
+    """
     llm = ChatOllama(
         model=model_name,
         temperature=temperature,

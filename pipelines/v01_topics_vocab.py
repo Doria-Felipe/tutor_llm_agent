@@ -5,10 +5,10 @@ sys.path.append(str(Path(__file__).resolve().parents[1]))
 import csv
 import json
 import spacy # type: ignore
-from src.rag.retriever import return_context_by_video_ids
+from rag.retriever import return_context_by_video_ids
 from collections import Counter
 from src.utils.topic_lookup import get_topics, get_video_ids_by_topic
-from src.rag.retriever import return_context_by_video_ids
+from rag.retriever import return_context_by_video_ids
 
 nlp = spacy.load("de_core_news_sm")
 

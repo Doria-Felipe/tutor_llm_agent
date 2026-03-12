@@ -5,10 +5,7 @@ from langchain_classic.memory import ConversationBufferMemory
 from src.rag.hybrid_retriever import return_context, clean_context
 from src.agent.tools import german_tutor_tool
 
-# -----------------------------
 # AGENT
-# -----------------------------
-
 def build_agent(llm):
 
     memory = ConversationBufferMemory(

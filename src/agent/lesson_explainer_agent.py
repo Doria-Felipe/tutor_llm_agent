@@ -2,7 +2,8 @@ import json
 import re
 
 def extract_json(text: str):
-
+    """JSON extraction helper
+    """
     text = re.sub(r"```json", "", text)
     text = re.sub(r"```", "", text)
 
@@ -21,35 +22,35 @@ def lesson_explainer_agent(lesson, llm):
     - Ensure bilingual examples
     """
     prompt = f"""
-You are an expert German teacher.
+        You are an expert German teacher.
 
-Expand the following A1 lesson for students:
+        Expand the following A1 lesson for students:
 
-{json.dumps(lesson, ensure_ascii=False)}
+        {json.dumps(lesson, ensure_ascii=False)}
 
-Output JSON format:
+        Output JSON format:
 
-{{
-"title": "lesson title",
-"vocabulary": [
-    {{"word": "...", "translation": "...", "note": "..."}}
-],
-"examples": [
-    {{"german": "...", "english": "...", "note": "..."}}
-],
-"grammar_notes": [
-    "...", "..."
-],
-"exercises": [
-    "...", "..."
-]
-}}
+        {{
+        "title": "lesson title",
+        "vocabulary": [
+            {{"word": "...", "translation": "...", "note": "..."}}
+        ],
+        "examples": [
+            {{"german": "...", "english": "...", "note": "..."}}
+        ],
+        "grammar_notes": [
+            "...", "..."
+        ],
+        "exercises": [
+            "...", "..."
+        ]
+        }}
 
-Rules:
-- Keep max 5 vocab words and 5 examples
-- Include simple notes explaining tricky parts
-- JSON only, no markdown, complete and valid
-"""
+        Rules:
+        - Keep max 5 vocab words and 5 examples
+        - Include simple notes explaining tricky parts
+        - JSON only, no markdown, complete and valid
+        """
 
     response = llm.invoke(prompt)
     raw = response.content

@@ -1,38 +1,35 @@
 import json
-# from src.llm.client import get_llm
-
-# llm = get_llm()
-
 
 def grade_answer(question, correct_answer, student_answer,llm):
-
+    """Grade the students answers to the quiz.
+    """
     prompt = f"""
-You are a German language teacher grading a student's answer.
+        You are a German language teacher grading a student's answer.
 
-Question:
-{question}
+        Question:
+        {question}
 
-Correct Answer:
-{correct_answer}
+        Correct Answer:
+        {correct_answer}
 
-Student Answer:
-{student_answer}
+        Student Answer:
+        {student_answer}
 
-Evaluate the student's answer.
+        Evaluate the student's answer.
 
-Return ONLY JSON:
+        Return ONLY JSON:
 
-{{
-"score": "correct | almost | wrong",
-"feedback": "short explanation",
-"correction": "corrected sentence if needed"
-}}
+        {{
+        "score": "correct | almost | wrong",
+        "feedback": "short explanation",
+        "correction": "corrected sentence if needed"
+        }}
 
-Rules:
-correct → same meaning
-almost → small grammar mistake
-wrong → incorrect meaning
-"""
+        Rules:
+        correct → same meaning
+        almost → small grammar mistake
+        wrong → incorrect meaning
+        """
 
     response = llm.invoke(prompt)
 
