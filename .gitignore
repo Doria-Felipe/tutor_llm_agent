@@ -14,3 +14,5 @@ chroma_easy_german/chroma.sqlite3
 chroma_easy_german/chroma.sqlite3
 chroma_easy_german/afef94b1-6850-45f6-929a-b8349ed37052/length.bin
 chroma_easy_german/afef94b1-6850-45f6-929a-b8349ed37052/data_level0.bin
+__pycache__/
+*.pyc

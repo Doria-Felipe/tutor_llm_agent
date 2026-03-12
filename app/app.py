@@ -3,8 +3,10 @@ import sys
 from pathlib import Path
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 
-from app.sidebar import render_sidebar
-from app.session import init_session
+# from app.sidebar import render_sidebar
+# from app.session import init_session
+from sidebar import render_sidebar
+from session import init_session
 
 from modes.tutor_mode import run_tutor
 from modes.vocab_mode import run_vocab
