@@ -111,10 +111,11 @@ Captures exact keyword matches, which is particularly useful for:
 
 Embeddings allow semantic matching between queries and documents.
 
-Embedding model:
+Embedding models:
 
 ```bash
     sentence-transformers/all-MiniLM-L6-v2
+    paraphrase-multilingual-MiniLM-L12-v2
 ```
 
 Vector database:
