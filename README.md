@@ -93,7 +93,7 @@ src/ → Core system components
     utils/ → Useful functions for future implementations
 
 notebooks/
-    y01_capturing_youtube_videos.ipynb → Captures videos from YouTube and stores them in a ChromaDB
+    y01_capturing_youtube_videos.ipynb → Captures videos from YouTube
 
 pipelines/ → Dataset generation pipelines  
     g01_grammar_lessons.py → Generate the grammar lessons
