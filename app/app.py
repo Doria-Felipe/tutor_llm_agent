@@ -33,14 +33,14 @@ Learn German using **real transcripts, AI explanations, and spaced repetition**.
 
 """)
 
-mode, level, show_sources = render_sidebar()
+mode, level, show_sources, voice_mode = render_sidebar()
 
 st.divider()
 
 # ROUTER
 
 if mode == "tutor":
-    run_tutor(level, show_sources)
+    run_tutor(level, show_sources, voice_mode)
 
 elif mode == "vocab":
     run_vocab(level)

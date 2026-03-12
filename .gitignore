@@ -1,5 +1,6 @@
 .venv
 chroma_easy_german
+chroma_easy_german/
 .env
 /hf_cache
 /app/chroma_easy_german/chroma.sqlite3
@@ -9,10 +10,18 @@ chroma_easy_german
 /src/llm/__pycache__/
 /src/embeddings/__pycache__/
 /src/agent/__pycache__/
-chroma_easy_german/
+chroma_easy_german/*
 chroma_easy_german/chroma.sqlite3
 chroma_easy_german/chroma.sqlite3
 chroma_easy_german/afef94b1-6850-45f6-929a-b8349ed37052/length.bin
 chroma_easy_german/afef94b1-6850-45f6-929a-b8349ed37052/data_level0.bin
 __pycache__/
 *.pyc
+data/audio_cache/*
+app/__pycache__/*
+app/modes/__pycache__/*
+chroma_easy_german/afef94b1-6850-45f6-929a-b8349ed37052/data_level0.bin
+chroma_easy_german/chroma.sqlite3
+chroma_easy_german/afef94b1-6850-45f6-929a-b8349ed37052/length.bin
+app/__pycache__/sidebar.cpython-310.pyc
+app/modes/__pycache__/tutor_mode.cpython-310.pyc

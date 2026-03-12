@@ -21,6 +21,8 @@ def render_sidebar():
             ["a1","a2","b1","b2","c1","c2"]
         )
 
+        voice_mode = st.checkbox("Voice Mode", value=False)
+
         show_sources = st.checkbox("Show sources", value=True)
 
         st.divider()
@@ -31,4 +33,4 @@ def render_sidebar():
 
     st.session_state.model_name = model_name
 
-    return mode, level, show_sources
+    return mode, level, show_sources, voice_mode
