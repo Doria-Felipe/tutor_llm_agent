@@ -108,6 +108,14 @@ def show_card(entry):
         """,
         unsafe_allow_html=True,
     )
+    # st.markdown(
+    # f"""
+    # <div class="translation">
+    # {entry['meaning']}
+    # </div>
+    # """,
+    # unsafe_allow_html=True
+    # )
 
     st.write("")
 
@@ -131,7 +139,7 @@ def show_card(entry):
                 <div style="
                 text-align:center;
                 font-size:18px;
-                color:white;">
+                color:#F2F2F2;">
                 {entry['example']}
                 </div>
                 """,

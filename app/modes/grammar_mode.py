@@ -83,7 +83,7 @@ def show_exercises(exercises):
 # Main grammar mode
 def run_grammar(level=None):
     """Main function for the grammar mode"""
-    st.title("German Lessons")
+    st.title("Lessons")
 
     lessons = load_lessons()
 
@@ -93,12 +93,18 @@ def run_grammar(level=None):
 
     lesson = lessons[selected]
 
-    st.header(lesson["title"])
+    # st.header(lesson["title"])
+    with st.container():
+        st.header(lesson["title"])
 
-    show_vocab(lesson["vocabulary"])
+        show_vocab(lesson["vocabulary"])
+        st.divider()
 
-    show_examples(lesson["examples"])
+        show_examples(lesson["examples"])
+        st.divider()
 
-    show_grammar(lesson["grammar_notes"])
+        show_grammar(lesson["grammar_notes"])
+        st.divider()
 
-    show_exercises(lesson["exercises"])
+        show_exercises(lesson["exercises"])
+        st.divider()

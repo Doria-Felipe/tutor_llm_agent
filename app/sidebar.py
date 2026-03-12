@@ -4,26 +4,28 @@ def render_sidebar():
 
     with st.sidebar:
 
-        st.header("Settings")
+        st.title("⚙️ Settings")
 
         model_name = st.selectbox(
             "Model",
-            ["llama3.1", "mistral", "qwen2.5:3b"]
+            ["qwen2.5:3b","llama3.1","mistral"]
         )
 
-        mode = st.selectbox(
+        mode = st.radio(
             "Mode",
-            ["tutor", "vocab", "grammar", "quiz"]
+            ["tutor","vocab","grammar","quiz"]
         )
 
         level = st.selectbox(
-            "CEFR Level",
+            "German Level",
             ["a1","a2","b1","b2","c1","c2"]
         )
 
         show_sources = st.checkbox("Show sources", value=True)
 
-        if st.button("Clear chat"):
+        st.divider()
+
+        if st.button("🧹 Clear Chat"):
             st.session_state.messages = []
             st.rerun()
 

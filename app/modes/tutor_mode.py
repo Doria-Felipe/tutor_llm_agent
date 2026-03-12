@@ -11,7 +11,7 @@ def load_agent(model_name, level):
 
 def run_tutor(level="a1", show_sources=False):
 
-    st.header("German Tutor 🇩🇪")
+    st.header("Tutor")
 
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = []
@@ -43,8 +43,16 @@ def run_tutor(level="a1", show_sources=False):
     # -----------------------------
     # Chat history
     # -----------------------------
+    # for q, a in reversed(st.session_state.chat_history):
+
+    #     st.markdown(f"**Q:** {q}")
+    #     st.markdown(f"**A:** {a}")
+    #     st.markdown("---")
     for q, a in reversed(st.session_state.chat_history):
 
-        st.markdown(f"**Q:** {q}")
-        st.markdown(f"**A:** {a}")
-        st.markdown("---")
+        st.markdown(f'<div class="user-msg"> Q: {q}</div>', unsafe_allow_html=True)
+
+        st.markdown(
+            f'<div class="assistant-msg"> A: {a}</div>',
+            unsafe_allow_html=True
+                    )
