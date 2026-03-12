@@ -64,9 +64,10 @@ The project follows a modular structure:
 
 ```bash
 app/ → Streamlit interface 
-    app.py
-    sidebar.py
-    session.py
+    app.py → The main app
+    sidebar.py → The sidebar of the app
+    session.py → The session initializer
+    styles.py → The style adjuster
     modes/ → Learning modes
         tutor_mode.py → Ask any question to the tutor trained with Youtube dataset 
         vocab_mode.py → Train your German with new vocabulary 
@@ -81,6 +82,9 @@ src/ → Core system components
       answer_grader_agent.py → A tool to answer the quiz (In the future will be added to tools)
       lesson_agent.py → A tool to create lessons (In the future will be added to tools)
       lesson_explainer_agent.py → A tool to enrich the lessons (In the future will be added to tools)
+    audio/
+      stt.py → Speech to text features
+      tts.py → Text to speech features
     rag/
       retriever.py → The retriever of context from the videos
       vector_store.py → The initiator of the ChromaDB

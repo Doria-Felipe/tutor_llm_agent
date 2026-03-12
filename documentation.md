@@ -296,7 +296,7 @@ This framework allows benchmarking changes to the retrieval pipeline or prompt s
 
     src/
         core system components
-        agent, rag, llm, embeddings, utils
+        agent, rag, llm, embeddings, utils, audio
 
     pipelines/
         dataset generation scripts
