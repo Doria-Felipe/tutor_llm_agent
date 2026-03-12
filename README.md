@@ -36,21 +36,21 @@ Automatically generated quizzes to test comprehension and reinforce learning.
 
 ### 1. Install dependencies
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+```bash
+pip install -r requirements.txt
+```
 
 ### 2. Start Ollama
 
-    ```bash
-    ollama run qwen2.5:3b
-    ```
+```bash
+ollama run qwen2.5:3b
+```
 
 ### 3. Run the app
 
-    ```bash
-    streamlit run app/app.py
-    ```
+```bash
+streamlit run app/app.py
+```
 
 The application will open in your browser.
 
@@ -62,43 +62,43 @@ The project follows a modular structure:
 
 ## Project Architecture
 
-    ```bash
-        app/ → Streamlit interface 
-            app.py
-            sidebar.py
-            session.py
-            modes/ → Learning modes (tutor, vocab, grammar, quiz) 
-                tutor_mode.py
-                vocab_mode.py
-                grammar_mode.py
-                quiz_mode.py
+```bash
+app/ → Streamlit interface 
+    app.py
+    sidebar.py
+    session.py
+    modes/ → Learning modes (tutor, vocab, grammar, quiz) 
+        tutor_mode.py
+        vocab_mode.py
+        grammar_mode.py
+        quiz_mode.py
 
-        src/ → Core system components
-            agent/
-            rag/
-            llm/
-            embeddings/
-            quiz/
-            utils/
-            youtube/
+src/ → Core system components
+    agent/
+    rag/
+    llm/
+    embeddings/
+    quiz/
+    utils/
+    youtube/
 
-        pipelines/ → Dataset generation pipelines  
-            g01_grammar_lessons.py
-            g02_enrich_grammar_lessons.py
-            v01_topics_vocab.py
-            v02_enrich_vocab.py
-            v03_clean_vocab_examples.py
+pipelines/ → Dataset generation pipelines  
+    g01_grammar_lessons.py
+    g02_enrich_grammar_lessons.py
+    v01_topics_vocab.py
+    v02_enrich_vocab.py
+    v03_clean_vocab_examples.py
 
-        data/ → Structured datasets
-            raw/
-            vocab/
-            lessons/
-            eval/
+data/ → Structured datasets
+    raw/
+    vocab/
+    lessons/
+    eval/
 
-        eval/ → Evaluation framework 
-            e01_generate_agent_answers.py
-            e02_evaluate_ragas.py
-    ```
+eval/ → Evaluation framework 
+    e01_generate_agent_answers.py
+    e02_evaluate_ragas.py
+```
 
 ---
 
@@ -122,15 +122,15 @@ The project follows a modular structure:
 
 Install dependencies:
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+```bash
+pip install -r requirements.txt
+```
 
 Run the interface:
 
-    ```bash
-    streamlit run app/app.py
-    ```
+```bash
+streamlit run app/app.py
+```
 
 ---
 
@@ -140,19 +140,19 @@ Run the interface:
 
 Used to build the learning dataset.
 
-    ```bash
-        notebooks/y01_capturing_youtube_videos.ipynb
-    ```
+```bash
+notebooks/y01_capturing_youtube_videos.ipynb
+```
 
 ---
 
 ### Vocabulary Dataset
 
-    ```bash
-        python pipelines/v01_topics_vocab.py
-        python pipelines/v02_enrich_vocab.py
-        python pipelines/v03_clean_vocab_examples.py
-    ```
+```bash
+python pipelines/v01_topics_vocab.py
+python pipelines/v02_enrich_vocab.py
+python pipelines/v03_clean_vocab_examples.py
+```
 
 These scripts:
 
@@ -162,10 +162,10 @@ These scripts:
 
 ### Grammar Lesson Generation
 
-    ```bash
-        python pipelines/g01_grammar_lessons.py
-        python pipelines/g02_enrich_grammar_lessons.py
-    ```
+```bash
+python pipelines/g01_grammar_lessons.py
+python pipelines/g02_enrich_grammar_lessons.py
+```
 
 These pipelines build structured grammar explanations used by the tutor.
 
@@ -177,15 +177,15 @@ The system includes an evaluation pipeline using **RAGAS** to measure response q
 
 Generate answers:
 
-    ```bash
-    python eval/e01_generate_agent_answers.py
-    ```
+```bash
+python eval/e01_generate_agent_answers.py
+```
 
 Run evaluation:
 
-    ```bash
-        python eval/e02_evaluate_ragas.py
-    ```
+```bash
+python eval/e02_evaluate_ragas.py
+```
 
 Metrics include:
 
