@@ -79,7 +79,7 @@ def split_context(text: str):
     return sentences[:20]
 
 # SETTINGS
-EVAL_PERCENTAGE = 0.08
+EVAL_PERCENTAGE = 1
 RANDOM_SEED = 42
 TOP_K = 5
 
@@ -153,7 +153,7 @@ print(result)
 
 # SAVE RESULTS
 results_df = pd.DataFrame([result])
-results_df.to_csv("data/eval/ragas_results.csv", index=False)
-df.to_csv("data/eval/evaluated_subset.csv", index=False)
+results_df.to_csv("data/eval/100_ragas_results.csv", index=False)
+df.to_csv("data/eval/100_evaluated_subset.csv", index=False)
 
 print("\nSaved results to data/eval/ragas_results.csv and data/eval/evaluated_subset.csv")
