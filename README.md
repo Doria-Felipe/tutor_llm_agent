@@ -115,6 +115,10 @@ data/ → Structured datasets
 eval/ → Evaluation framework 
     e01_generate_agent_answers.py → Generate answers to be evaluated
     e02_evaluate_ragas.py → The evaluator of the answers
+
+documents/ → Documentation from the projects
+    Avaa v0.1.pptx → Presentation
+    documentation.md → More in depth details of the project and its methodology
 ```
 
 ---
