@@ -117,7 +117,7 @@ eval/ → Evaluation framework
     e02_evaluate_ragas.py → The evaluator of the answers
 
 documents/ → Documentation from the projects
-    Avaa v0.1.pptx → Presentation
+    `AVAA German — Agentic RAG-based German AI Tutor.pptx` → Presentation
     documentation.md → More in depth details of the project and its methodology
 ```
 
